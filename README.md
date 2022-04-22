@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# Encante com Música.
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Desenvolvimneto de Aplicação Web Front-End`
 
-`SEMESTRE`
+`1SEMESTRE`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-
+* Carolina Laurindo
+* Cláudia Carapiá
+* Douglas Raynner
+* Jeferson Queiroz 
+*Karen Noguti 
+*Phillipe Magno
 ## Orientador
 
-* Nome completo do professor 1
+* Will Ricardo dos Santos Machado
 
 ## Instruções de utilização
 
