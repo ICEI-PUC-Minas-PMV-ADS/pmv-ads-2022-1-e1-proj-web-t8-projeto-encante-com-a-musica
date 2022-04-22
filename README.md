@@ -14,8 +14,8 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Cláudia Carapiá
 * Douglas Raynner
 * Jeferson Queiroz 
-*Karen Noguti 
-*Phillipe Magno
+* Karen Noguti 
+* Phillipe Magno
 ## Orientador
 
 * Will Ricardo dos Santos Machado
