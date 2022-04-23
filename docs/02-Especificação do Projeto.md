@@ -2,10 +2,41 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários
+
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
+
+<img src=Amanda.pnp>
+
+Amanda Ribeiro
+Idade: 53
+Ocupação: Gerente de Vendas em uma empresa de confecção.	
+
+Aplicativos:
+●	Instagram
+●	Facebook
+●	Twitter
+●	Sites de Notícia
+
+Motivações
+•	Conhecer os benefícios da música no tratamento paliativo, pois conhece pessoas que passaram pelo tratamento;
+•	Gostar de fazer a diferença na vida das pessoas, através do voluntariado.
+•	Levar a música como fonte para aliviar as dores e sofrimentos das pessoas;
+
+Frustrações
+•	Falta de divulgação de vagas de voluntariado para terapia com música;
+•	Falta de informação para a família do paciente sobre como lidar com o tratamento através da música;
+•	Saber que poucos lugares oferecem o tratamento paliativo.	
+
+Hobbies, História
+•	Tocar piano
+•	Ler livros
+•	Já exerceu trabalho voluntário em asilos ajudando a cuidar de idosos;
+
+
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
