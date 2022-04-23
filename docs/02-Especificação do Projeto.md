@@ -10,6 +10,10 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
 <img src="img/Amanda.png">
+<img src="img/Adriano Oliveira.png">
+<img src="img/Jeferson Silva.png">
+<img src="img/Luana Oliveira.png">
+<img src="img/Instituição.png">
 
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
