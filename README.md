@@ -2,7 +2,7 @@
 
 `Análise e Desenvolvimento de Sistemas`
 
-`Desenvolvimneto de Aplicação Web Front-End`
+`Desenvolvimento de Aplicação Web Front-End`
 
 `1SEMESTRE`
 
