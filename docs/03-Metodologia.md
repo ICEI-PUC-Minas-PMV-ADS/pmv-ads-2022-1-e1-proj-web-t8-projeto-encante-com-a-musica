@@ -15,14 +15,6 @@ Para gestão do código fonte do software desenvolvido pela equipe, o grupo util
 
 
 
-
-
-
-
-
-
-
-
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
@@ -42,7 +34,11 @@ etiquetas:
 - `documentation`: melhorias ou acréscimos à documentação
 - `bug`: uma funcionalidade encontra-se com problemas
 - `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+- `good first issue`: 
+- `duplicate`: quando estiver duplicado
+- `help wanted`: procura-se ajuda
+- `invalid`: inválido
+- `question`: 
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
@@ -63,22 +59,15 @@ Scrum Master: Carolina Laurindo
 
 Product Owner: Jeferson Queiroz 
 
-Equipe de Desenvolvimento 
-
-Carolina Laurindo
-
-Cláudia Carapiá 
-
-Douglas Raynner 
-
-Jeferson Queiroz
-
-Karen Noguti 
-
+Equipe de Desenvolvimento: 
+Carolina Laurindo,
+Cláudia Carapiá, 
+Douglas Raynner, 
+Jeferson Queiroz,
+Karen Noguti, 
 Phillipe Magno
 
-Equipe de Design 
-
+Equipe de Design: 
 Phillipe Magno 
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub estruturado com as seguintes listas:  
