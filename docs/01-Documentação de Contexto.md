@@ -13,11 +13,6 @@ Apesar dos benefícios que a música proporciona, esse recurso ainda não é mui
 
 Conforme exposto, o problema que se busca solucionar com este projeto é a ausência de canais que promovam a conexão entre os voluntários com habilidades musicais e as instituições que realizam o tratamento paliativo.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 O objetivo geral deste projeto é, através da música, proporcionar momentos de alegria para aliviar as dores físicas e psicológicas de pacientes e familiares. Com esse propósito, desenvolveremos um sistema web com ferramentas simples, que permita a conexão entre voluntários com habilidades musicais, instituições, pacientes e seus familiares.
@@ -29,9 +24,6 @@ Podemos definir como objetivos específicos:
 ●	Disponibilizar ferramenta para que as instituições, pacientes e familiares entrem em contato com o projeto.
 ●	Possibilitar a busca para encontrar parceiros musicais, no intuito de realizar formação de grupo.
 
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
@@ -39,9 +31,6 @@ Estudos mostram que o uso da música como um tipo de cuidado paliativo pode prom
 
 Embora existam pessoas com habilidades musicais e interesse em voluntariado, faltam voluntários para trabalhar com música na área de cuidados paliativos. Isso se deve à falta de informação sobre como participar de algum projeto nessa área. Em razão da importância de possibilitar a adesão de músicos com interesse em atuar como voluntários em setores de cuidados paliativos, foi criado esse projeto. 
 
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
@@ -52,8 +41,3 @@ Embora, qualquer pessoa maior de 18 anos e que esteja habituada com o uso da int
 Além disso, para que o projeto atinja o sucesso desejado será necessário alcançar os pacientes e familiares que estão ou passaram pelo tratamento paliativo. E as Instituições Médicas/Hospitalares serão contempladas no público-alvo, pois serão agentes fundamentais no processo.
 
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
