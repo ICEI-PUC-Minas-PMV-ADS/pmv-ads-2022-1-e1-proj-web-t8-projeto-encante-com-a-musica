@@ -36,24 +36,21 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Adriano             | poder encontrar mais informações sobre o tratamento paliativo com música    | para entender sobre seus objetivos e discutir com amigos e familiares  |
-|Amanda Ribeir       | Alterar permissões                 | Permitir que possam administrar contas |
+|Amanda Ribeiro      | quer se cadastrar no site                 | para se voluntariar  |
+|Adriano Oliveira    | buscar por pessoas e saber sobre suas habilidades músicas                  | para poder se conectar e trocar experiências |
+|Amanda Ribeiro        | encontrar locais em sua região, que precisem de voluntários para o tratamento paliativo com música                  | para poder exercer o trabalho voluntário nesses locais  |
+|Adriano Oliveira         | pesquisar sobre instituições e grupos já cadastrados                 | para poder exercer o trabalho voluntário nesses locais |
+|Adriano Oliveira       | pesquisar sobre instituições e grupos já cadastrados                 | para saber se já existe algum grupo com projeto em andamento em alguma instituição |
+|Amanda Ribeiro       | poder compartilhar as informações do site nas minhas redes sociais                  | para divulgar o projeto para o maior número de pessoas possíveis |
+|Amanda Ribeiro       | saber como apoiar o projeto financeiramente                 | pois acredito nessa iniciativa |
+|Adriano Oliveira       | conseguir acessar o site também do celular                 | pois é o aparelho que mais utilizo para acessar a internet |
+|Amanda Ribeiro       | poder encontrar uma sessão com galeria/vídeos e ou comentários de ações sociais que já foram promovidas                | para conhecer um pouco mais do projeto |
+|Adriano Oliveira       | poder conseguir entrar em contato com o projeto Encante com Música                | para sanar dúvidas |
+|Jeferson Silva        | quer realizar solicitação de visita de voluntários musicai                 | para a sobrinha que está em tratamento do câncer |
+|AHospital N. Senhora       | poder cadastrar a instituição para receber voluntários                  | pois quer oferecer a música como forma de tratamento para seus pacientes |
+|Luana Oliveira       | Quer solicitar a visita dos voluntários no hospita                 | pois está com câncer e sente que a música alivia sua dor |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
