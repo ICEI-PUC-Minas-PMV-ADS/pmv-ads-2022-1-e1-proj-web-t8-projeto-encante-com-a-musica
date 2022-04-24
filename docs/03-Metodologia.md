@@ -3,23 +3,15 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto. 
+A metodologia contempla as definições de ferramenta utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto. 
 
-Relação de Ambientes de Trabalho 
+## Relação de Ambientes de Trabalho 
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.  
 
-Gestão de código fonte 
+## Gestão de código fonte 
 
 Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature. Uma explicação rápida sobre este processo é apresentada no vídeo "The gitflow workflow - in less than 5 mins". 
-
-
-
-
-
-
-
-
 
 
 
@@ -42,7 +34,11 @@ etiquetas:
 - `documentation`: melhorias ou acréscimos à documentação
 - `bug`: uma funcionalidade encontra-se com problemas
 - `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+- `good first issue`: 
+- `duplicate`: quando estiver duplicado
+- `help wanted`: procura-se ajuda
+- `invalid`: inválido
+- `question`: 
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
@@ -59,16 +55,19 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 A equipe está organizada da seguinte maneira: 
 
-Scrum Master: Carolina Laurindo  
+Scrum Master: Carolina Laurindo 
+
 Product Owner: Jeferson Queiroz 
-Equipe de Desenvolvimento 
-Carolina Laurindo 
-Cláudia Carapiá 
-Douglas Raynner 
-Jeferson Queiroz 
-Karen Noguti 
-Phillipe Magno 
-Equipe de Design 
+
+Equipe de Desenvolvimento: 
+Carolina Laurindo,
+Cláudia Carapiá, 
+Douglas Raynner, 
+Jeferson Queiroz,
+Karen Noguti, 
+Phillipe Magno
+
+Equipe de Design: 
 Phillipe Magno 
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub estruturado com as seguintes listas:  
