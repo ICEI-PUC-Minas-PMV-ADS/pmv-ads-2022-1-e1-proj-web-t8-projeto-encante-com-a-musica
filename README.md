@@ -1,10 +1,10 @@
 # Encante com Música.
 
-`Análise e Desenvolvimento de Sistemas`
+Análise e Desenvolvimento de Sistemas
 
-`Desenvolvimento de Aplicação Web Front-End`
+Desenvolvimento de Aplicação Web Front-End
 
-`1SEMESTRE`
+1º SEMESTRE
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
