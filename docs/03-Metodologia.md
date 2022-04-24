@@ -59,16 +59,26 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 A equipe está organizada da seguinte maneira: 
 
-Scrum Master: Carolina Laurindo  
+Scrum Master: Carolina Laurindo 
+
 Product Owner: Jeferson Queiroz 
+
 Equipe de Desenvolvimento 
-Carolina Laurindo 
+
+Carolina Laurindo
+
 Cláudia Carapiá 
+
 Douglas Raynner 
-Jeferson Queiroz 
+
+Jeferson Queiroz
+
 Karen Noguti 
-Phillipe Magno 
+
+Phillipe Magno
+
 Equipe de Design 
+
 Phillipe Magno 
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub estruturado com as seguintes listas:  
