@@ -17,15 +17,15 @@ Os componentes que fazem parte da solução são apresentados na Figura que se s
 <center>Figura XX - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
-- **Navegador** - Interface básica do sistema  
+- **●	Navegador** - Interface básica do sistema  
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
+          - **Formulários** - salvar informações de formulário preenchido pelo usuário.
+     -■**Gerenciamento** de Sessão - estabelecer uma sessão, a fim de otimizar o desempenho entre cliente/servidor.
      - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
  - **News API** - plataforma que permite o acesso às notícias exibidas no site.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
- Hospedagem
+ -  ## Hospedagem
 O site utiliza a plataforma do Heroku como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL: 
 
 https://link_exemplo.herokuapp.com 
