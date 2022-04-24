@@ -18,10 +18,15 @@ Conforme exposto, o problema que se busca solucionar com este projeto é a ausê
 O objetivo geral deste projeto é, através da música, proporcionar momentos de alegria para aliviar as dores físicas e psicológicas de pacientes e familiares. Com esse propósito, desenvolveremos um sistema web com ferramentas simples, que permita a conexão entre voluntários com habilidades musicais, instituições, pacientes e seus familiares.
 
 Podemos definir como objetivos específicos:
+
 ●	Informar sobre o que é o tratamento paliativo e qual seu objetivo;
+
 ●	Permitir que o voluntário e a instituição realizem o cadastro no site;
+
 ●	Fornecer ferramentas que possibilite a pesquisa de grupos e instituições cadastradas na região pretendida;
-●	Disponibilizar ferramenta para que as instituições, pacientes e familiares entrem em contato com o projeto.
+
+●	Disponibilizar ferramenta para que as instituições, pacientes e familiares entrem em contato com o projeto;
+
 ●	Possibilitar a busca para encontrar parceiros musicais, no intuito de realizar formação de grupo.
 
 
