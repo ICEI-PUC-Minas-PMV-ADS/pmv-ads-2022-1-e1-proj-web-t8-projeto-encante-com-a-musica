@@ -22,11 +22,11 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 A equipe está organizada da seguinte maneira: 
 
-Scrum Master: Carolina Laurindo 
+**Scrum Master:** Carolina Laurindo 
 
-Product Owner: Jeferson Queiroz 
+**Product Owner:** Jeferson Queiroz 
 
-Equipe de Desenvolvimento: 
+**Equipe de Desenvolvimento:** 
 Carolina Laurindo,
 Cláudia Carapiá, 
 Douglas Raynner, 
@@ -34,20 +34,20 @@ Jeferson Queiroz,
 Karen Noguti, 
 Phillipe Magno
 
-Equipe de Design: 
+**Equipe de Design:** 
 Phillipe Magno 
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub estruturado com as seguintes listas:  
 
-Recursos: esta lista mantém template de tarefas recorrentes com as configurações padronizadas que todos devem seguir. O objetivo é permitir a cópia destes templates para agilizar a criação de novos cartões. 
+**Recursos:** esta lista mantém template de tarefas recorrentes com as configurações padronizadas que todos devem seguir. O objetivo é permitir a cópia destes templates para agilizar a criação de novos cartões. 
 
-Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
+**Backlog:** recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
 
-To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
+**To Do:** Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
 
-Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
+**Doing:** Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
 
-Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação. 
+**Done:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação. 
 
 O quadro kanban do grupo no GitHub está disponível através da URL https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica/projects?type=beta e é apresentado, no estado atual, na Figura X. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
 
