@@ -9,10 +9,21 @@ A metodologia contempla as definições de ferramenta utilizado pela equipe tant
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.  
 
+| Ambiente  | Plataforma | Link de Acesso | 
+| ------------------- | ----------------|---------------|
+|  Repositório de código fonte |  GitHub |  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica|
+|  Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica| 
+|  Projeto de Interface e Wireframes |MarvelApp |https://marvelapp.com/4hd6091 |
+|  Gerenciamento do Projeto |GitHub |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica/projects/1 |
+
 ## Gestão de código fonte 
 
 Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature. Uma explicação rápida sobre este processo é apresentada no vídeo "The gitflow workflow - in less than 5 mins". 
 
+![image](https://user-images.githubusercontent.com/103545958/164953868-cb4d2672-6685-4862-871c-1586b8b37f9b.png)
+
+
+Figura X - Fluxo de controle do código fonte no repositório git
 
 
 
@@ -50,6 +61,21 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 **Done:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação. 
 
 O quadro kanban do grupo no GitHub está disponível através da URL https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica/projects?type=beta e é apresentado, no estado atual, na Figura X. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
+![image](https://user-images.githubusercontent.com/103545958/164953881-5dfc9f28-0fde-4ce7-85e8-f61214e1da39.png)
+
+Figura X - Tela do kanban utilizada pelo grupo
+
+![image](https://user-images.githubusercontent.com/103545958/164953884-237b91bc-1002-4862-8c62-efebb024aa69.png)
+
+A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
+-Bug
+-	Documentação
+-	Duplicado 
+-	Melhoria 
+-	Primeira boa edição
+-	Procura-se ajuda
+-	Inválido
+-	Problema 
 
 
 
