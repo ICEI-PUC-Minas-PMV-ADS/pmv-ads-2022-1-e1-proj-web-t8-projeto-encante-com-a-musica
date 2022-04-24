@@ -60,7 +60,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-011     | O site deve permitir encontrar uma sessão com galeria/vídeos e comentários de ações sociais que já foram promovidas   | ALTA|
 |RF-012     | O site deve permitir compartilhar informações nas redes sociais   | MÉDIA|
 |RF-013     | O site deve permitir que o usuário entre em contato com o projeto para sanar dúvidas através de mensagem de texto.   | ALTA|
-|RF-014     | EO site deve permitir que pacientes e familiares entre em contato com o projeto através de mensagens de texto para solicitar visita dos voluntários.  | ALTA|
+|RF-014     | O site deve permitir que pacientes e familiares entre em contato com o projeto através de mensagens de texto para solicitar visita dos voluntários.  | ALTA|
 
 
 ### Requisitos não Funcionais
