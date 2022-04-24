@@ -25,6 +25,14 @@ A solução implementada conta com os seguintes módulos:
      - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
  - **News API** - plataforma que permite o acesso às notícias exibidas no site.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+ Hospedagem
+O site utiliza a plataforma do Heroku como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL: 
+
+https://link_exemplo.herokuapp.com 
+
+A publicação do site no Heroku é feita por meio de uma submissão do projeto (push) via git para o repositório remoto que se encontra no endereço: 
+https://git.heroku.com/link_exemplo.git
+
 
 > **Links Úteis**:
 >
