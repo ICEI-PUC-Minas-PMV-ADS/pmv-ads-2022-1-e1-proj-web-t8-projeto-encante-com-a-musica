@@ -19,8 +19,8 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO...        |QUERO/PRECISO ...    |PARA ...                    |
-|--------------------|------------------------------------|----------------------------------------|
+|EU COMO...                    |QUERO/PRECISO ...    |PARA ...                    |
+|----------------------------|------------------------------------|----------------------------------------|
 |Adriano Oliveira             | poder encontrar mais informações sobre o tratamento paliativo com música    | para entender sobre seus objetivos e discutir com amigos e familiares  |
 |Amanda Ribeiro      | quer se cadastrar no site                 | para se voluntariar  |
 |Adriano Oliveira    | buscar por pessoas e saber sobre suas habilidades músicas                  | para poder se conectar e trocar experiências |
