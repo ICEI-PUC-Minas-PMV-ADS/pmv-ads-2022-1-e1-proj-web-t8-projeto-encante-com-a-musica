@@ -20,7 +20,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO...                    |QUERO/PRECISO ...    |PARA ...                    |
-|----------------------------|------------------------------------|----------------------------------------|
+|---------------------------- |------------------------------------|----------------------------------------|
 |Adriano Oliveira             | poder encontrar mais informações sobre o tratamento paliativo com música    | para entender sobre seus objetivos e discutir com amigos e familiares  |
 |Amanda Ribeiro      | quer se cadastrar no site                 | para se voluntariar  |
 |Adriano Oliveira    | buscar por pessoas e saber sobre suas habilidades músicas                  | para poder se conectar e trocar experiências |
@@ -45,22 +45,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
-|ID        | Descrição do Requisito  | Prioridade |
-|------ |-----------------------------------------|----|
-|RF-001 | O site deve apresentar uma página com informações sobre o tratamento paliativo com música. | ALTA | 
-|RF-002 | O site deve apresentar uma página com a história do projeto.   | ALTA|
-|RF-003 | O site deve apresentar uma página com notícias relacionadas ao tratamento paliativo com música.   | MÉDIA|
-|RF-004 | O site deve permitir que o voluntário realize login e senha após cadastro.   | ALTA|
-|RF-005 | O site deve permitir que a instituição médica/hospitalar realize login e senha após um cadastro.s   | ALTA|
-|RF-006 | O site deve permitir que o voluntário realize buscas por categorias instrumentais e categorias de vozes.   | ALTA|
-|RF-007 | O site deve permitir que o voluntário pesquise instituições e grupos cadastrados.   | ALTA|
-|RF-008 | O site deve permitir que o voluntário pesquise locais em sua região que precisem de voluntários.   | ALTA|
-|RF-009 | O site deve apresentar como o voluntário pode apoiar financeiramente o projeto.   | BAIXA|
-|RF-010 | O site deve permitir visualizar as informações de contato do mantenedor do site  | MÉDIA|
-|RF-011 | O site deve permitir encontrar uma sessão com galeria/vídeos e comentários de ações sociais que já foram promovidas   | ALTA|
-|RF-012 | O site deve permitir compartilhar informações nas redes sociais   | MÉDIA|
-|RF-013 | O site deve permitir que o usuário entre em contato com o projeto para sanar dúvidas através de mensagem de texto.   | ALTA|
-|RF-014 | EO site deve permitir que pacientes e familiares entre em contato com o projeto através de mensagens de texto para solicitar visita dos voluntários.  | ALTA|
+|ID         | Descrição do Requisito  | Prioridade |
+|------     |-----------------------------------------|----|
+|RF-001     | O site deve apresentar uma página com informações sobre o tratamento paliativo com música. | ALTA | 
+|RF-002     | O site deve apresentar uma página com a história do projeto.   | ALTA|
+|RF-003     | O site deve apresentar uma página com notícias relacionadas ao tratamento paliativo com música.   | MÉDIA|
+|RF-004     | O site deve permitir que o voluntário realize login e senha após cadastro.   | ALTA|
+|RF-005     | O site deve permitir que a instituição médica/hospitalar realize login e senha após um cadastro.s   | ALTA|
+|RF-006     | O site deve permitir que o voluntário realize buscas por categorias instrumentais e categorias de vozes.   | ALTA|
+|RF-007     | O site deve permitir que o voluntário pesquise instituições e grupos cadastrados.   | ALTA|
+|RF-008     | O site deve permitir que o voluntário pesquise locais em sua região que precisem de voluntários.   | ALTA|
+|RF-009     | O site deve apresentar como o voluntário pode apoiar financeiramente o projeto.   | BAIXA|
+|RF-010     | O site deve permitir visualizar as informações de contato do mantenedor do site  | MÉDIA|
+|RF-011     | O site deve permitir encontrar uma sessão com galeria/vídeos e comentários de ações sociais que já foram promovidas   | ALTA|
+|RF-012     | O site deve permitir compartilhar informações nas redes sociais   | MÉDIA|
+|RF-013     | O site deve permitir que o usuário entre em contato com o projeto para sanar dúvidas através de mensagem de texto.   | ALTA|
+|RF-014     | EO site deve permitir que pacientes e familiares entre em contato com o projeto através de mensagens de texto para solicitar visita dos voluntários.  | ALTA|
 
 
 ### Requisitos não Funcionais
