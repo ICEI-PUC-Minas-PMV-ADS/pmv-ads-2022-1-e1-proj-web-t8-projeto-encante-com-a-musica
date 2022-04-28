@@ -32,9 +32,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Adriano Oliveira       | conseguir acessar o site também do celular                 | pois é o aparelho que mais utilizo para acessar a internet |
 |Amanda Ribeiro       | poder encontrar uma sessão com galeria/vídeos e ou comentários de ações sociais que já foram promovidas                | para conhecer um pouco mais do projeto |
 |Adriano Oliveira       | poder conseguir entrar em contato com o projeto Encante com Música                | para sanar dúvidas |
-|Jeferson Silva        | quer realizar solicitação de visita de voluntários musicai                 | para a sobrinha que está em tratamento do câncer |
+|Jeferson Silva        | quer realizar solicitação de visita de voluntários musicais                 | para a sobrinha que está em tratamento do câncer |
 |Hospital N. Senhora       | poder cadastrar a instituição para receber voluntários                  | pois quer oferecer a música como forma de tratamento para seus pacientes |
-|Luana Oliveira       | Quer solicitar a visita dos voluntários no hospita                 | pois está com câncer e sente que a música alivia sua dor |
+|Luana Oliveira       | Quer solicitar a visita dos voluntários no hospital                 | pois está com câncer e sente que a música alivia sua dor |
 
 
 ## Requisitos
