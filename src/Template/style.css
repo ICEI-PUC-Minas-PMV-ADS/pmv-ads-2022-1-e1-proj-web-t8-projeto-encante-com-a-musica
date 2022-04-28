@@ -1,0 +1,36 @@
+header {
+    height: 120px;
+    background-color: darksalmon;
+}
+
+.menu-principal {
+    float: right
+}
+
+.menu-principal>ul>li {
+    display: inline-block;
+    padding: 8px
+}
+
+.menu-principal>ul>li:hover {
+    background-color: rgb(0, 136, 255);
+}
+
+.menu-secundário2>ul>li {
+    display: block;
+    padding: 8px
+}
+
+.menu-segundário2 {
+    float:right
+}
+
+main {
+    height: 450px;
+    background-color: aquamarine;
+}
+
+footer {
+    height: 130px;
+    background-color: grey;
+}
