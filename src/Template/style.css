@@ -18,12 +18,13 @@ header {
 
 main {
     height: 450px;
-    background-color: rgb(211, 226, 221);
+    background-color: #ffddd2
+
 }
 
 footer {
     height: 130px;
-    background-color: rgba(226, 179, 174, 0.714)
+    background-color: #7f7979
 }
 
 .menu-secundário>ul>li {
@@ -32,5 +33,5 @@ footer {
 }
 
 .menu-secundário>ul>li:hover {
-    background-color: rgb(0, 136, 255);
+    background-color: #E29578
 }
