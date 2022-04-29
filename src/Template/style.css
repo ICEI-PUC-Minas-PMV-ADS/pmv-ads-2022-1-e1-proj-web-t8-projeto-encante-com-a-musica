@@ -1,6 +1,6 @@
 header {
     height: 120px;
-    background-color: darksalmon;
+    background-color: mediumaquamarine
 }
 
 .menu-principal {
@@ -9,7 +9,7 @@ header {
 
 .menu-principal>ul>li {
     display: inline-block;
-    padding: 8px
+    padding: 20px
 }
 
 .menu-principal>ul>li:hover {
@@ -18,12 +18,12 @@ header {
 
 main {
     height: 450px;
-    background-color: aquamarine;
+    background-color: rgb(211, 226, 221);
 }
 
 footer {
     height: 130px;
-    background-color: grey;
+    background-color: rgba(226, 179, 174, 0.714)
 }
 
 .menu-secundário>ul>li {
