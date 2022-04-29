@@ -16,15 +16,6 @@ header {
     background-color: rgb(0, 136, 255);
 }
 
-.menu-secundário2>ul>li {
-    display: block;
-    padding: 8px
-}
-
-.menu-segundário2 {
-    float:right
-}
-
 main {
     height: 450px;
     background-color: aquamarine;
@@ -33,4 +24,13 @@ main {
 footer {
     height: 130px;
     background-color: grey;
+}
+
+.menu-secundário>ul>li {
+    display: block;
+    padding-block: 8px;
+}
+
+.menu-secundário>ul>li:hover {
+    background-color: rgb(0, 136, 255);
 }
