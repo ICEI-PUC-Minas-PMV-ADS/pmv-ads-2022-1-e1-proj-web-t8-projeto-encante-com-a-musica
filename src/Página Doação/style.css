@@ -25,7 +25,14 @@ main {
     font-size: 18px;
     width: 50%;
     float:left; 
-    padding-top: 500px;
+    padding-top: 400px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    ;
+    
 }
 
 #conta {
