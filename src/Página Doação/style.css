@@ -16,14 +16,30 @@ header {
 }
 
 main {
-    height: 450px;
+    height: 600px;
     background-color: #ffddd2
+
+}
+
+#pix { 
+    font-size: 18px;
+    width: 50%;
+    float:left; 
+   
+}
+
+#conta {
+    font-size: 18px;
+    width: 50%;
+    float: right;
+   
 
 }
 
 footer {
     height: 130px;
-    background-color: #7f7979
+    background-color: #7f7979;
+    clear: both;
 }
 
 .menu-secundário>ul>li {
