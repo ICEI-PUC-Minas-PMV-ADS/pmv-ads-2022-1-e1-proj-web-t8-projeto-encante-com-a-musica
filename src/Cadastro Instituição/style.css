@@ -2,6 +2,11 @@ header {
     height: 120px;
     background-color: mediumaquamarine
 }
+img {
+    width: 150px;
+    height: 120px;
+    padding-left: 30px;;
+}
 
 .menu-principal {
     float: right
@@ -13,7 +18,7 @@ header {
 }
 
 .menu-principal>ul>li:hover {
-    color: rgb(0, 136, 255);
+    color: white;
 }
 
 main {
@@ -22,7 +27,10 @@ main {
 
 }
 
-
+p {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
 
 footer {
     height: 130px;
