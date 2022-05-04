@@ -1,0 +1,47 @@
+header {
+    height: 120px;
+    background-color: mediumaquamarine
+}
+img {
+    width: 150px;
+    height: 120px;
+    padding-left: 30px;;
+}
+
+.menu-principal {
+    float: right
+}
+
+.menu-principal>ul>li {
+    display: inline-block;
+    padding: 20px
+}
+
+.menu-principal>ul>li:hover {
+    color: white;
+}
+
+main {
+    height: 700px;
+    background-color:azure
+
+}
+
+p {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+footer {
+    height: 130px;
+    background-color: #7f7979
+}
+
+.menu-secundário>ul>li {
+    display: block;
+    padding-block: 8px;
+}
+
+.menu-secundário>ul>li:hover {
+    background-color: #E29578
+}

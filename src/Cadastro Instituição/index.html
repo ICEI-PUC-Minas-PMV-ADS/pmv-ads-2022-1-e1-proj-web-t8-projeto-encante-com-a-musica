@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Instituição</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/logoverde.png">
+        <nav= class="menu-principal">
+            <ul>
+                <li>Home</li>
+                <li>Sobre</li>
+                <li>Notícia</li>
+                <li>Voluntário</li>
+                <li>Instituição</li>
+                <li>Doação</li>
+            </ul>
+            </nav>
+    </header>
+    <main>
+        <form name="cadastro_instituicao" action="cadastro_instituicao.html" method="post">
+            <fieldset>
+                <p> Se sua empresa médica/hospitalar deseja participar desse projeto que só cresce em todo o
+                    Brasil, faça seu cadastro:</p>
+                Razão Social: <br><input type="text" name="nome" required> <br><br>
+                CNPJ: <br><input type="cnpj" name="number" required> <br><br>
+                Telefone: <br><input type="telephone" name="number" required> <br><br>
+                E-mail: <br><input type="email" name="email" required><br><br>
+                Senha: <br><input type="password" name="senha" required><br><br>
+                Confirmação de senha: <br><input type="password" name="senha" required><br><br>
+                
+                <button type="submit">Enviar </button>
+
+            </fieldset>
+        </form>
+    </main>
+    <Footer>
+        <nav= class="menu-secundário">
+            <ul>
+                <li>Fale Conosco</li>
+                <li>Eventos</li>
+                <li>Conheça o Time</li>
+                <li>Blog</li>
+            </ul>
+            </nav>
+    </Footer>
+</body>
+
+</html>
