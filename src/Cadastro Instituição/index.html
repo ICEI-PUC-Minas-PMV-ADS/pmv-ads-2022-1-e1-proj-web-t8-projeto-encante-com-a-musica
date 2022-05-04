@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Cadastro de Instituição</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav= class="menu-principal">
@@ -18,10 +20,22 @@
                 <li>Instituição</li>
                 <li>Doação</li>
             </ul>
-        </nav>
+            </nav>
     </header>
     <main>
+        <form name="cadastro_instituicao" action="cadastro_instituicao.html" method="post">
+            <fieldset>
+                <legend> Se sua empresa médica/hospitalar deseja participar desse projeto que só cresce em todo o
+                    Brasil, faça seu cadastro:</legend>
+                Razão Social: <br><input type="text" name="nome" required> <br>
+                CNPJ: <br><input type="CNPJ" name="number" required> <br>
+                Telefone: <br><input type="Telefone" name="number" required> <br>
+                E-mail: <br><input type="email" name="email" required><br>
+                Senha <br><input type="password" name="senha" required><br>
+                Confirmação de senha: <br><input type="password" name="senha" required><br>
 
+            </fieldset>
+        </form>
     </main>
     <Footer>
         <nav= class="menu-secundário">
@@ -31,7 +45,8 @@
                 <li>Conheça o Time</li>
                 <li>Blog</li>
             </ul>
-        </nav>
+            </nav>
     </Footer>
 </body>
+
 </html>
