@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form action="Formulário.html" method="post">
+        <fieldset>
+            <legend>Por favor, Informe seus dados pessoais.</legend>
+            Nome: <input type="text" name="nome" required><br>
+            Email: <input type="email" name="email"><br>
+            Telefone: <input type="tel" name="telefone"><br>
+
+        </fieldset>
+        <fieldset>
+            <label for="Quem"> Quem:</label>
+            <select name="Quem">
+                <option value=""> Selecione uma opção</option>
+                <option value="Voluntário">Voluntário</option>
+                <option value="Paciente">Paciente</option>
+                <option value="Familiar">Familiar</option>
+                <option value="Instituição">Instituição</option>
+                <option value="Outros">Outros</option>
+
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="Assunto"> Assunto:</label>
+            <select name="Assunto">
+                <option value=""> Selecione uma opção</option>
+                <option value="Dúvida">Dúvida</option>
+                <option value="Solicitação de Visita">Paciente</option>
+                <option value="Sugestão">Sugestão</option>
+                <option value="Reclamação">Reclamação</option>
+                <option value="Outros">Outros</option>
+
+            </select>
+        </fieldset>
+        <fieldset>
+            Por favor, digite uma mensagem.<br />
+            <textarea name="Digite uma mensagem" id="" cols="50" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
