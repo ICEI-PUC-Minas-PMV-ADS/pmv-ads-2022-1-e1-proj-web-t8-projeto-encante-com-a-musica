@@ -1,15 +1,13 @@
 header {
-    height: 120px;
-    background-color: mediumaquamarine
-}
-img {
-    width: 150px;
-    height: 120px;
-    padding-left: 30px;;
+    height: 150px;
+    background-color: rgb(106, 250, 202);
 }
 
+
 .menu-principal {
-    float: right
+    font-size: 20px;
+    float: right;
+    padding-top: 20px;
 }
 
 .menu-principal>ul>li {
@@ -22,8 +20,9 @@ img {
 }
 
 main {
-    height: 700px;
-    background-color:azure
+    height: 800px;
+    background-color:azure;
+    clear: both;
 
 }
 
