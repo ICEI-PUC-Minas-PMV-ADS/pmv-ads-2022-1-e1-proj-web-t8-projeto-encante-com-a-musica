@@ -6,26 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <h1>Fale Conosco</h1>
-    <p>Projeto Encante com Música</p>
-    <p>CNPJ: 90.953.453/0001-00</p>
-    <p>TEL:(031) 1234-1235</p>
-    <p>Endereço: Rua Grupo Oito Team, 04 - CEP: 25462-123 - MG</p>
-    <p>Email: encante@musica.org</p>
-    
-    <form action="Formulário.html" method="post">
-        <fieldset>
+    <div class="campo">
+        <h1 id="Título">Fale Conosco</h1>
+        <br>
+    </div>
+
+    <div class="campo">
+        <p id="Subtítulo">Projeto Encante com Música</p>
+        <p id="Subtítulo">CNPJ: 90.953.453/0001-00</p>
+        <p id="Subtítulo">TEL:(031) 1234-1235</p>
+        <p id="Subtítulo">Endereço: Rua Grupo Oito Team, 04 - CEP: 25462-123 - MG</p>
+        <p id="Subtítulo">Email: encante@musica.org</p>
+        <br>
+    </div>
+
+    <form>
+        <div class="campo">
             <legend>Por favor, Informe seus dados pessoais.</legend>
-            Nome: <input type="text" name="nome" required><br>
-            Email: <input type="email" name="email"required><br>
-            Telefone: <input type="tel" name="telefone"><br>
+        </div>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <Label for="nome">Nome</Label>
+                <input type="text" name="nome" id="nome" required><br>
+            </div>
+
+            <div class="campo">
+                <Label for="sobrenome">Sobrenome</Label>
+                <input type="text" name="sobrenome" id="sobrenome" required><br>
+            </div>
 
         </fieldset>
-        <fieldset>
-            <label for="Quem"> Quem:</label>
+
+        <div class="campo">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" required><br>
+        </div>
+
+        <div class="campo">
+            <label for="Tel">Telefone</label>
+            <input type="tel" name="Tel"><br>
+        </div>
+
+        <div class="campo">
+            <label for="Quem"> <strong> Quem:</label></strong>
             <select name="Quem">
                 <option value=""> Selecione uma opção</option>
                 <option value="Voluntário">Voluntário</option>
@@ -33,11 +61,11 @@
                 <option value="Familiar">Familiar</option>
                 <option value="Instituição">Instituição</option>
                 <option value="Outros">Outros</option>
-
             </select>
-        </fieldset>
-        <fieldset>
-            <label for="Assunto"> Assunto:</label>
+        </div>
+
+        <div class="campo">
+            <label for="Assunto"><strong> Assunto:</label></strong>
             <select name="Assunto">
                 <option value=""> Selecione uma opção</option>
                 <option value="Dúvida">Dúvida</option>
@@ -45,14 +73,20 @@
                 <option value="Sugestão">Sugestão</option>
                 <option value="Reclamação">Reclamação</option>
                 <option value="Outros">Outros</option>
-
             </select>
+        </div>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                Por favor, digite uma mensagem.<br/>
+            </div>
+
+            <div class="campo">
+                <textarea name="Digite uma mensagem" id="" cols="50" rows="10" required></textarea>
+            </div>
         </fieldset>
-        <fieldset>
-            Por favor, digite uma mensagem.<br />
-            <textarea name="Digite uma mensagem" id="" cols="50" rows="10"></textarea>
-        </fieldset>
-        <input type="submit" value="Enviar">
+
+        <button class="botão" type="submit">Enviar</button>
     </form>
 
 </body>
