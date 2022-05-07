@@ -11,20 +11,30 @@
 
 <body>
     <header>
-      
-        <nav= class="menu-principal">
+        
+        <nav= class="menu">
             <ul>
-                <li>Home</li>
-                <li>Sobre</li>
-                <li>Notícia</li>
-                <li>Voluntário</li>
-                <li>Instituição</li>
                 <li>Doação</li>
+                <li>Instituição
+                    <ul>
+                        <li>Cadastro</li>
+                        <li>Pesquisa</li>
+                    </ul>
+                </li>
+                <li>Voluntário
+                    <ul>
+                        <li>Cadastro</li>
+                        <li>Pesquisa</li>
+                    </ul>
+                </li>
+                <li>Notícia</li>
+                <li>Sobre</li>
+                <li>Home</li>
             </ul>
             </nav>
     </header>
     <main>
-        <form name="cadastro_instituicao" action="cadastro_instituicao.html" method="post">
+        <form name="cadastro_instituicao" action="index.html" method="post">
             <fieldset>
                 <p> Se sua empresa médica/hospitalar deseja participar desse projeto que só cresce em todo o
                     Brasil, faça seu cadastro:</p>
@@ -34,7 +44,7 @@
                 E-mail: <br><input type="email" name="email" required><br><br>
                 Senha: <br><input type="password" name="senha" required><br><br>
                 Confirmação de senha: <br><input type="password" name="senha" required><br><br>
-                
+
                 <button type="submit">Enviar </button>
 
             </fieldset>

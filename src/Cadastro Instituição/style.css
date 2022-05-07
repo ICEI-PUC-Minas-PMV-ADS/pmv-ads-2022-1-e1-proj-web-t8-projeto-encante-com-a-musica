@@ -1,26 +1,42 @@
 header {
-    height: 150px;
-    background-color: rgb(106, 250, 202);
+    height: 120px;
+    background-color: mediumaquamarine
 }
 
-
-.menu-principal {
-    font-size: 20px;
+.menu ul li {
+    display:inline;
     float: right;
-    padding-top: 20px;
+    position:relative;
+    width: 100px;
+    color: darkblue;
+    font-size: 20px;
+    padding-top: 15px;
+    
 }
 
-.menu-principal>ul>li {
-    display: inline-block;
-    padding: 20px
+.menu ul li:hover{
+    color: white; 
 }
 
-.menu-principal>ul>li:hover {
-    color: white;
+.menu ul {
+    padding:0px;
+}
+
+.menu ul ul{
+    display: none;
+}
+
+.menu ul li:hover ul {
+    display:block;
+}
+
+.menu ul ul ul {
+    top:0px;
+    position:absolute;
 }
 
 main {
-    height: 800px;
+    height: 600px;
     background-color:azure;
     clear: both;
 
@@ -28,12 +44,15 @@ main {
 
 p {
     font-size: 20px;
-    font-family:'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 footer {
     height: 130px;
-    background-color: #7f7979
+    background-color: #7f7979;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .menu-secundário>ul>li {
