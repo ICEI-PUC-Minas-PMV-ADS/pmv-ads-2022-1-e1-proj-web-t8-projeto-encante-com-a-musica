@@ -21,26 +21,50 @@ main {
 
 }
 
-#pix { 
-    font-size: 18px;
-    width: 50%;
-    float:left; 
-    padding-top: 400px;
+/*@media screen and (max-width: 600px) {
+    #texto1{
+    font-family: Verdana;
+    font-size: 25px;
+    }
+}*/
+
+
+
+#bloco1{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-img {
-    width: 40px;
-    height: 40px;
-    ;
-    
+#texto1{
+  width: 40%;
+  text-align: center;
+  font-family: Verdana;
 }
 
-#conta {
-    font-size: 18px;
-    width: 40%;
-    float: right;
-    padding-top: 450px;
+#imgdoacao{
+  margin-top: 50px;
 }
+
+.imgbloco2{
+  width: 50px;
+  height: 50px;
+}
+
+#bloco2{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  font-family: Verdana;
+
+}
+#pix{
+  width: 50%;
+}
+
 
 footer {
     height: 130px;
