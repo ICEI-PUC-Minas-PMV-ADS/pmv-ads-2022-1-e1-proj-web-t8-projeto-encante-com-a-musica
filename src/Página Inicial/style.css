@@ -10,7 +10,7 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 130vh;
+    min-height: 100vh;
 }
 
 nav{
