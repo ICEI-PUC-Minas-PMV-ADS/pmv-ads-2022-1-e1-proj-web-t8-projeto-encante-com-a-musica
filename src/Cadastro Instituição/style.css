@@ -1,65 +1,93 @@
-header {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    height:120px;
+}
+
+img {
+    width: 120px;
     height: 120px;
-    background-color: mediumaquamarine
+    float: left;
+    margin-left: 20px;
+}
+nav{
+    background-color: rgb(122, 248, 90);
+    text-align: right;
+    height: 120px;
 }
 
-.menu ul li {
-    display:inline;
-    float: right;
-    position:relative;
-    width: 100px;
-    color: darkblue;
-    font-size: 20px;
-    padding-top: 15px;
-    
+nav ul{
+    display: inline-flex;
+    list-style: none;    
 }
 
-.menu ul li:hover{
-    color: white; 
+nav ul li{
+width: 100px;
+margin: 20px;
+padding: 20px;
 }
 
-.menu ul {
-    padding:0px;
+nav ul li a{
+    text-decoration: none;
+    color: b
 }
 
-.menu ul ul{
+.sub-menu-1{
     display: none;
 }
-
-.menu ul li:hover ul {
-    display:block;
-}
-
-.menu ul ul ul {
-    top:0px;
-    position:absolute;
-}
-
-main {
-    height: 600px;
-    background-color:azure;
-    clear: both;
-
-}
-
-p {
-    font-size: 20px;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-footer {
-    height: 130px;
-    background-color: #7f7979;
-    font-size: 15px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-.menu-secundário>ul>li {
+nav ul li:hover .sub-menu-1{
     display: block;
-    padding-block: 8px;
+    position: absolute;
+    background-color:rgb(122, 248, 90);
+    margin-top: 15px;
+    margin-left: -38px;
 }
 
-.menu-secundário>ul>li:hover {
-    background-color: #E29578
+nav ul li:hover .sub-menu-1 ul{
+    display: block;
 }
+
+nav ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+nav ul li:hover .sub-menu-1 ul li:hover{
+    background-color: #2cc2e7cd;
+}
+
+main{
+    height:500px;
+}
+fieldset {
+    height: 500px;
+    background-color: azure;
+    color: royalblue;
+}
+footer{
+    background-color: #0cf652;
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400 px;
+    padding: 0 2%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 30%;
+    padding: 0 25px;
+}
+
+
+    
