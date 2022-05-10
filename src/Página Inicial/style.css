@@ -31,7 +31,7 @@ padding: 20px;
 
 nav ul li a{
     text-decoration: none;
-    color: b
+    color: rgb(255, 255, 255)
 }
 
 .sub-menu-1{
@@ -87,4 +87,28 @@ footer{
 .footer-col{
     width: 30%;
     padding: 0 25px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s;
 }
