@@ -34,7 +34,7 @@ padding: 20px;
 
 nav ul li a{
     text-decoration: none;
-    color: b
+    color: darkblue;
 }
 
 .sub-menu-1{
@@ -65,12 +65,36 @@ nav ul li:hover .sub-menu-1 ul li:hover{
 
 main{
     height:500px;
-}
-fieldset {
-    height: 500px;
     background-color: #006D77;
     color: azure;
+    font-family: sans-serif;
 }
+
+fieldset {
+    border: 0;    
+}
+
+.formulario {
+    text-align:center;
+}
+.titulo{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.info{
+    font-size: 15px;
+    }
+
+.enviar{
+    background-color: darkblue;
+    border: 0;
+    width: 80px;
+    height: 40px;
+    color: azure;
+    font-size: 18px;
+}
+
 footer{
     background-color: #61D095;
     padding: 50px 0;
