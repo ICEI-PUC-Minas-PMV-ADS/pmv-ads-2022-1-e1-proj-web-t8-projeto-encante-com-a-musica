@@ -16,7 +16,7 @@ img {
     margin-left: 20px;
 }
 nav{
-    background-color: mediumspringgreen;
+    background-color: #61D095;
     text-align: right;
     height: 120px;
 }
@@ -43,7 +43,7 @@ nav ul li a{
 nav ul li:hover .sub-menu-1{
     display: block;
     position: absolute;
-    background-color:rgb(122, 248, 90);
+    background-color:#61D095;
     margin-top: 15px;
     margin-left: -38px;
 }
@@ -68,11 +68,11 @@ main{
 }
 fieldset {
     height: 500px;
-    background-color: azure;
-    color: royalblue;
+    background-color: #006D77;
+    color: black;
 }
 footer{
-    background-color: #0cf652;
+    background-color: #61D095;
     padding: 50px 0;
 }
 .container-footer{
