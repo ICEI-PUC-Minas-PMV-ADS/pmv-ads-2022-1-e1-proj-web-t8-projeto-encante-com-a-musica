@@ -11,33 +11,54 @@
 
 <body>
     <header>
-        
-        <nav= class="menu">
+       
+        <nav>
+            <img src="img/encante.png">
             <ul>
-                <li>Doação</li>
-                <li>Instituição
-                    <ul>
-                        <li>Cadastro</li>
-                        <li>Pesquisa</li>
-                    </ul>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Sobre</a>
+
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">História do projeto</a></li>
+                            <li><a href="#">Informação sobre tratamento paliativo</a></li>
+                        </ul>
+                    </div>
                 </li>
-                <li>Voluntário
-                    <ul>
-                        <li>Cadastro</li>
-                        <li>Pesquisa</li>
-                    </ul>
+                <li>
+                    <a href="#">Voluntários</a>
+
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">Cadastrar</a></li>
+                            <li><a href="#">Busque por voluntários</a></li>
+                        </ul>
+                    </div>
                 </li>
-                <li>Notícia</li>
-                <li>Sobre</li>
-                <li>Home</li>
+                <li>
+                    <a href="#">Instituição</a>
+
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">Cadastrar</a></li>
+                            <li><a href="#">Busque por Instituição</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Doação</a></li>
             </ul>
-            </nav>
+        </nav>
+
     </header>
     <main>
+
         <form name="cadastro_instituicao" action="index.html" method="post">
             <fieldset>
-                <p> Se sua empresa médica/hospitalar deseja participar desse projeto que só cresce em todo o
-                    Brasil, faça seu cadastro:</p>
+                <br><p> Se sua empresa médica/hospitalar deseja participar desse projeto que só cresce em todo o
+                    Brasil, faça seu cadastro:</p><br>
                 Razão Social: <br><input type="text" name="nome" required> <br><br>
                 CNPJ: <br><input type="cnpj" name="number" required> <br><br>
                 Telefone: <br><input type="telephone" name="number" required> <br><br>
@@ -49,16 +70,59 @@
 
             </fieldset>
         </form>
+
     </main>
     <Footer>
-        <nav= class="menu-secundário">
-            <ul>
-                <li>Fale Conosco</li>
-                <li>Eventos</li>
-                <li>Conheça o Time</li>
-                <li>Blog</li>
-            </ul>
-            </nav>
+        <div class="container-footer">
+            <div class="row-footer">
+              <!-- footer col -->
+              <div class="footer-col ">
+                <h4></h4>
+                <ul>
+                  <li> <a href="">Fale Conosco</a> </li>
+                  <li> <a href="">Conheça o time</a> </li>
+                  <li> <a href="">Eventos </a> </li>
+                  <li> <a href="">Blog</a> </li>
+                </ul>
+    
+              </div>
+              <!-- end footer col -->
+               <!-- footer col -->
+               <div class="footer-col ">
+                <h4></h4>
+                <ul>
+                  <li> <a href="">Política de Privacidade</a> </li>
+                  <li> <a href="">Imprensa</a> </li>
+                  <li> <a href="">cookies </a> </li>
+                  <li> <a href="">Termos de Uso</a> </li>
+                </ul>
+    
+              </div>
+              <!-- end footer col -->
+               <!-- footer col -->
+               <div class="footer-col ">
+                <h4>Informativo</h4>
+                <!-- form sub -->
+                <div class="form-sub">
+                  <form>
+                    <input type="email" placeholder="Digite o seu email" required>
+                    <button>inscrever</button>
+                </form>
+             </div>
+             <!-- end form sub -->
+             <div class="midias-sociais">
+               <a href=""> <i class="fa fa-facebook"></i></a>
+               <a href=""> <i class="fa fa-instagram"></i></a>
+               <a href=""> <i class="fa fa-twitter"></i></a>
+               <a href=""> <i class="fa fa-you tube"></i></a>
+    
+             </div>
+              </div>
+              <!--end footer col-->
+    
+            </div>
+    
+          </div>
     </Footer>
 </body>
 
