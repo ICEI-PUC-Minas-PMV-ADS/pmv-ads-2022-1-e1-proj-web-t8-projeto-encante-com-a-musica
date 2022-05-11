@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" type="text/css" href="faleconosco.css">
+    <link rel="stylesheet" media="screen and (max-device-height: 900px)" href="tela_g.css"/>
+    <link rel="stylesheet" media="screen and (max-device-height: 600px)" href="tela_p.css"/>
 </head>
 
 <body>
@@ -46,7 +48,7 @@
 
         <div class="campo">
             <label for="Quem">Quem:</label>
-            <select name="Quem">
+            <select name="Quem" required>
                 <option value=""> Selecione uma opção</option>
                 <option value="Voluntário">Voluntário</option>
                 <option value="Paciente">Paciente</option>
@@ -58,7 +60,7 @@
 
         <div class="campo">
             <label for="Assunto">Assunto:</label>
-            <select name="Assunto">
+            <select name="Assunto" required>
                 <option value=""> Selecione uma opção</option>
                 <option value="Dúvida">Dúvida</option>
                 <option value="Solicitação de Visita">Solicitação de Visita</option>
@@ -70,7 +72,7 @@
 
         <fieldset class="grupo">
             <div class="campo">
-                Por favor, digite uma mensagem.<br/>
+                Por favor, digite uma mensagem.<br />
             </div>
 
             <div class="campo">
