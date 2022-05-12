@@ -64,14 +64,15 @@ nav ul li:hover .sub-menu-1 ul li:hover{
 }
 
 main{
-    height:500px;
+    height: 600px;
     background-color: #006D77;
     color: azure;
     font-family: sans-serif;
 }
 
 #cadastro {
-    text-align: center; 
+    text-align: center;
+    padding-top: 20px; 
 }
 
 fieldset {
@@ -90,13 +91,21 @@ fieldset {
     font-size: 15px;
 }
 
+input {
+    margin-top: 3px;
+    border-radius: 5px;
+    height: 25px;
+    width: 220px;
+}
 .enviar{
     background-color: darkblue;
     border: 0;
+    border-radius: 5px;
     width: 80px;
     height: 40px;
     color: azure;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 footer{
