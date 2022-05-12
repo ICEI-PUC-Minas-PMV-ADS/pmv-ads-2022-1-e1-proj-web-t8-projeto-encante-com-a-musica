@@ -89,6 +89,9 @@ footer{
     padding: 0 25px;
 }
 
+.footer-col ul {
+    list-style: none;
+}
 .footer-col a {
     text-decoration: none;
 }
