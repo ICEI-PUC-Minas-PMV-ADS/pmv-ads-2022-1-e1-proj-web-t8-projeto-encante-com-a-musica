@@ -101,7 +101,7 @@ fieldset {
 
 footer{
     background-color: #61D095;
-    padding: 50px 0;
+    padding: 20px 0;
     
 }
 .container-footer{
@@ -120,9 +120,11 @@ footer{
 
 .footer-col ul {
     list-style: none;
+    line-height: 1.6;
 }
 
 .footer-col a {
+    color: darkblue;
     text-decoration: none;
 }
 
