@@ -6,12 +6,12 @@
 }
 
 body {
-    background-color:#006D77;
+    background-color: #006D77;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-    height:120px;
+header {
+    height: 120px;
 }
 
 img {
@@ -20,63 +20,65 @@ img {
     float: left;
     margin-left: 30px;
 }
-nav{
+
+nav {
     background-color: #61D095;
     text-align: right;
     height: 120px;
 }
 
-nav ul{
+nav ul {
     display: inline-flex;
-    list-style: none;    
+    list-style: none;
 }
 
-nav ul li{
-width: 100px;
-margin: 20px;
-padding: 20px;
+nav ul li {
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: darkblue;
 }
 
-.sub-menu-1{
+.sub-menu-1 {
     display: none;
 }
-nav ul li:hover .sub-menu-1{
+
+nav ul li:hover .sub-menu-1 {
     display: block;
     position: absolute;
-    background-color:#61D095;
+    background-color: #61D095;
     margin-top: 15px;
     margin-left: -38px;
 }
 
-nav ul li:hover .sub-menu-1 ul{
+nav ul li:hover .sub-menu-1 ul {
     display: block;
 }
 
-nav ul li:hover .sub-menu-1 ul li{
+nav ul li:hover .sub-menu-1 ul li {
     width: 150px;
     text-align: center;
     border-radius: 10px;
     transition: 0.7s;
 }
 
-nav ul li:hover .sub-menu-1 ul li:hover{
+nav ul li:hover .sub-menu-1 ul li:hover {
     background-color: #2cc2e7cd;
 }
 
-main{
-        height: 700px;
-        background-color:#006D77;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1em;
-        color: white;
-        margin-left: 36%;
-        margin-top: 2%;
-        justify-content: center;
+main {
+    height: 700px;
+    background-color: #006D77;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
 }
 
 #Título {
@@ -91,10 +93,13 @@ main{
 }
 
 fieldset {
-    border:0;
+    border: 0;
 }
 
-input, select, textarea, button {
+input,
+select,
+textarea,
+button {
     border-radius: 5px;
 }
 
@@ -113,9 +118,13 @@ fieldset .grupo {
     margin-right: 1em;
 }
 
-.campo input [type="text"], .campo input [type="email"],.campo input [type="tel"] .campo select, .campo textarea {
+.campo input [type="text"],
+.campo input [type="email"],
+.campo input [type="tel"] .campo select,
+.campo textarea {
     padding: 0.2em;
-    border: 1px solid white;;
+    border: 1px solid white;
+    ;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     display: block;
 }
@@ -124,45 +133,50 @@ fieldset .grupo {
     padding-right: 1em;
 }
 
-.campo input:focus, .campo select:focus, .campo textarea:focus {
-    background-color:white;
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    background-color: white;
 }
 
 .botão {
-    font-size: 1,2em;
+    font-size: 1, 2em;
     background-color: white;
     border: 0;
     margin-bottom: 1em;
-    color:#006D77;
+    color: #006D77;
     padding: 0.2em 0.6em;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     position: absolute;
     font-size: 16px;
-    
+
 }
 
 .botão:hover {
-    background-color:black;
-    box-shadow: inset 2px 2px 2px  rgba(0, 0, 0, 0.2); 
+    background-color: black;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: none;
 }
 
-footer{
+footer {
     background-color: #61D095;
-    color: #006D77;
+    color: darkblue;
     padding: 50px 0;
-    
+
 }
-.container-footer{
+
+.container-footer {
     max-width: 1400 px;
     padding: 0 2%;
     margin: auto;
 }
-.row-footer{
+
+.row-footer {
     display: flex;
     flex-wrap: wrap;
 }
-.footer-col{
+
+.footer-col {
     width: 30%;
     padding: 0 25px;
 }
@@ -170,19 +184,29 @@ footer{
 .footer-col ul {
     list-style: none;
 }
+
 .footer-col a {
-     color: #006D77;
+    color: darkblue;
     text-decoration: none;
 }
 
 @media (max-width: 400px) {
-    header { display: block; margin:0 auto}
+    header {
+        display: block;
+        margin: 0 auto
+    }
 }
 
 @media (max-width: 400px) {
-    main { display: block; margin:0 auto}
+    main {
+        display: block;
+        margin: 0 auto
+    }
 }
 
 @media (max-width: 400px) {
-    footer { display: block; margin:0 auto}
+    footer {
+        display: block;
+        margin: 0 auto
+    }
 }
