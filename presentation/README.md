@@ -15,6 +15,8 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 **Endereço do vídeo:**
 
 
+
+
 **Tela** - **Fale Conosco:**
 
 **Responsável:**  
@@ -22,9 +24,12 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 **O que foi desenvolvido/estudado:**
 
 **Cópia da tela iniciada/estudada:** 
+
 <img src="img/faleconosco.png">
 
 **Endereço do vídeo:**
+
+
 
 
 **Tela** - **Doação:**
@@ -34,9 +39,12 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 **O que foi desenvolvido/estudado:**
 
 **Cópia da tela iniciada/estudada:** 
+
 <img src="img/doacao.png">
 
 **Endereço do vídeo:**
+
+
 
 
 **Tela** - **Cadastro de instituição:**
@@ -46,9 +54,12 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 **O que foi desenvolvido/estudado:** Durante a semana, eu estudei o microfundamento de desenvolvimento web front-end e tentei implementar o que foi ensinado na criação da tela Cadastro de Instituição. A tela consiste em um formulário de cadastro simples e ainda está em construção, não está finalizada. 
 
 **Cópia da tela iniciada/estudada:**
+
  <img src="img/cadastroinstituicao.png">
 
 **Endereço do vídeo:**
+
+
 
 
 **Tela** - **Cadastro de voluntários:**
@@ -60,6 +71,8 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 **Cópia da tela iniciada/estudada:**
 
 **Endereço do vídeo:**
+
+
 
 
 **Tela** - **Login:**
