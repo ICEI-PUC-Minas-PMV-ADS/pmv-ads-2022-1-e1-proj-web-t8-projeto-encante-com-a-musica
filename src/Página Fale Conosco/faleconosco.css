@@ -147,36 +147,34 @@ fieldset .grupo {
 
 .botão:hover {
     background-color: black;
-    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 2px 2px 2px #333
     text-shadow: none;
     border-radius: 10px;
 }
 
-footer {
+footer{
     background-color: #61D095;
-    color: darkblue;
-    padding: 50px 0;
-
+    padding: 20px 0;
+    color:  darkblue;
+    
 }
-
-.container-footer {
+.container-footer{
     max-width: 1400 px;
     padding: 0 2%;
     margin: auto;
 }
-
-.row-footer {
+.row-footer{
     display: flex;
     flex-wrap: wrap;
 }
-
-.footer-col {
+.footer-col{
     width: 30%;
     padding: 0 25px;
 }
 
 .footer-col ul {
     list-style: none;
+    line-height: 1.6;
 }
 
 .footer-col a {
