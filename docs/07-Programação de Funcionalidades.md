@@ -17,7 +17,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 ## Etapa 3
 
-### Tela- Homepage:
+### Tela- Homepage
 
 **Responsável:**  
 
@@ -30,7 +30,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 
 
-### Tela - Fale Conosco:
+### Tela - Fale Conosco
 
 **Responsável:**  
 
@@ -45,7 +45,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 
 
-### Tela - Doação:
+### Tela - Doação
 
 **Responsável:**  
 
@@ -60,7 +60,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 
 
-### Tela - Cadastro de instituição:
+### Tela - Cadastro de instituição
 
 **Responsável:**  Cláudia Carapiá Ferraz
 
@@ -75,7 +75,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 
 
-### Tela - Cadastro de voluntários:
+### Tela - Cadastro de voluntários
 
 **Responsável:**  
 
@@ -88,7 +88,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 
 
-### Tela - Login:
+### Tela - Login
 
 **Responsável:**  
 
