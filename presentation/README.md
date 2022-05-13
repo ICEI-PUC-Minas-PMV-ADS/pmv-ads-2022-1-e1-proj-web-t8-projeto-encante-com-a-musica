@@ -21,7 +21,8 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 
 **O que foi desenvolvido/estudado:**
 
-**Cópia da tela iniciada/estudada:**
+**Cópia da tela iniciada/estudada:** 
+<img src="img/faleconosco.png">
 
 **Endereço do vídeo:**
 
@@ -32,18 +33,20 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 
 **O que foi desenvolvido/estudado:**
 
-**Cópia da tela iniciada/estudada:**
+**Cópia da tela iniciada/estudada:** 
+<img src="img/doacao.png">
 
 **Endereço do vídeo:**
 
 
 **Tela** - **Cadastro de instituição:**
 
-**Responsável:**  
+**Responsável:**  Cláudia Carapiá Ferraz
 
-**O que foi desenvolvido/estudado:**
+**O que foi desenvolvido/estudado:** Durante a semana, eu estudei o microfundamento de desenvolvimento web front-end e tentei implementar o que foi ensinado na criação da tela Cadastro de Instituição. A tela consiste em um formulário de cadastro simples e ainda está em construção, não está finalizada. 
 
 **Cópia da tela iniciada/estudada:**
+ <img src="img/cadastroinstituicao.png">
 
 **Endereço do vídeo:**
 
