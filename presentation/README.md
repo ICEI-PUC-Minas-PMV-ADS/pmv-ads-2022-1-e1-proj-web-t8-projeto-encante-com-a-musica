@@ -4,7 +4,7 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 
 ## Etapa 3
 
-**Tela** - **Homepage:**
+### Tela- Homepage:
 
 **Responsável:**  
 
@@ -17,7 +17,7 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 
 
 
-**Tela** - **Fale Conosco:**
+### Tela - Fale Conosco:
 
 **Responsável:**  
 
@@ -32,7 +32,7 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 
 
 
-**Tela** - **Doação:**
+### Tela - Doação:
 
 **Responsável:**  
 
@@ -47,7 +47,7 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 
 
 
-**Tela** - **Cadastro de instituição:**
+### Tela - Cadastro de instituição:
 
 **Responsável:**  Cláudia Carapiá Ferraz
 
@@ -62,7 +62,7 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 
 
 
-**Tela** - **Cadastro de voluntários:**
+### Tela - Cadastro de voluntários:
 
 **Responsável:**  
 
@@ -75,7 +75,7 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 
 
 
-**Tela** - **Login:**
+### Tela - Login:
 
 **Responsável:**  
 
