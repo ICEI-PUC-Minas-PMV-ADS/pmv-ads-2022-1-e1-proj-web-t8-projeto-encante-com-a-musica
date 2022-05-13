@@ -64,16 +64,36 @@ nav ul li:hover .sub-menu-1 ul li:hover{
 }
 
 main {
-    height: 800px;
+    height: 900px;
     width: auto;
     background-color: #006D77;
 }
 
+main h2 {
+    font-size: 120%;
+    padding: 20px;
+}
+
+main h3 {
+    font-size: 120%;
+    font-style: italic;
+    color: black;
+}
+
+
+main section div p{
+ font-size: 15pt;
+ color: black;
+}
+
 .destaque{
     display: block;
-    width: 100%;
+    width: 50%;
     height: 50%;
-    border-left: 10;
+    border-left: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    
 
 }
 
@@ -81,7 +101,7 @@ main section div{
     
     display: inline-block;
     width: calc(33% - 16px);
-    background-color:cornsilk ;
+    background-color:#ffddd2;
     vertical-align: top;
     margin-top: 20PX;
     margin: 8px;
