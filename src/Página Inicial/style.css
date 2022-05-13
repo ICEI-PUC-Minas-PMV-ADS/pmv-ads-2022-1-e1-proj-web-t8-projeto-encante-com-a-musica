@@ -92,13 +92,10 @@ main section div p{
     height: 50%;
     border-left: 20px;
     padding: 20px;
-    border-radius: 8px;
-    
-
+    box-sizing: border-box;
 }
 
 main section div{
-    
     display: inline-block;
     width: calc(33% - 16px);
     background-color:#ffddd2;
@@ -109,7 +106,6 @@ main section div{
     padding: 8px;
     border-radius: 8px;
     box-sizing: border-box;
-
 }
 
 main div p img {
