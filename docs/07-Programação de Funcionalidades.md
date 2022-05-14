@@ -55,7 +55,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 <img src="img/doacao.png">
 
-**Endereço do vídeo:**
+**Endereço do vídeo:** https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica/blob/main/presentation/Etapa%203/video%20etapa3.mp4
 
 
 
