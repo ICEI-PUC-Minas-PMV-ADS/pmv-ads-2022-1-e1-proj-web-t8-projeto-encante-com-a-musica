@@ -50,7 +50,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 **Responsável:**  Carolina Laurindo
 
-**O que foi desenvolvido/estudado:**
+**O que foi desenvolvido/estudado:** Para o desenvolvimento da página, utilizei os conhecimentos adquiridos no microfundamento de desenvolvimento web front-end. A página contém imagens  decorativas e textos que informam ao usuário como fazer sua doação. Foram usadas propriedades do css para fazer a formatação e o alinhamento dos itens e o recurso de media query para fazer a responsividade do site, que ainda está em desenvolvimento.
 
 **Cópia da tela iniciada/estudada:** 
 
