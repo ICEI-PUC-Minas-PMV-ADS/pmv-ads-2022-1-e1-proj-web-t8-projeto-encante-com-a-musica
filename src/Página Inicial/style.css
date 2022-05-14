@@ -113,8 +113,9 @@ main section div{
 
 main div p img {
     display: block;
-    width: 100%;
+    width: max-content;
     margin-bottom:10px;
+    box-sizing: border-box;
 }
 
 footer{
