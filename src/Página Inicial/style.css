@@ -76,14 +76,16 @@ main h2 {
 
 main h3 {
     font-size: 120%;
-    font-style: italic;
     color: black;
+    text-align: center;
 }
 
 
 main section div p{
  font-size: 15pt;
+ text-align: center;
  color: black;
+ font-style: italic;
 }
 
 .destaque{
