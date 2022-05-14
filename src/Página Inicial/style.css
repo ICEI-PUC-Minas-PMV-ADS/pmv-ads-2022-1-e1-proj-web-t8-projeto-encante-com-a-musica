@@ -100,6 +100,7 @@ main section div p{
 main section div{
     display: inline-block;
     width: calc(33% - 16px);
+    height: 350px;
     background-color: #006D77;
     vertical-align: top;
     margin-top: 20PX;
