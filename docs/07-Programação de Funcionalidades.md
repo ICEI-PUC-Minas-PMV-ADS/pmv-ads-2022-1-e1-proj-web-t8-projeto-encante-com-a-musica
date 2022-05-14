@@ -64,7 +64,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 **Responsável:**  Cláudia Carapiá Ferraz
 
-**O que foi desenvolvido/estudado:** Durante a semana, eu estudei o microfundamento de desenvolvimento web front-end e tentei implementar o que foi ensinado na criação da tela Cadastro de Instituição. A tela consiste em um formulário de cadastro simples e ainda está em construção, não está finalizada. 
+**O que foi desenvolvido/estudado:** Durante a semana, eu estudei o microfundamento de desenvolvimento web front-end e tentei implementar o que foi ensinado na criação da tela Cadastro de Instituição. A tela consiste em um formulário de cadastro simples e ainda está em construção. A página ainda não está finalizada, pois tive dificuldade em criar o campo para escolha de cidade e estado, estou estudando a parte do microfundamento sobre javascript para tentar implementar uma solução utilizando json. Além disso, estou tendo dificuldade em fazer a responsividade da página. 
 
 **Cópia da tela iniciada/estudada:**
 
