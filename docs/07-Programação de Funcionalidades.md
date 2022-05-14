@@ -79,7 +79,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 **Responsável:**  Douglas Raynner
 
-**O que foi desenvolvido/estudado:**
+**O que foi desenvolvido/estudado:** Foi estudado o microfundamento de desenvolvimento web front end e implementei o conteúdo na criação da tela de cadastro de voluntários. A tela se baseia em um formulário de cadastro simples, no qual ainda não foi acabado, para que as pessoas interessadas possam se inscrever.
 
 **Cópia da tela iniciada/estudada:**
 
