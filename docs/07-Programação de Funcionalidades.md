@@ -19,11 +19,12 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 ### Tela- Homepage
 
-**Responsável:**  
+**Responsável:**  Jeferson Queiroz
 
 **O que foi desenvolvido/estudado:**
 
 **Cópia da tela iniciada/estudada:**
+<img src="img/paginainicial.png">
 
 **Endereço do vídeo:**
 
@@ -32,7 +33,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 ### Tela - Fale Conosco
 
-**Responsável:**  
+**Responsável:**  Karen Noguti
 
 **O que foi desenvolvido/estudado:**
 
@@ -47,7 +48,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 ### Tela - Doação
 
-**Responsável:**  
+**Responsável:**  Carolina Laurindo
 
 **O que foi desenvolvido/estudado:**
 
@@ -77,7 +78,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 ### Tela - Cadastro de voluntários
 
-**Responsável:**  
+**Responsável:**  Douglas Raynner
 
 **O que foi desenvolvido/estudado:**
 
@@ -90,7 +91,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 ### Tela - Login
 
-**Responsável:**  
+**Responsável:**  Phillipe Magno
 
 **O que foi desenvolvido/estudado:**
 
