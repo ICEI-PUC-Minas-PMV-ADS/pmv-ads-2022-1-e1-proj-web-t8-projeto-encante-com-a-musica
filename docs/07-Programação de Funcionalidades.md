@@ -82,6 +82,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 **O que foi desenvolvido/estudado:** Foi estudado o microfundamento de desenvolvimento web front end e implementei o conteúdo na criação da tela de cadastro de voluntários. A tela se baseia em um formulário de cadastro simples, no qual ainda não foi acabado, para que as pessoas interessadas possam se inscrever.
 
 **Cópia da tela iniciada/estudada:**
+<img src="img/cadastro_vol.png">
 
 **Endereço do vídeo:**
 
@@ -95,5 +96,6 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 **O que foi desenvolvido/estudado:**
 
 **Cópia da tela iniciada/estudada:**
+<img src="img/login.png">
 
 **Endereço do vídeo:**
