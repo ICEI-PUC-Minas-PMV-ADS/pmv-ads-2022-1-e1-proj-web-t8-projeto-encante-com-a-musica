@@ -62,9 +62,11 @@ A maior dificuldade e problema no desenvolvimento da tela foi quanto ao CSS e re
 
 
 
-### Tela - Doação
+### Visualização da Tela Doação (RF-09)
 
 **Responsável:**  Carolina Laurindo
+
+A página doação apresenta em seu conteúdo principal, informações para que o usuário possa apoiar financeiramente o projeto. São mostradas as duas formas de depósito, por PIX e depósito de conta bancária, e os dados necessários para a realização do mesmo. 
 
 **O que foi desenvolvido/estudado:** Para o desenvolvimento da página, utilizei os conhecimentos adquiridos no microfundamento de desenvolvimento web front-end. A página contém imagens  decorativas e textos que informam ao usuário como fazer sua doação. Foram usadas propriedades do css para fazer a formatação e o alinhamento dos itens e o recurso de media query para fazer a responsividade do site, que ainda está em desenvolvimento. As maiores dificuldades que tive nessa etapa foram fazer a responsividade da página,alinhar as imagens e textos e fazer o posicionamento dos itens na página para que ficassem dentro da área reservada ao conteúdo principal.
 
@@ -82,15 +84,14 @@ A maior dificuldade e problema no desenvolvimento da tela foi quanto ao CSS e re
 
 A tela Cadastro de Instituição apresenta o cabeçalho padrão do site com o logotipo e menu de navegação (Home, Sobre, Voluntários, Instituição, Notícias e Doação).  
 
-   
-
 O conteúdo principal da página consiste em um formulário para preenchimento pela Instituição interessada em se cadastrar no projeto. Este formulário possui os seguintes campos para preenchimento: Razão social, CNPJ, Telefone, E-mail, Senha, Confirmação de senha.  
 
-   
+**O que foi desenvolvido/estudado:**
+
 
 Para o desenvolvimento da página foi utilizado o HTML e CSS, conteúdos estes, estudados no micro fundamento Desenvolvimento Web front-end. Tentei implementar o que foi ensinado na criação da tela Cadastro de Instituição. A tela consiste em um formulário de cadastro simples e ainda está em construção. A página ainda não está finalizada, pois tive dificuldade em criar o campo para escolha de cidade e estado, estou estudando a parte do microfundamento sobre javascript para tentar implementar uma solução utilizando json. Além disso, estou tendo dificuldade em fazer a responsividade da página. 
 
-
+**Cópia da tela iniciada/estudada:** 
 
  <img src="img/cadastroinstituicao.png">
 
@@ -99,13 +100,15 @@ Para o desenvolvimento da página foi utilizado o HTML e CSS, conteúdos estes, 
 
 
 
-### Visualização da tela Cadastro de voluntários
+### Visualização da tela Cadastro de voluntários (RF-04)
 
 **Responsável:**  Douglas Raynner
 
 **O que foi desenvolvido/estudado:** Foi estudado o microfundamento de desenvolvimento web front end e implementei o conteúdo na criação da tela de cadastro de voluntários. A tela se baseia em um formulário de cadastro simples, no qual ainda não foi acabado, para que as pessoas interessadas possam se inscrever.
 
 **Cópia da tela iniciada/estudada:**
+
+
 <img src="img/cadastro_vol.png">
 
 **Endereço do vídeo:** https://youtu.be/Z50E5QB9DMI
@@ -113,13 +116,18 @@ Para o desenvolvimento da página foi utilizado o HTML e CSS, conteúdos estes, 
 
 
 
-### Tela - Login
+### Visualização da Tela de Login (RF-04 e RF-05)
 
 **Responsável:**  Phillipe Magno
+
+Na Tela de Login, o usuário poderá escolher uma das opções, logar como Voluntário ou logar como instituição.  
+
 
 **O que foi desenvolvido/estudado:**
 
 **Cópia da tela iniciada/estudada:**
+
+
 <img src="img/login.png">
 
 **Endereço do vídeo:**
