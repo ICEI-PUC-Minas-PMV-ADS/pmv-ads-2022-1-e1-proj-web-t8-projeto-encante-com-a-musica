@@ -33,19 +33,6 @@ A maior dificuldade e problema no desenvolvimento da tela foi quanto ao CSS e re
 
 ## Etapa 3
 
-### Tela- Homepage
-
-**Responsável:**  Jeferson Queiroz
-
-**O que foi desenvolvido/estudado:**
-
-**Cópia da tela iniciada/estudada:**
-<img src="img/paginainicial.png">
-
-**Endereço do vídeo:**
-
-
-
 
 ### Tela - Fale Conosco
 
