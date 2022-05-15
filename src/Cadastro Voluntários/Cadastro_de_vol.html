@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Voluntários</title>
+    <link rel="stylesheet" href="Cadastro_de_vol.css">
+    <link rel="stylesheet" media="screen and (min-device-height: 900px)" href="tela_g.css" />
+    <link rel="stylesheet" media="screen and (max-device-height: 600px)" href="tela_p.css" />
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <h1><img src="img/logo.png"></h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Sobre</a>
+
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">História do projeto</a></li>
+                            <li><a href="#">Informação sobre tratamento paliativo</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Voluntários</a>
+
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="Cadastro_de_vol.html">Cadastrar</a></li>
+                            <li><a href="#">Busque por voluntários</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Instituição</a>
+
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">Cadastrar</a></li>
+                            <li><a href="#">Busque por Instituição</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Doação</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div>
+            <h1 id="cadastro"> Cadastro de Voluntários</h1>
+        </div>
+        <form>
+            <fieldset class="formulario">
+                <legend class="titulo"> Venha fazer parte desse projeto e encante com a música.</legend><br>
+                <div class="info">
+                    Nome completo: <br><input type="text" name="nome" id="nome" required> <br><br>
+                    Data de nascimento: <br><input type="date" name="data" id="data" required> <br><br>
+                </div>
+                <div class="infol">
+                    Estado: <br>
+                    <select id="estado" required>
+                     <option selected disabled value="">Selecione uma opção</option>
+                     <option>MG</option>
+                     <option>RJ</option>
+                     <option>SP</option>
+                    </select> <br><br>
+                    
+                    Cidade: <br>
+                    <select id="cidade" required>
+                     <option selected disabled value="">Selecione uma opção</option>
+                     <option>Belo Horizonte</option>
+                     <option>Contagem</option>
+                     <option>Betim</option>
+                    </select> <br><br>
+                    
+                    Categoria Instrumental: <br>
+                    <select id="CatInstrumental" required>
+                     <option selected disabled value="">Selecione uma opção</option>
+                     <option>Gaita</option>
+                     <option>Flauta doce</option>
+                     <option>Violão</option>
+                    </select> <br><br>
+
+                    Categoria de vozes: <br>
+                    <select id="CatVozes" required>
+                     <option selected disabled value="">Selecione uma opção</option>
+                     <option>Soprano</option>
+                     <option>Tenor</option>
+                     <option>Baritono</option>
+                    </select> <br><br>
+                </div>
+                <div class="info">
+                    Telefone: <br><input type="tel" name="telefone" id="telefone" required><br><br>
+                    E-mail: <br><input type="email" name="email" id="email" required><br><br>
+                    Senha: <br><input type="password" name="senha" id="senha" required><br><br>
+                    Confirmação de senha: <br><input type="password" name="senha" id="senha" required><br><br>
+                </div>
+
+                <button type="submit" class="enviar">Enviar </button>
+
+            </fieldset>
+        </form>
+
+    </main>
+    <Footer>
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="footer-col">
+                    <ul>
+                        <li> <a href="#">Fale Conosco</a></li>
+                        <li> <a href="#">Conheça o time</a></li>
+                        <li> <a href="#">Eventos</a></li>
+                        <li> <a href="#">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col ">
+                    <ul>
+                        <li> <a href="#">Política de Privacidade</a></li>
+                        <li> <a href="#">Imprensa</a></li>
+                        <li> <a href="#">Cookies</a></li>
+                        <li> <a href="#">Termos de Uso</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Informativo</h4>
+                    <div class="form-sub">
+                        <form>
+                            <input type="email" placeholder="Digite o seu email" required>
+                            <button class="inscrever">Inscrever</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </Footer>
+</body>
+
+</html>

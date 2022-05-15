@@ -137,4 +137,10 @@ footer{
     text-decoration: none;
 }
 
-    
+@media (max-width: 500px) {
+    main{
+        display: block;
+        margin: 0 auto;
+        
+    }
+}
