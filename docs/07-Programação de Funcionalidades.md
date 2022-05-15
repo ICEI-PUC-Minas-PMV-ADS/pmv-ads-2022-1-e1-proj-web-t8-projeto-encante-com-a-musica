@@ -4,16 +4,27 @@
 
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são apresentadas na sequência.
 
+## Visualização de Tela Fale Conosco (RF-10, RF-13 e RF-14)
+
+Responsável: Karen Noguti   
+
+ 
+A tela Fale Conosco apresenta os dados do mantenedor do site. Além disso, é uma ferramenta que o usuário poderá utilizar para contactar o Projeto através de mensagem de texto, mas para isto será necessário preencher dados pessoais como Nome Completo, E-mail e Telefone.   
+
+
+O campo “Quem” é possível selecionar: Voluntário, Paciente, Familiar, Instituição e Outros, já no campo “Assunto” o usuário poderá escolher por: Dúvida, Solicitação de Visita, Sugestão, Reclamação e Outros. Após escrever a mensagem de texto e clicar em Enviar a solicitação será processada.   
+
+
+Para desenvolvimento da página foi utilizado o HTML e CSS, conteúdos estes, estudados principalmente no micro fundamento Desenvolvimento Web front-end. 
+
+ 
+A maior dificuldade e problema no desenvolvimento da tela foi quanto ao CSS e responsividade, pois devido ao conhecimento de iniciante sobre a ferramenta, tive dificuldade em posicionar os elementos e apesar de ter responsividade de Media Queries a funcionalidade ainda não está 100%. 
+
+<img src="img/faleconosco.png">
 
 ## Etapa 3
 
