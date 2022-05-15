@@ -84,8 +84,6 @@ A página doação apresenta em seu conteúdo principal, informações para que 
 
 A tela Cadastro de Instituição apresenta o cabeçalho padrão do site com o logotipo e menu de navegação (Home, Sobre, Voluntários, Instituição, Notícias e Doação).  
 
-   
-
 O conteúdo principal da página consiste em um formulário para preenchimento pela Instituição interessada em se cadastrar no projeto. Este formulário possui os seguintes campos para preenchimento: Razão social, CNPJ, Telefone, E-mail, Senha, Confirmação de senha.  
 
 **O que foi desenvolvido/estudado:**
