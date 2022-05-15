@@ -32,7 +32,7 @@ A maior dificuldade e problema no desenvolvimento da tela foi quanto ao CSS e re
 <img src="img/faleconosco.png">
 
 **Endereço do vídeo:**
-
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica/blob/main/presentation/Etapa%203/Video%20Etapa%203%20Karen.mkv
 
 ### Visualização da Tela Doação (RF-09)
 
