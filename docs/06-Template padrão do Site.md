@@ -28,7 +28,7 @@ Minha maior dificuldade foi colocar o Submenu, pois devido ao conhecimento de in
 
 <img src="img/paginainicial.png">
 
-Instruções de acesso  
+**Instruções de acesso  
 
 ● Abra um navegador de Internet e informe a seguinte URL: http://127.0.0.1:5501/src/P%C3%A1gina%20Inicial/index.html    
 
