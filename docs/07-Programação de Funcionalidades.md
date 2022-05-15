@@ -8,7 +8,9 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são apresentadas na sequência.
 
-## Visualização de Tela Fale Conosco (RF-10, RF-13 e RF-14)
+## Etapa 3
+
+### Visualização de Tela Fale Conosco (RF-10, RF-13 e RF-14)
 
 **Responsável:**  Karen Noguti 
 
@@ -30,23 +32,6 @@ A maior dificuldade e problema no desenvolvimento da tela foi quanto ao CSS e re
 <img src="img/faleconosco.png">
 
 **Endereço do vídeo:**
-
-## Etapa 3
-
-
-### Tela - Fale Conosco
-
-**Responsável:**  Karen Noguti
-
-**O que foi desenvolvido/estudado:**
-
-**Cópia da tela iniciada/estudada:** 
-
-<img src="img/faleconosco.png">
-
-**Endereço do vídeo:**
-
-
 
 
 ### Visualização da Tela Doação (RF-09)
