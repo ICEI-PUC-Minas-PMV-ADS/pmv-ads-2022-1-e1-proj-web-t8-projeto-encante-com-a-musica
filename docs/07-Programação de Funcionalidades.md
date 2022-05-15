@@ -10,7 +10,7 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 ## Visualização de Tela Fale Conosco (RF-10, RF-13 e RF-14)
 
-Responsável: Karen Noguti   
+**Responsável:**  Karen Noguti 
 
  
 A tela Fale Conosco apresenta os dados do mantenedor do site. Além disso, é uma ferramenta que o usuário poderá utilizar para contactar o Projeto através de mensagem de texto, mas para isto será necessário preencher dados pessoais como Nome Completo, E-mail e Telefone.   
@@ -18,13 +18,18 @@ A tela Fale Conosco apresenta os dados do mantenedor do site. Além disso, é um
 
 O campo “Quem” é possível selecionar: Voluntário, Paciente, Familiar, Instituição e Outros, já no campo “Assunto” o usuário poderá escolher por: Dúvida, Solicitação de Visita, Sugestão, Reclamação e Outros. Após escrever a mensagem de texto e clicar em Enviar a solicitação será processada.   
 
+**O que foi desenvolvido/estudado:**
 
 Para desenvolvimento da página foi utilizado o HTML e CSS, conteúdos estes, estudados principalmente no micro fundamento Desenvolvimento Web front-end. 
 
  
-A maior dificuldade e problema no desenvolvimento da tela foi quanto ao CSS e responsividade, pois devido ao conhecimento de iniciante sobre a ferramenta, tive dificuldade em posicionar os elementos e apesar de ter responsividade de Media Queries a funcionalidade ainda não está 100%. 
+A maior dificuldade e problema no desenvolvimento da tela foi quanto ao CSS e responsividade, pois devido ao conhecimento de iniciante sobre a ferramenta, tive dificuldade em posicionar os elementos e apesar de ter responsividade de Media Query a funcionalidade ainda não está 100%. 
+
+**Cópia da tela iniciada/estudada:** 
 
 <img src="img/faleconosco.png">
+
+**Endereço do vídeo:**
 
 ## Etapa 3
 
