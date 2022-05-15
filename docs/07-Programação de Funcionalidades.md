@@ -84,7 +84,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 **Cópia da tela iniciada/estudada:**
 <img src="img/cadastro_vol.png">
 
-**Endereço do vídeo:**
+**Endereço do vídeo:** https://youtu.be/Z50E5QB9DMI
 
 
 
