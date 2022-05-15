@@ -82,7 +82,7 @@ Para o desenvolvimento da página foi utilizado o HTML e CSS, conteúdos estes, 
 
  <img src="img/cadastroinstituicao.png">
 
-**Endereço do vídeo:**
+**Endereço do vídeo:** https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica/blob/main/presentation/Etapa%203/video%20etapa%203%20-%20Cl%C3%A1udia.mkv 
 
 
 
@@ -91,10 +91,11 @@ Para o desenvolvimento da página foi utilizado o HTML e CSS, conteúdos estes, 
 
 **Responsável:**  Douglas Raynner
 
-**O que foi desenvolvido/estudado:** Foi estudado o microfundamento de desenvolvimento web front end e implementei o conteúdo na criação da tela de cadastro de voluntários. A tela se baseia em um formulário de cadastro simples, no qual ainda não foi acabado, para que as pessoas interessadas possam se inscrever.
+A tela se baseia em um formulário de cadastro simples, no qual ainda não foi acabado, para que as pessoas interessadas possam se inscrever.
+
+**O que foi desenvolvido/estudado:** Foi estudado o microfundamento de desenvolvimento web front end e implementei o conteúdo na criação da tela de cadastro de voluntários. 
 
 **Cópia da tela iniciada/estudada:**
-
 
 <img src="img/cadastro_vol.png">
 
