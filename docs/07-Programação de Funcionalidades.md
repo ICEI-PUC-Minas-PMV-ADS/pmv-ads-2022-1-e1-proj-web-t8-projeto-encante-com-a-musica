@@ -67,7 +67,7 @@ A maior dificuldade e problema no desenvolvimento da tela foi quanto ao CSS e re
 **Responsável:**  Carolina Laurindo
 
 **O que foi desenvolvido/estudado:** Para o desenvolvimento da página, utilizei os conhecimentos adquiridos no microfundamento de desenvolvimento web front-end. A página contém imagens  decorativas e textos que informam ao usuário como fazer sua doação. Foram usadas propriedades do css para fazer a formatação e o alinhamento dos itens e o recurso de media query para fazer a responsividade do site, que ainda está em desenvolvimento. As maiores dificuldades que tive nessa etapa foram fazer a responsividade da página,alinhar as imagens e textos e fazer o posicionamento dos itens na página para que ficassem dentro da área reservada ao conteúdo principal.
-**Cópia da tela iniciada/estudada:** 
+
 
 <img src="img/doacao.png">
 
@@ -76,13 +76,21 @@ A maior dificuldade e problema no desenvolvimento da tela foi quanto ao CSS e re
 
 
 
-### Tela - Cadastro de instituição
+### Visualização da Tela Cadastro de instituição (RF-05)
 
 **Responsável:**  Cláudia Carapiá Ferraz
 
-**O que foi desenvolvido/estudado:** Durante a semana, eu estudei o microfundamento de desenvolvimento web front-end e tentei implementar o que foi ensinado na criação da tela Cadastro de Instituição. A tela consiste em um formulário de cadastro simples e ainda está em construção. A página ainda não está finalizada, pois tive dificuldade em criar o campo para escolha de cidade e estado, estou estudando a parte do microfundamento sobre javascript para tentar implementar uma solução utilizando json. Além disso, estou tendo dificuldade em fazer a responsividade da página. 
+A tela Cadastro de Instituição apresenta o cabeçalho padrão do site com o logotipo e menu de navegação (Home, Sobre, Voluntários, Instituição, Notícias e Doação).  
 
-**Cópia da tela iniciada/estudada:**
+   
+
+O conteúdo principal da página consiste em um formulário para preenchimento pela Instituição interessada em se cadastrar no projeto. Este formulário possui os seguintes campos para preenchimento: Razão social, CNPJ, Telefone, E-mail, Senha, Confirmação de senha.  
+
+   
+
+Para o desenvolvimento da página foi utilizado o HTML e CSS, conteúdos estes, estudados no micro fundamento Desenvolvimento Web front-end. Tentei implementar o que foi ensinado na criação da tela Cadastro de Instituição. A tela consiste em um formulário de cadastro simples e ainda está em construção. A página ainda não está finalizada, pois tive dificuldade em criar o campo para escolha de cidade e estado, estou estudando a parte do microfundamento sobre javascript para tentar implementar uma solução utilizando json. Além disso, estou tendo dificuldade em fazer a responsividade da página. 
+
+
 
  <img src="img/cadastroinstituicao.png">
 
@@ -91,7 +99,7 @@ A maior dificuldade e problema no desenvolvimento da tela foi quanto ao CSS e re
 
 
 
-### Tela - Cadastro de voluntários
+### Visualização da tela Cadastro de voluntários
 
 **Responsável:**  Douglas Raynner
 
