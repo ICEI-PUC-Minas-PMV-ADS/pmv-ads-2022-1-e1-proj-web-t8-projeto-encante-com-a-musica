@@ -1,4 +1,4 @@
-var db = {
+var db_cadastro = {
     dados: [
         {
             Instituição: 'Hospital Nossa Senhora',
@@ -34,3 +34,8 @@ var db = {
         }
     ]
 }
+
+var db = JSON.parse(localStorage.getItem('db_cadastro'));
+if (!db) {
+    db = db_cadastro
+};
