@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Instituição</title>
+    <link rel="stylesheet" href="pesquisainstituição.css">
+    <link rel="stylesheet" media="screen and (min-device-height: 900px)" href="tela_g.css" />
+    <link rel="stylesheet" media="screen and (max-device-height: 400px)" href="tela_p.css" />
+    <script src="dbfake.js"></script>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <h1><img src="img/logo.png"></h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Sobre</a>
+
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">História do projeto</a></li>
+                            <li><a href="#">Informação sobre tratamento paliativo</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Voluntários</a>
+
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">Cadastrar</a></li>
+                            <li><a href="#">Busque por voluntários</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Instituição</a>
+
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="cadastroinstituicao.html">Cadastrar</a></li>
+                            <li><a href="pesquisainstituição.html">Busque por Instituição</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Doação</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div>
+            <h1 id="Pesquisa"> Busque por Instituições</h1>
+        </div>
+        <form class="formulario">
+            
+                <legend class="titulo"> Encontre uma instituição perto de você.</legend><br>
+                <div class="info">
+                    Nome da instituição: <br><input type="text" name="nome" required> <br><br>
+                    CNPJ: <br><input type="text" name="number" required> <br><br>
+                    Telefone: <br><input type="tel" name="number" required> <br><br>
+                    Cidade: <br><input type="text" name="cidade" required><br><br>
+                    Estado: <br><input type="text" name="estado" required><br><br>
+                </div>
+
+                <button type="submit" class="Buscar">Buscar</button>
+                
+        </form>
+
+    </main>
+    <Footer>
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="footer-col">
+                    <ul>
+                        <li> <a href="#">Fale Conosco</a></li>
+                        <li> <a href="#">Conheça o time</a></li>
+                        <li> <a href="#">Eventos</a></li>
+                        <li> <a href="#">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col ">
+                    <ul>
+                        <li> <a href="#">Política de Privacidade</a></li>
+                        <li> <a href="#">Imprensa</a></li>
+                        <li> <a href="#">Cookies</a></li>
+                        <li> <a href="#">Termos de Uso</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Informativo</h4>
+                    <div class="form-sub">
+                        <form>
+                            <input type="email" placeholder="Digite o seu email" required>
+                            <button>Inscrever</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </Footer>
+</body>
+<script>
+
+</script>
+
+</html>

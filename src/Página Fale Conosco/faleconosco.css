@@ -181,21 +181,21 @@ footer{
     text-decoration: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     header {
         display: block;
         margin: 0 auto
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     main {
         display: block;
         margin: 0 auto
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     footer {
         display: block;
         margin: 0 auto
