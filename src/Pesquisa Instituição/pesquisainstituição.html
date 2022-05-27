@@ -64,14 +64,19 @@
             
                 <legend class="titulo"> Encontre uma instituição perto de você.</legend><br>
                 <div class="info">
-                    Nome da instituição: <br><input type="text" name="nome" required> <br><br>
-                    CNPJ: <br><input type="text" name="number" required> <br><br>
-                    Telefone: <br><input type="tel" name="number" required> <br><br>
-                    Cidade: <br><input type="text" name="cidade" required><br><br>
-                    Estado: <br><input type="text" name="estado" required><br><br>
+                    Nome da instituição: <br><input type="text" name="nome"> <br><br>
+                    CNPJ: <br><input type="text" name="number"> <br><br>
+                    Telefone: <br><input type="tel" name="number"> <br><br>
+                    Cidade: <br><input type="text" name="cidade"><br><br>
+                    Estado: <br><input type="text" name="estado"><br><br>
                 </div>
 
                 <button type="submit" class="Buscar">Buscar</button>
+
+                <h2>Resultado da Pesquisa</h2>
+                <div id="lista"></div>
+
+                <button onclick="processaDados">Disparar</button>
                 
         </form>
 
@@ -103,6 +108,8 @@
                         <form>
                             <input type="email" placeholder="Digite o seu email" required>
                             <button>Inscrever</button>
+
+                            
                         </form>
                     </div>
                 </div>
@@ -111,9 +118,28 @@
 
         </div>
     </Footer>
-</body>
-<script>
+    <script>
+        var pesquisa = '';
 
-</script>
+        function processaDados ( ) {
+            var dados = JSON.parse (db_cadastro);
+            var saida =''
+             for (i = 0; i < db_cadastro.dados.length; i++) {
+                saida+= `<div class="info"> 
+                <p>${db_cadastro[i].Instituição}</p>
+                <p>${db_cadastro[i].CNPJ}</p>
+                <p>${db_cadastro[i].Telefone}</p>
+                <p>${db_cadastro[i].Cidade}</p>
+                <p>${db_cadastro[i].Estado}</p>
+                <p>${db_cadastro[i].Telefone}</p></div>`
+         }
+
+        document.getElementById ('pesquisa').innerHTML = saida;
+       
+        }
+
+                
+    </script>
+</body>
 
 </html>
