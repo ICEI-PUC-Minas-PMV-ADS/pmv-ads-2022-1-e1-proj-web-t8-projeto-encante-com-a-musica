@@ -64,7 +64,6 @@ nav ul li:hover .sub-menu-1 ul li:hover{
 }
 
 main{
-    height: 600px;
     background-color: #006D77;
     color: azure;
     font-family: sans-serif;
@@ -75,37 +74,34 @@ main{
     padding-top: 20px; 
 }
 
-fieldset {
-    border: 0;    
-}
-
 .formulario {
     text-align:center;
+    
 }
 .titulo{
-    padding-top: 20px;
+    margin-top: 20px;
     font-size: 20px;
 }
 
-.info{
-    font-size: 15px;
+label {
+    font-size: 18px;
 }
 
 input {
-    margin-top: 3px;
+    margin: 5px 0;
     border-radius: 5px;
-    height: 25px;
-    width: 220px;
+    width: 25%;
+    height: 30px;
 }
 .enviar{
     background-color: darkblue;
     border: 0;
     border-radius: 5px;
-    width: 80px;
+    width: 10%;
     height: 40px;
     color: azure;
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 footer{
