@@ -56,23 +56,30 @@
         </nav>
 
     </header>
+    
     <main>
         <div>
-            <h1 id="Pesquisa"> Busque por Instituições</h1>
+            <h2 id="Pesquisa"> Busque por Instituições</h2>
         </div>
         <form class="formulario">
-            
-                <legend class="titulo"> Encontre uma instituição perto de você.</legend><br>
-                <div class="info">
-                    Nome da instituição: <br><input type="text" name="nome" required> <br><br>
-                    CNPJ: <br><input type="text" name="number" required> <br><br>
-                    Telefone: <br><input type="tel" name="number" required> <br><br>
-                    Cidade: <br><input type="text" name="cidade" required><br><br>
-                    Estado: <br><input type="text" name="estado" required><br><br>
-                </div>
+            <legend class="titulo"> Encontre uma instituição perto de você.</legend><br>
+            <div class="info">
+                Nome da Instituição: <br><input type="text" name="nome"> <br><br>
+                CNPJ: <br><input type="text" name="number"> <br><br>
+                Telefone: <br><input type="tel" name="number"> <br><br>
+                Cidade: <br><input type="text" name="cidade"><br><br>
+                Estado: <br><input type="text" name="estado"><br><br>
+            </div>
 
-                <button type="submit" class="Buscar">Buscar</button>
-                
+            <button class="Buscar">Buscar</button>
+
+            <div id="lista">
+                <button onclick="processaDados()">Todas</button>
+            </div>
+
+            <h2>Resultado da Pesquisa</h2>
+
+
         </form>
 
     </main>
@@ -102,7 +109,8 @@
                     <div class="form-sub">
                         <form>
                             <input type="email" placeholder="Digite o seu email" required>
-                            <button>Inscrever</button>
+                            <button class="Inscrever">Inscrever</button>
+
                         </form>
                     </div>
                 </div>
@@ -111,9 +119,25 @@
 
         </div>
     </Footer>
-</body>
-<script>
 
-</script>
+    <script>
+        var hospital = '';
+        function processaDados() {
+            for (i = 0; i < db_cadastro.dados.length; i++) {
+                hospital += `<p class="cadastro-item">${db_cadastro.dados[i].instituicao} <br> 
+                    <img src="${db_cadastro.dados[i].imagem}"><br> 
+                    Telefone: ${db_cadastro.dados[i].telefone}<br>
+                    Cidade: ${db_cadastro.dados[i].cidade}<br>
+                    Estado: ${db_cadastro.dados[i].estado}<br>
+                    E-mail:${db_cadastro.dados[i].email}<br>
+                    </p>`;
+            }
+
+            document.getElementById('lista').innerHTML = hospital;
+
+        }
+
+    </script>
+</body>
 
 </html>
