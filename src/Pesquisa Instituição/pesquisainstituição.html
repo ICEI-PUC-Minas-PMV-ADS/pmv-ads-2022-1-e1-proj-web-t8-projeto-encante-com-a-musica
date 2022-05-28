@@ -56,6 +56,7 @@
         </nav>
 
     </header>
+    
     <main>
         <div>
             <h2 id="Pesquisa"> Busque por Instituições</h2>
@@ -63,7 +64,7 @@
         <form class="formulario">
             <legend class="titulo"> Encontre uma instituição perto de você.</legend><br>
             <div class="info">
-                Nome da instituição: <br><input type="text" name="nome"> <br><br>
+                Nome da Instituição: <br><input type="text" name="nome"> <br><br>
                 CNPJ: <br><input type="text" name="number"> <br><br>
                 Telefone: <br><input type="tel" name="number"> <br><br>
                 Cidade: <br><input type="text" name="cidade"><br><br>
@@ -71,6 +72,7 @@
             </div>
 
             <button class="Buscar">Buscar</button>
+
             <div id="lista">
                 <button onclick="processaDados()">Todas</button>
             </div>
@@ -117,6 +119,7 @@
 
         </div>
     </Footer>
+
     <script>
         var hospital = '';
         function processaDados() {
