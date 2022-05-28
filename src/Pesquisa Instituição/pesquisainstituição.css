@@ -98,24 +98,24 @@ input {
     width: 220px;
 }
 .Buscar{
-    background-color: darkblue;
+    background-color: white;
     border: 0;
     border-radius: 5px;
     width: 80px;
     height: 40px;
-    color: azure;
+    color: #006D77;
     font-size: 18px;
     margin-bottom: 10px;
 }
 
 button{
-    background-color: darkblue;
-    font-size: 15px;
+    background-color: white;
+    font-size: 18px;
     border: 0;
     border-radius: 5px;
     width: 80px;
     height: 40px;
-    color:azure;
+    color: #006D77;
     margin-bottom: 10px;
 }
 

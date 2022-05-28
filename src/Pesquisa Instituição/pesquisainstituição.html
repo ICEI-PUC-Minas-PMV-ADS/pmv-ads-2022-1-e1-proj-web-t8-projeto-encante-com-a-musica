@@ -72,7 +72,7 @@
 
             <button class="Buscar">Buscar</button>
             <div id="lista">
-                <button onclick="processaDados()">Pesquisar Todos</button>
+                <button onclick="processaDados()">Todas</button>
             </div>
 
             <h2>Resultado da Pesquisa</h2>
@@ -123,10 +123,10 @@
             for (i = 0; i < db_cadastro.dados.length; i++) {
                 hospital += `<p class="cadastro-item">${db_cadastro.dados[i].instituicao} <br> 
                     <img src="${db_cadastro.dados[i].imagem}"><br> 
-                    CNPJ:${db_cadastro.dados[i].cnpj}<br>
                     Telefone: ${db_cadastro.dados[i].telefone}<br>
                     Cidade: ${db_cadastro.dados[i].cidade}<br>
                     Estado: ${db_cadastro.dados[i].estado}<br>
+                    E-mail:${db_cadastro.dados[i].email}<br>
                     </p>`;
             }
 
