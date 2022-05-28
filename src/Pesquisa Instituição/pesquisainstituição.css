@@ -27,9 +27,9 @@ nav ul{
 }
 
 nav ul li{
-width: 100px;
-margin: 20px;
-padding: 20px;
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
 }
 
 nav ul li a{
@@ -64,7 +64,7 @@ nav ul li:hover .sub-menu-1 ul li:hover{
 }
 
 main{
-    height: 600px;
+    height: 1300px;
     background-color: #006D77;
     color: azure;
     font-family: sans-serif;
@@ -108,7 +108,50 @@ input {
     margin-bottom: 10px;
 }
 
+button{
+    background-color: darkblue;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    color:azure;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 30px;
+}
+
+.cadastro-item {
+    display: inline-block;
+    width: calc(33% - auto);
+    height: auto;
+    background-color:#ffddd2;
+    vertical-align: top;
+    margin-top: 20PX;
+    margin: 8px;
+    border: 1px solid #777;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 100%;
+    border-left: 20px;
+    color: black;
+    padding: 20px;
+}
+
+.cadastro-item > img {
+    display: inline-block;
+    padding: 8px;
+    width:auto;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom:10px;
+
+}
+
 footer{
+    clear: both;
     background-color: #61D095;
     padding: 20px 0;
     
