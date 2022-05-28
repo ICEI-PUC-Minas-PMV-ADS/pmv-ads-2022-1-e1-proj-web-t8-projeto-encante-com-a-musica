@@ -98,3 +98,26 @@ footer{
     color:  darkblue;
     text-decoration: none;
 }
+
+.footer-col h4{
+    color: darkblue;
+    text-decoration: none;
+}
+
+.form-sub input{
+    margin-top: 3px;
+    border-radius: 5px;
+    height: 25px;
+    width: 220px;
+}
+
+.Inscrever {
+    background-color: white;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+    color: darkblue;
+    margin-bottom: 5px;
+}
