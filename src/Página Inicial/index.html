@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="dbfake.js"></script>
   </head>
 
   <body>
@@ -51,37 +52,14 @@
     <main>
       <h2>Levando alívio em forma de Música!</h2>
 
-      <img class="destaque" src="img/Tratamento.jpg" />
+      <img class="destaque" src="" />
 
-      <section>
-        <div>
-          <h3>Luana Oliveira</h3>
-          <p>
-            <img src="https:source.unsplash.com/random/600x270?sig=0" />
-            "Quer que todos que recebam o diagnóstico de uma doença incurável
-            como a sua, possam ter o tratamento paliativo."
-          </p>
+      
+        <div id="lista-depoimentos" >
+         
         </div>
 
-        <div>
-          <h3>Amanda Ribeiro</h3>
-          <p>
-            <img src="https:source.unsplash.com/random/600x270?sig=2" />
-            "Levar a música como fonte para aliviar as dores e sofrimentos das
-            pessoas"
-          </p>
-        </div>
-
-        <div>
-          <h3>Hospital Nossa Senhora</h3>
-          <p>
-            <img src="https:source.unsplash.com/random/600x270?sig=3" />
-            "Oferecer um ambiente acolhedor para pacientes, familiares e
-            servidores"
-          </p>
-        </div>
-      </section>
-    </main>
+        </main>
 
     <footer>
       <div class="container-footer">
@@ -109,12 +87,21 @@
             <div class="form-sub">
               <form>
                 <input type="email" placeholder="Digite o seu email" required />
-                <button>Inscrever</button>
+                <button class="Inscrever">Inscrever</button>
               </form>
             </div>
           </div>
         </div>
       </div>
     </footer>
+    <script>
+      var depoimentos = '';
+      for (i=0; i < db.dados.length; i++) {
+          depoimentos += `<p class="cadastro-paciente">${ db.dados[i].nome} <br> <img src="${ db.dados[i]. img  }"><br>
+            ${ db.dados[i].texto}</p>`;
+       
+      }
+      document.getElementById('lista-depoimentos').innerHTML = depoimentos;  
+  </script>
   </body>
 </html>

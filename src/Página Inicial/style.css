@@ -64,7 +64,6 @@ nav ul li:hover .sub-menu-1 ul li:hover{
 }
 
 main {
-    height: 900px;
     width: auto;
     background-color: #006d77;
 }
@@ -76,19 +75,6 @@ main h2 {
     padding: 20px;
 }
 
-main h3 {
-    font-size: 120%;
-    color: black;
-    text-align: center;
-}
-
-main section div p{
-    font-size: 15pt;
-    text-align: center;
-    color: black;
-    font-style: italic;
-}
-
 .destaque{
     display: block;
     width: 40%;
@@ -98,28 +84,35 @@ main section div p{
     box-sizing: border-box;
 }
 
-main section div{
+.cadastro-paciente{
     display: inline-block;
     width: calc(33% - 16px);
-    height: 350px;
+    height: auto;
     background-color:#ffddd2;
     vertical-align: top;
     margin-top: 20PX;
     margin: 8px;
     border: 1px solid #777;
-    padding: 8px;
+    padding: 5px;
     border-radius: 8px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    text-align: center;
+    font-size: 100%;
+    font-style: italic;   
 }
 
-main div p img {
-    display: block;
-    width: 100%;
-    margin-bottom:10px;
+.cadastro-paciente > img {
+    padding: 8px;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
 
 }
 
 footer{
+    clear: both;
     background-color: #61D095;
     padding: 20px 0;
     color: darkblue;
@@ -147,4 +140,22 @@ footer{
 .footer-col a {
     color: darkblue;
     text-decoration: none;
+}
+
+.form-sub input{
+    margin-top: 3px;
+    border-radius: 5px;
+    height: 25px;
+    width: 220px;
+}
+
+.Inscrever {
+    background-color: white;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+    color: darkblue;
+    margin-bottom: 5px;
 }

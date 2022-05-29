@@ -100,8 +100,8 @@ input {
     background-color: white;
     border: 0;
     border-radius: 5px;
-    width: 80px;
-    height: 40px;
+    width: 70px;
+    height: 30px;
     color: #006D77;
     font-size: 18px;
     margin-bottom: 10px;
@@ -112,21 +112,17 @@ input {
     font-size: 18px;
     border: 0;
     border-radius: 5px;
-    width: 80px;
-    height: 40px;
+    width: 70px;
+    height: 30px;
     color: #006D77;
     margin-bottom: 10px;
-}
-
-h2 {
-    margin: 30px;
 }
 
 .cadastro-item {
     display: inline-block;
     width: calc(33% - auto);
     height: auto;
-    background-color:#ffddd2;
+    background-color:#7f7979;
     vertical-align: top;
     margin-top: 20PX;
     margin: 8px;
@@ -135,7 +131,7 @@ h2 {
     box-sizing: border-box;
     font-size: 100%;
     border-left: 20px;
-    color: black;
+    color:white;
     padding: 20px;
 }
 
@@ -145,7 +141,7 @@ h2 {
     width:auto;
     margin-left: 8px;
     margin-right: 8px;
-    margin-bottom:10px;
+    margin-bottom:20px;
 
 }
 
