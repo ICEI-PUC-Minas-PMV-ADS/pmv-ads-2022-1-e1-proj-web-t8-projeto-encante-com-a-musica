@@ -70,6 +70,21 @@ main {
 
 }
 
+h1{
+    text-align: center;
+    color: azure;
+    
+}
+
+.informacao {
+    width: 60%;
+    font-size: 18px;
+    text-align: justify;
+    color: azure;
+    padding: 30px;
+
+}
+
 footer{
     background-color: #61D095;
     color:  darkblue;
