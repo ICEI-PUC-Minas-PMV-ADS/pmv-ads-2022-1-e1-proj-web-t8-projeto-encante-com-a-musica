@@ -18,14 +18,14 @@
         <nav>
             <h1><img src="img/logo.png"></h1>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li>
                     <a href="#">Sobre</a>
 
                     <div class="sub-menu-1">
                         <ul>
                             <li><a href="#">História do projeto</a></li>
-                            <li><a href="#">Informação sobre tratamento paliativo</a></li>
+                            <li><a href="sobre.html">Informação sobre tratamento paliativo</a></li>
                         </ul>
                     </div>
                 </li>
@@ -34,7 +34,7 @@
 
                     <div class="sub-menu-1">
                         <ul>
-                            <li><a href="#">Cadastrar</a></li>
+                            <li><a href="Cadastro_de_vol.html">Cadastrar</a></li>
                             <li><a href="#">Busque por voluntários</a></li>
                         </ul>
                     </div>
@@ -45,13 +45,13 @@
                     <div class="sub-menu-1">
                         <ul>
                             <li><a href="cadastroinstituicao.html">Cadastrar</a></li>
-                            <li><a href="#">Busque por Instituição</a></li>
+                            <li><a href="pesquisainstituição.html">Busque por Instituição</a></li>
                         </ul>
                     </div>
                 </li>
 
                 <li><a href="#">Notícias</a></li>
-                <li><a href="#">Doação</a></li>
+                <li><a href="doacao.html">Doação</a></li>
             </ul>
         </nav>
 
@@ -145,6 +145,18 @@
     </Footer>
 </body>
 <script>
-    
+    var sel = '';
+		for(i=0; i< dados.estados.length; i++) {
+			sel += `<option>${dados.estados[i].nome}</option>`;
+		}
+		
+		document.getElementById('sel_estado').innerHTML = sel;
+
+    var select = '';
+        for(i=0; i< dados.estados.length;i++){
+            select += `<option>${dados.estados[i].nome}</option>`;
+        }
+
+        document.getElementById('sel_cidade').innerHTML = select;
 </script>
 </html>

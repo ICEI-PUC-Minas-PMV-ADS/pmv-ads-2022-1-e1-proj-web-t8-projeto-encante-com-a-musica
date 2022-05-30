@@ -1,4 +1,4 @@
-var db = {
+var dados = {
 estados: [
     {
       "sigla": "AC",
