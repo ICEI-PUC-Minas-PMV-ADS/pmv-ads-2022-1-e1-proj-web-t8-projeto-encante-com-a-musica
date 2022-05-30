@@ -61,35 +61,50 @@
             <h1 id="cadastro"> Cadastro de instituição</h1>
         </div>
         <form class="formulario">
-            
-                <legend class="titulo"> Se sua empresa médica/hospitalar deseja participar desse projeto <br> que só cresce
-                    em todo o
-                    Brasil, faça seu cadastro:</legend><br>
-                <div class="info">
-                    <label for="nome">Razão Social:</label><br>
-                    <input type="text" name="nome" required> <br><br>
 
-                    <label for="cnpj">CNPJ:</label> <br>
-                    <input type="text" name="cnpj" required> <br><br>
+            <legend class="titulo"> Se sua empresa médica/hospitalar deseja participar desse projeto <br> que só cresce
+                em todo o
+                Brasil, faça seu cadastro:</legend><br>
+            <div class="info">
+                <label for="nome">Razão Social:</label><br>
+                <input type="text" name="nome" required> <br><br>
 
-                    <label for="telefone">Telefone: </label><br>
-                    <input type="tel" name="telefone" required> <br><br>
+                <label for="cnpj">CNPJ:</label> <br>
+                <input type="text" name="cnpj" required> <br><br>
+
+                <label for="telefone">Telefone: </label><br>
+                <input type="tel" name="telefone" required> <br><br>
+            </div>
+
+            <div class="info">
+                <label for="estados"> Estado: </label> <br>
+                <select id="sel_estado" required>
+                    <option selected disabled value="">Selecione um Estado</option>
+                </select> <br><br>
+            </div>
+
+            <div class="info">
+                <label for="cidade"> Cidade: </label> <br>
+                <select id="sel_cidade" required>
+                    <option selected disabled value="">Selecione uma cidade</option>
+                </select> <br><br>
+            </div>
+
+            <div class="info">
+                <label for="email">E-mail:</label> <br>
+                <input type="email" name="email" required><br><br>
+
+                <label for="senha">Senha:</label> <br>
+                <input type="password" name="senha" required><br><br>
+
+                <label for="confirmasenha">Confirmação de senha:</label><br>
+                <input type="password" name="confirmasenha" required><br><br>
+
+            </div>
+
+            <button type="submit" class="enviar">Enviar </button>
 
 
-                    <label for="email">E-mail:</label> <br>
-                    <input type="email" name="email" required><br><br>
-
-                    <label for="senha">Senha:</label> <br>
-                    <input type="password" name="senha" required><br><br>
-
-                    <label for="confirmasenha">Confirmação de senha:</label><br>
-                    <input type="password" name="confirmasenha" required><br><br>
-
-                </div>
-
-                <button type="submit" class="enviar">Enviar </button>
-
-            
         </form>
 
     </main>
@@ -129,5 +144,7 @@
         </div>
     </Footer>
 </body>
-
+<script>
+    
+</script>
 </html>

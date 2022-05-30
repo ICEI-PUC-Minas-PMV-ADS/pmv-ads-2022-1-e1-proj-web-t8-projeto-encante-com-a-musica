@@ -93,6 +93,14 @@ input {
     width: 25%;
     height: 30px;
 }
+
+.info select { 
+    margin: 5px 0;
+    border-radius: 5px;
+    width: 25%;
+    height: 30px;    
+}
+
 .enviar{
     background-color: darkblue;
     border: 0;
