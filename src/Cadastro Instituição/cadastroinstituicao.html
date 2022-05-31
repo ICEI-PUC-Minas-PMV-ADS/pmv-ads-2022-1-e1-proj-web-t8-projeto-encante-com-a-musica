@@ -153,7 +153,7 @@
     document.getElementById('sel_estado').innerHTML = sel;
 
     document.getElementById('sel_estado').addEventListener('change', event => {
-       let select = '';
+        let select = '';
         let estado = dados.estados.find(estado => estado.nome == event.target.value)
         estado.cidades.forEach(cidade => {
             select += `<option>${cidade.nome}</option>`;
@@ -163,8 +163,8 @@
 
 
 
-   
-    
+
+
 
 </script>
 
