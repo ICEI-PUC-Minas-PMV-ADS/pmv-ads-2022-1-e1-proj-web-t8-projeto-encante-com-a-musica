@@ -146,17 +146,26 @@
 </body>
 <script>
     var sel = '';
-		for(i=0; i< dados.estados.length; i++) {
-			sel += `<option>${dados.estados[i].nome}</option>`;
-		}
-		
-		document.getElementById('sel_estado').innerHTML = sel;
+    for (i = 0; i < dados.estados.length; i++) {
+        sel += `<option>${dados.estados[i].nome}</option>`;
+    }
 
-    var select = '';
-        for(i=0; i< dados.estados.length;i++){
-            select += `<option>${dados.estados[i].nome}</option>`;
-        }
+    document.getElementById('sel_estado').innerHTML = sel;
 
+    document.getElementById('sel_estado').addEventListener('change', event => {
+       let select = '';
+        let estado = dados.estados.find(estado => estado.nome == event.target.value)
+        estado.cidades.forEach(cidade => {
+            select += `<option>${cidade.nome}</option>`;
+        })
         document.getElementById('sel_cidade').innerHTML = select;
+    })
+
+
+
+   
+    
+
 </script>
+
 </html>
