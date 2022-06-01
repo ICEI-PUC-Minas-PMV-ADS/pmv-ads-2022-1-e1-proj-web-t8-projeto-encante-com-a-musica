@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" type="text/css" href="faleconosco.css">
+    <link rel="stylesheet" media="screen and (max-device-height: 900px)" href="tela_g.css" />
+    <link rel="stylesheet" media="screen and (max-device-height: 600px)" href="tela_p.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1><img src="img/logo.png"></h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">História do projeto</a></li>
+                            <li><a href="#">Informação sobre tratamento paliativo</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Voluntários</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">Cadastrar</a></li>
+                            <li><a href="#">Busque por voluntários</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Instituição</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="cadastroinstituicao.html">Cadastrar</a></li>
+                            <li><a href="#">Busque por Instituição</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Doação</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="campo">
+            <h1 id="Título">Fale Conosco</h1>
+            <br>
+        </div>
+
+        <div class="campo">
+            <p id="Subtítulo">Projeto Encante com Música</p>
+            <p id="Subtítulo">CNPJ: 90.953.453/0001-00</p>
+            <p id="Subtítulo">TEL:(031) 1234-1235</p>
+            <p id="Subtítulo">Endereço: Rua Grupo Oito Team, 04 - CEP: 25462-123 - MG</p>
+            <p id="Subtítulo">Email: encante@musica.org</p>
+            <br>
+        </div>
+
+        <form>
+            <div class="campo">
+                <legend>Por favor, Informe seus dados pessoais.</legend>
+            </div>
+
+            <div class="campo">
+                <Label for="nome">Nome</Label>
+                <input type="text" pattern="([aA-zZ]+)"name="nome" id="nome" placeholder="Apenas Letras" required><br>
+            </div>
+
+            <div class="campo">
+                <Label for="nome">Sobrenome</Label>
+                <input type="text" pattern="([aA-zZ]+)"name="nome" id="nome" placeholder="Apenas Letras" required><br>
+            </div>
+
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" placeholder="example@example.com" required><br>
+            </div>
+
+            <div class="campo">
+                <label for="Tel">Telefone</label>
+                <input type="tel" name="Tel" placeholder="Digite seu telefone"><br>
+            </div>
+
+            <div class="campo">
+                <label for="Quem">Quem:</label>
+                <select name="Quem" required>
+                    <option value=""> Selecione uma opção</option>
+                    <option value="Voluntário">Voluntário</option>
+                    <option value="Paciente">Paciente</option>
+                    <option value="Familiar">Familiar</option>
+                    <option value="Instituição">Instituição</option>
+                    <option value="Outros">Outros</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="Assunto">Assunto:</label>
+                <select name="Assunto" required>
+                    <option value=""> Selecione uma opção</option>
+                    <option value="Dúvida">Dúvida</option>
+                    <option value="Solicitação de Visita">Solicitação de Visita</option>
+                    <option value="Sugestão">Sugestão</option>
+                    <option value="Reclamação">Reclamação</option>
+                    <option value="Outros">Outros</option>
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+                <div class="campo">
+                    Por favor, digite uma mensagem.<br />
+                </div>
+
+                <div class="campo">
+                    <textarea name="Digite uma mensagem" id="" cols="50" rows="5" required></textarea>
+                </div>
+            </fieldset>
+
+            <button class="botão" type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <Footer>
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="footer-col">
+                    <ul>
+                        <li> <a href="#">Fale Conosco</a></li>
+                        <li> <a href="#">Conheça o time</a></li>
+                        <li> <a href="#">Eventos</a></li>
+                        <li> <a href="#">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col ">
+                    <ul>
+                        <li> <a href="#">Política de Privacidade</a></li>
+                        <li> <a href="#">Imprensa</a></li>
+                        <li> <a href="#">Cookies</a></li>
+                        <li> <a href="#">Termos de Uso</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Informativo</h4>
+                    <div class="form-sub">
+                        <form>
+                            <input type="email" placeholder="Digite o seu email" required>
+                            <button class="Inscrever">Inscrever</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </Footer>
+
+</body>
+
+</html>
