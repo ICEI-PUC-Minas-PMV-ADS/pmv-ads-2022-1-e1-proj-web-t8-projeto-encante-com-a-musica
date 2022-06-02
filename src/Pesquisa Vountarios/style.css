@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    height:120px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-left: 30px;
+}
+nav{
+    background-color: #61D095;
+    text-align: right;
+    height: 120px;
+}
+
+nav ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+nav ul li{
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.sub-menu-1{
+    display: none;
+}
+nav ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color:#61D095;
+    margin-top: 15px;
+    margin-left: -38px;
+}
+
+nav ul li:hover .sub-menu-1 ul{
+    display: block;
+}
+
+nav ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+nav ul li:hover .sub-menu-1 ul li:hover{
+    background-color: #2cc2e7cd;
+}
+
+
+main {
+    height: 850px;
+    background-color: #006D77;
+
+}
+legend{
+    font-size: 20px;
+}
+form{
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+button{
+    color:#006D77;
+    font-size: 15px;
+}
+#grp{
+    width: 220;
+    color: white;
+    float: left;
+    margin-left: 50px;
+}
+#vol{
+    width: 25%;
+    float: left;
+    margin-top: 15px;
+    color:azure;
+}
+
+
+footer{
+    background-color: #61D095;
+    color:  darkblue;
+    padding: 20px 0;
+
+}
+.container-footer{
+    max-width: 1400 px;
+    padding: 0 2%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 30%;
+    padding: 0 25px;
+}
+
+.footer-col ul {
+    list-style: none;
+    line-height: 1.6;
+}
+.footer-col a {
+    color:  darkblue;
+    text-decoration: none;
+}
+
+.footer-col h4{
+    color: darkblue;
+    text-decoration: none;
+}
+
+.form-sub input{
+    margin-top: 3px;
+    border-radius: 5px;
+    height: 25px;
+    width: 220px;
+}
+
+.Inscrever {
+    background-color: white;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+    color: darkblue;
+    margin-bottom: 5px;
+}
