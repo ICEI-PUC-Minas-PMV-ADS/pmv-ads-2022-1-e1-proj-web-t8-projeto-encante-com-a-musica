@@ -90,6 +90,7 @@ main {
 #Subtítulo {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    line-height: 1.6;
 }
 
 fieldset {
