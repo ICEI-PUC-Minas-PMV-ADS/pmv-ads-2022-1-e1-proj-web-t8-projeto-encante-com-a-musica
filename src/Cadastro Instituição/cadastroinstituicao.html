@@ -60,7 +60,7 @@
         <div>
             <h1 id="cadastro"> Cadastro de instituição</h1>
         </div>
-        <form class="formulario">
+        <form class="formulario" method="post" name="cadastro">
 
             <legend class="titulo"> Se sua empresa médica/hospitalar deseja participar desse projeto <br> que só cresce
                 em todo o
@@ -70,10 +70,10 @@
                 <input type="text" name="nome" required> <br><br>
 
                 <label for="cnpj">CNPJ:</label> <br>
-                <input type="text" name="cnpj" required> <br><br>
+                <input type="number" id="cnpj" name="cnpj" required maxlengh="14"> <br><br>
 
                 <label for="telefone">Telefone: </label><br>
-                <input type="tel" name="telefone" required> <br><br>
+                <input type="number" name="telefone" required> <br><br>
             </div>
 
             <div class="info">
@@ -95,10 +95,10 @@
                 <input type="email" name="email" required><br><br>
 
                 <label for="senha">Senha:</label> <br>
-                <input type="password" name="senha" required><br><br>
+                <input type="password" name="senha" required maxlength="10"><br><br>
 
                 <label for="confirmasenha">Confirmação de senha:</label><br>
-                <input type="password" name="confirmasenha" required><br><br>
+                <input type="password" name="confirmasenha" required maxlength="10"><br><br>
 
             </div>
 
@@ -160,12 +160,6 @@
         })
         document.getElementById('sel_cidade').innerHTML = select;
     })
-
-
-
-
-
-
 </script>
 
 </html>
