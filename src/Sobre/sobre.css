@@ -70,7 +70,7 @@ main {
     height: 600px;
 }
 
-h1{
+#sobre {
     text-align: center;
     color: azure;
     display: block;
@@ -81,24 +81,33 @@ h1{
 .info {
     font-size: 18px; 
     color: azure;
-    padding: 30px 150px 80px 150px;
+    padding: 30px 150px 0px 150px;
     display: block;
     
 }
 
-h2{
-    color: darkblue;
-    padding: 80px 0 30px 150px;
+#saiba_mais {
+    color: azure;
+    padding: 40px 0 30px 150px;
 }
 
-#link {
-    text-decoration: none;
-    color: darkblue;
+.lista-artigos {
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+    padding: 30px;
+    text-align: justify;
     font-size: 20px;
-    padding: 0 0 0 150px;
- 
-
+    color: black;
+    vertical-align: middle;
+    border: 1px solid #13e9ba;
+    border-radius: 10px;
+    background-color: #13e9ba;
+    box-sizing:border-box;
+    margin: 20px;
+    margin-left: 150px;
 }
+
 footer{
     background-color: #61D095;
     color:  darkblue;

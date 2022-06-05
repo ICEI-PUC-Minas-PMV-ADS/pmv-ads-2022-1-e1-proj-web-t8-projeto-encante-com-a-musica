@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre tratamento paliativo</title>
     <link rel="stylesheet" href="sobre.css">
+    <script src="db_fake.js"></script>
    
 </head>
 
@@ -50,7 +51,7 @@
     </header>
 
     <main>
-        <h1> Informações sobre Tratamento Paliativo </h1>
+        <h1 id="sobre"> Informações sobre Tratamento Paliativo </h1>
         <div class="info" >
             <p class="sobre">Segundo a OMS (2016), tratamento paliativo consiste em aliviar o sofrimento físico, psicossocial e espiritual
             com atenção aos pacientes com doenças potencialmente fatais e a seus familiares, através de assistência
@@ -60,10 +61,14 @@
             desnecessárias. </p>
         </div>    
 
-        <div id="mais_info">
-            <h2>Saiba mais:</h2>
-            <a href="#" id="link">Link</a> 
+    
+        <h2 id="saiba_mais">Artigos científicos publicados:</h2>
+           
+        <div id="lista-links">
+
         </div>
+           
+        
     </main>
 
     <Footer>
@@ -101,7 +106,15 @@
 
         </div>
     </Footer>
-
+<script>
+    var arts = '';
+    for(i=0; i < db.artigos.length; i++) {
+        arts += `<p class="lista-artigos"><strong>${ db.artigos[i].titulo}</strong> <br>
+        <br>${ db.artigos[i].autor}<br>
+        <br><a href="${db.artigos[i].link}">Saiba mais...</a></p>`;      
+    }
+    document.getElementById('lista-links').innerHTML = arts;
+</script>
 </body>
 
 </html>
