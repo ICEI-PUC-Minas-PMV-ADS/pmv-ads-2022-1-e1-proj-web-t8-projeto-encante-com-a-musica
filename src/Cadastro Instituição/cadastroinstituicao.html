@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Instituição</title>
     <link rel="stylesheet" href="cadastroinstituicao.css">
-    <link rel="stylesheet" media="screen and (min-device-height: 900px)" href="tela_g.css" />
-    <link rel="stylesheet" media="screen and (max-device-height: 600px)" href="tela_p.css" />
     <script type="text/javascript" src="cad_in.js"></script>
+    <link rel="stylesheet" media="screen and (max-device-height: 600px)" href="tela_p.css" />
+    <link rel="stylesheet" media="screen and (max-device-height: 900px)" href="tela_g.css" />
 </head>
 
 <body>
@@ -45,7 +45,8 @@
                     <div class="sub-menu-1">
                         <ul>
                             <li><a href="../Cadastro Instituição/cadastroinstituicao.html">Cadastrar</a></li>
-                            <li><a href="../Pesquisa Instituição/pesquisainstituição.html">Busque por Instituição</a></li>
+                            <li><a href="../Pesquisa Instituição/pesquisainstituição.html">Busque por Instituição</a>
+                            </li>
                         </ul>
                     </div>
                 </li>
@@ -70,10 +71,10 @@
                 <input type="text" name="nome" required> <br><br>
 
                 <label for="cnpj">CNPJ:</label> <br>
-                <input type="number" id="cnpj" name="cnpj" required maxlengh="14"> <br><br>
+                <input type="number" id="cnpj" name="cnpj" maxlength="14" required> <br><br>
 
                 <label for="telefone">Telefone: </label><br>
-                <input type="number" name="telefone" required> <br><br>
+                <input type="tel" name="phone" required> <br><br>
             </div>
 
             <div class="info">
@@ -113,7 +114,7 @@
             <div class="row-footer">
                 <div class="footer-col">
                     <ul>
-                        <li> <a href="../Página Fale Conosco/faleconosco.html">Fale Conosco</a></li>
+                        <li> <a href="#">Fale Conosco</a></li>
                         <li> <a href="#">Conheça o time</a></li>
                         <li> <a href="#">Eventos</a></li>
                         <li> <a href="#">Blog</a></li>
@@ -134,7 +135,7 @@
                     <div class="form-sub">
                         <form>
                             <input type="email" placeholder="Digite o seu email" required>
-                            <button>Inscrever</button>
+                            <button class="Inscrever">Inscrever</button>
                         </form>
                     </div>
                 </div>
