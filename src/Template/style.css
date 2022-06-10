@@ -63,6 +63,12 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     background-color: #2cc2e7cd;
 }
 
+#login {
+    width: 120px;
+    height: 120px;
+    float: right;
+    margin: 0;
+}
 
 main {
     height: 520px;
