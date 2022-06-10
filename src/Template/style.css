@@ -64,10 +64,11 @@ nav ul li:hover .sub-menu-1 ul li:hover{
 }
 
 #login {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     float: right;
     margin: 0;
+    margin-top: 16px;
 }
 
 main {
