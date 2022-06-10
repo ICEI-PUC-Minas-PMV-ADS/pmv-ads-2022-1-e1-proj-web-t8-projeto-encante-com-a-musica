@@ -69,7 +69,7 @@ nav ul li:hover .sub-menu-1 ul li:hover {
 
 main {
     background-color: #006D77;
-    height: 800px;
+    height: 950px;
 }
 
 #sobre {
@@ -77,27 +77,26 @@ main {
     color: azure;
     display: block;
     padding-top: 20px;
-    ;
 
 }
 
 .info {
     font-size: 18px;
     color: azure;
-    padding: 30px 150px 0px 150px;
     display: block;
+    text-align: justify;
+    padding: 10px 30px 10px 30px;
 
 }
 
 #saiba_mais {
     color: azure;
-    padding: 40px 0 30px 150px;
+    padding: 40px 0 30px 30px;
 }
-
 .lista-artigos {
     display: inline-block;
-    width: 350px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     padding: 30px;
     text-align: justify;
     font-size: 18px;
@@ -107,8 +106,7 @@ main {
     border-radius: 10px;
     background-color: #13e9ba;
     box-sizing: border-box;
-    margin: 20px;
-    margin-left: 150px;
+    margin: 10px 10px 20px 30px;
 }
 
 .lista-artigos:hover {
@@ -116,22 +114,25 @@ main {
     color: darkblue;
 }
 
-footer{
+footer {
     background-color: #61D095;
-    color:  darkblue;
+    color: darkblue;
     padding: 20px 0;
-    
+
 }
-.container-footer{
+
+.container-footer {
     max-width: 1400 px;
     padding: 0 2%;
     margin: auto;
 }
-.row-footer{
+
+.row-footer {
     display: flex;
     flex-wrap: wrap;
 }
-.footer-col{
+
+.footer-col {
     width: 30%;
     padding: 0 25px;
 }
@@ -140,17 +141,18 @@ footer{
     list-style: none;
     line-height: 1.6;
 }
-.footer-col a {
-    color:  darkblue;
-    text-decoration: none;
-}
 
-.footer-col h4{
+.footer-col a {
     color: darkblue;
     text-decoration: none;
 }
 
-.form-sub input{
+.footer-col h4 {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.form-sub input {
     margin-top: 3px;
     border-radius: 5px;
     height: 25px;
@@ -170,6 +172,108 @@ footer{
 
 @media (max-width: 600px) {
 
+    header {
+        box-sizing: border-box;
+        background-color: #61D095;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+
+    header img {
+        position: relative;
+        background-color: #61D095;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    nav ul li {
+        position: relative;
+        left: 0;
+        width: 100%;
+        border: 0;
+        padding: 7px;
+        margin: 0;
+        height: 55px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-flow: row;
+        font-size: small;
+
+    }
+
+    .sub-menu-1 {
+        font-size: xx-small;
+        position: relative;
+        bottom: -100PX;
+        border: 5PX;
+    }
+
+}
+
+@media (max-width:600px) {
+    main {
+        width: 100%;
+        height: 1400px;
+        display: block;
+        justify-content: center;
+        padding-top: 40px;
+    }
+    #sobre{
+        padding-top: 30px;
+    }
+    .info{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    #saiba_mais {
+        display: block;
+        width: 100%;
+
+    }
+
+    .lista-artigos {
+        display: block;
+        margin-left: 40px;
+        width: 80%;
+        align-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    footer {
+        position: absolute;
+        flex-wrap: wrap;
+        font-size: x-small;
+        clear: both;
+    }
+
+    .form-sub input {
+        margin-top: 3px;
+        border-radius: 5px;
+        height: 25px;
+        width: 100px;
+        font-size: x-small;
+    }
+
+    .Inscrever {
+        background-color: white;
+        font-size: 10px;
+        border: 0;
+        border-radius: 5px;
+        width: 50px;
+        height: 25px;
+        color: darkblue;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (max-width: 900px) {
     header {
         box-sizing: border-box;
         background-color: #61D095;
@@ -214,60 +318,47 @@ footer{
     }
 
 }
-@media (max-width:600px) {
+@media (max-width: 900px) {
     main {
         display: block;
-    }
-
-    .info {
-        display: inline-block;
-        text-align: justify;
-        width: 80%;
-        height: 40%;
-}
-}
-@media (max-width: 600px) {
-    footer {
-
-        position: absolute;
-        flex-wrap: wrap;
-        font-size: x-small;
-    }
-
-    .form-sub input {
-        margin-top: 3px;
-        border-radius: 5px;
-        height: 25px;
-        width: 100px;
-        font-size: x-small;
-    }
-
-    .Inscrever {
-        background-color: white;
-        font-size: 10px;
-        border: 0;
-        border-radius: 5px;
-        width: 50px;
-        height: 25px;
-        color: darkblue;
-        margin-bottom: 5px;
-    }
-
-}
-
-@media (max-width: 900px) {
-
-    main {
-        height: 900px;
-        margin: 10px;
         justify-content: center;
-        margin-top: 100px;
+        padding-top: 20px;
     }
+    .lista-artigos {
+        display: block;
+        margin-left: 40px;
+        width: 80%;
+        height: 15%;
 
+    }
+}
     @media (max-width: 900px) {
         footer {
+            position: absolute;
+            flex-wrap: wrap;
+            font-size: x-small;
+            clear: both;
+            width: 100%;
+        }
+    
+        .form-sub input {
+            margin-top: 3px;
+            border-radius: 5px;
+            height: 25px;
+            width: 100px;
             font-size: x-small;
         }
+    
+        .Inscrever {
+            background-color: white;
+            font-size: 10px;
+            border: 0;
+            border-radius: 5px;
+            width: 50px;
+            height: 25px;
+            color: darkblue;
+            margin-bottom: 5px;
+        }
+    
     }
 
-}
