@@ -216,10 +216,22 @@ footer{
     main {
     height: 900px;
     display: block;
-    margin: 5px;
     justify-content: center;
-    margin-top: 100px;  
-     }
+    padding-top: 30px;
+    }
+    .titulo {
+        padding: 8px;
+    }
+    input{
+        width: 50%;
+    }
+    .info select{
+        width: 50%;
+    }
+    .enviar {
+        width: 20%;
+        margin-bottom: 10px;
+    }
     }
 @media (max-width: 600px) {
     footer {
@@ -254,9 +266,7 @@ footer{
 
     main {
         height: 900px;
-        margin: 10px;
         justify-content: center;
-        margin-top: 100px;
     }
 
     @media (max-width: 900px) {
