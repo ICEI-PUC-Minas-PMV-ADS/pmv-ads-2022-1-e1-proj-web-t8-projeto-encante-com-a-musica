@@ -73,7 +73,7 @@ main{
     background-color: #006D77;
     color: azure;
     font-family: sans-serif;
-    height: 1200px;
+    height: 900px;
 }
 
 #cadastro {
@@ -218,10 +218,8 @@ footer{
 
     #login {
         background-color:#006D77;
-        width: 40px;
-        height:30px;
-        margin: 15px;
-        margin-top: 10px;     
+        width: 30px;
+        height:30px;   
         }
     
 }
@@ -229,8 +227,9 @@ footer{
 
 @media (max-width: 600px) {
     main {
-    justify-content: center;
-    padding-top: 30px;
+        width: 100%;
+        display: block;
+        justify-content: center;
     }
 
     #cadastro{
@@ -252,7 +251,6 @@ footer{
     }
 @media (max-width: 600px) {
     footer {
-
         position: absolute;
         flex-wrap: wrap;
         font-size: x-small;
