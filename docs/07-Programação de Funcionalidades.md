@@ -106,7 +106,7 @@ Na Tela de Login, o usuário poderá escolher uma das opções, logar como Vol
 **Endereço do vídeo:**
 
 
-### Etapa 4
+# Etapa 4
 
 ## Responsável: Karen Noguti
 
