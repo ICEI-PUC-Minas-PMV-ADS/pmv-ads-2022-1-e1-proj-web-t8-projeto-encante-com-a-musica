@@ -28,7 +28,7 @@ nav ul{
 
 nav ul li{
 width: 100px;
-margin: 20px;
+margin: 27px;
 padding: 20px;
 }
 
@@ -40,6 +40,7 @@ nav ul li a{
 .sub-menu-1{
    display: none;
 }
+
 nav ul li:hover .sub-menu-1{
    display: block;
    position: absolute;
@@ -64,8 +65,16 @@ nav ul li:hover .sub-menu-1 ul li:hover{
    transform: translate(-3%, -3%);
 }
 
+#login {
+   width: 70px;
+   height: 70px;
+   float: right;
+   margin: 0;
+   margin-top: 22px;
+}
+
 main{
-   height: 800px;
+   height: 850px;
    background-color: #006D77;
    color: azure;
    font-family: sans-serif;
@@ -83,13 +92,17 @@ fieldset {
 .formulario {
    text-align:center;
 }
+
 .titulo{
    padding-top: 20px;
    font-size: 20px;
 }
 
-.info{
-   font-size: 15px;
+.info select { 
+   margin-top: 3px;
+   border-radius: 5px;
+   width: 220px;
+   height: 25px;    
 }
 
 input {
@@ -98,6 +111,7 @@ input {
    height: 25px;
    width: 220px;
 }
+
 .enviar{
    background-color: darkblue;
    border: 0;
@@ -120,19 +134,24 @@ input {
 }
 
 footer{
+   clear: both;
    background-color: #61D095;
    padding: 20px 0;
+   color: darkblue;
    
 }
+
 .container-footer{
    max-width: 1400 px;
    padding: 0 2%;
    margin: auto;
 }
+
 .row-footer{
    display: flex;
    flex-wrap: wrap;
 }
+
 .footer-col{
    width: 30%;
    padding: 0 25px;
@@ -148,6 +167,28 @@ footer{
    text-decoration: none;
 }
 
-.inscrever, select{
+.form-sub input{
+   margin-top: 3px;
+   border-radius: 5px;
+   height: 25px;
+   width: 220px;
+}
+
+.Inscrever {
+   background-color: white;
+   font-size: 15px;
+   border: 0;
+   border-radius: 5px;
+   width: 80px;
+   height: 25px;
+   color: darkblue;
+   margin-bottom: 5px;
+}
+
+.Inscrever, select{
    cursor: pointer;
+}
+
+.Inscrever:hover{
+   background: rgb(231, 220, 220);
 }
