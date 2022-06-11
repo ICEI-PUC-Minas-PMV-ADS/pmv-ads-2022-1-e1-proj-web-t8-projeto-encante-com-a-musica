@@ -78,7 +78,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 |Casos de Teste|CT-09 – Visualizar grupos  cadastrados d.a página Busque por Voluntários |
 |-----|-----|
-|Requisitos Associados  |RF-01 - O site deve apresentar na página principal notícias dinâmicas obtidas por meio de canais de notícias da Internet (API) <br>RF-02 - O site deve apresentar, para cada notícia, uma imagem correspondente ao assunto apresentado (thumbnail) |
+|Requisitos Associados  |RF- 07 - O site deve permitir que o voluntário pesquise instituições e grupos cadastrados.  |
 |Objetivo do Teste  |Verificar se o banco de dados contendo os dados dos grupos cadastrados será carregado corretamente |
 |Passos|1) Acessar o Navegador <br>2) Informar o endereço do Site<br> 3) Visualizar a página principal <br>4) Ir até o menu Voluntários<br> 5) Clicar no sub-menu Busque por Voluntários |
 |Critérios de Êxito|Ao clicar em grupos cadastrados deverá aparecer as informações dos grupos contidas no banco de dados |
