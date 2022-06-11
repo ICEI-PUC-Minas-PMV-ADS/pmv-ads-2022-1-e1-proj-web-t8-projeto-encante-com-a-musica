@@ -16,20 +16,20 @@
         <nav>
             <h1><img src="img/logo.png"></h1>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="../Pagina_inicial/index.html">Home</a></li>
                 <li><a href="#">Sobre</a>
                     <div class="sub-menu-1">
                         <ul>
                             <li><a href="#">História do projeto</a></li>
-                            <li><a href="#">Informação sobre tratamento paliativo</a></li>
+                            <li><a href="../Sobre/sobre.html">Informação sobre tratamento paliativo</a></li>
                         </ul>
                     </div>
                 </li>
                 <li><a href="#">Voluntários</a>
                     <div class="sub-menu-1">
                         <ul>
-                            <li><a href="#">Cadastrar</a></li>
-                            <li><a href="#">Busque por voluntários</a></li>
+                            <li><a href="../Cadastro Voluntários/Cadastro_de_vol.html">Cadastrar</a></li>
+                            <li><a href="../Pesquisa Voluntarios/Pesquisa_Voluntários.html">Busque por voluntários</a></li>
                         </ul>
                     </div>
                 </li>
@@ -37,22 +37,23 @@
                     <a href="#">Instituição</a>
                     <div class="sub-menu-1">
                         <ul>
-                            <li><a href="cadastroinstituicao.html">Cadastrar</a></li>
-                            <li><a href="#">Busque por Instituição</a></li>
+                            <li><a href="../Cadastro_instituicao/cadastroinstituicao.html">Cadastrar</a></li>
+                            <li><a href="../Pesquisa Instituição/pesquisainstituição.html">Busque por Instituição</a></li>
                         </ul>
                     </div>
                 </li>
 
                 <li><a href="#">Notícias</a></li>
-                <li><a href="#">Doação</a></li>
+                <li><a href="../Página Doação/doacao.html">Doação</a></li>
             </ul>
+            <a href="../login-page/login.html"><img src="img/login.png" id="login"></a>
         </nav>
 
     </header>
 
     <main>
         <form name="busca_voluntario">
-            <legend>Pesquise se há grupos e voluntários na sua cidade ou se preferir, busque por categorias instrumentais e categorias
+            <legend><br>Pesquise se há grupos e voluntários na sua cidade ou se preferir, busque por categorias instrumentais e categorias
                 de vozes</legend><br>
             <label for="estado">Estado:</label><br>
             <select id="estadoss">
@@ -95,7 +96,7 @@
             <div class="row-footer">
                 <div class="footer-col">
                     <ul>
-                        <li> <a href="#">Fale Conosco</a></li>
+                        <li> <a href="../Página Fale Conosco/faleconosco.html">Fale Conosco</a></li>
                         <li> <a href="#">Conheça o time</a></li>
                         <li> <a href="#">Eventos</a></li>
                         <li> <a href="#">Blog</a></li>
@@ -166,7 +167,7 @@ Categoria Instrumental: ${db.voluntarios[i].cat_instrumento}<br></p>`;
         Cidade: ${db.grupos[i].cidade}<br>
         Estado: ${db.grupos[i].estado}<br>
         Instituição: ${db.grupos[i].instituicao}<br>
-        E-mail: ${db.grupos[i].email}<br></p>`;
+        E-mail: ${db.grupos[i].email}<br><br></p>`;
         }
         document.getElementById('mostra_cadastros').innerHTML = grupos;
     }, false);
