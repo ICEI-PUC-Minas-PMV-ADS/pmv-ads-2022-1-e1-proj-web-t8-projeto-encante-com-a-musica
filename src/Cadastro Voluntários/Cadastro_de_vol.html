@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Voluntários</title>
     <link rel="stylesheet" href="Cadastro_de_vol.css">
-    <link rel="stylesheet" media="screen and (min-device-height: 900px)" href="tela_g.css" />
-    <link rel="stylesheet" media="screen and (max-device-height: 600px)" href="tela_p.css" />
 </head>
 
 <body>
@@ -17,14 +15,14 @@
         <nav>
             <h1><img src="img/logo.png"></h1>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="../Pagina_inicial/index.html">Home</a></li>
                 <li>
                     <a href="#">Sobre</a>
 
                     <div class="sub-menu-1">
                         <ul>
                             <li><a href="#">História do projeto</a></li>
-                            <li><a href="#">Informação sobre tratamento paliativo</a></li>
+                            <li><a href="../Sobre/sobre.html">Informação sobre tratamento paliativo</a></li>
                         </ul>
                     </div>
                 </li>
@@ -33,8 +31,8 @@
 
                     <div class="sub-menu-1">
                         <ul>
-                            <li><a href="Cadastro_de_vol.html">Cadastrar</a></li>
-                            <li><a href="#">Busque por voluntários</a></li>
+                            <li><a href="../Cadastro Voluntários/Cadastro_de_vol.html">Cadastrar</a></li>
+                            <li><a href="../Pesquisa Voluntarios/Pesquisa_Voluntários.html">Busque por voluntários</a></li>
                         </ul>
                     </div>
                 </li>
@@ -43,15 +41,16 @@
 
                     <div class="sub-menu-1">
                         <ul>
-                            <li><a href="#">Cadastrar</a></li>
-                            <li><a href="#">Busque por Instituição</a></li>
+                            <li><a href="../Cadastro Instituição/cadastroinstituicao.html">Cadastrar</a></li>
+                            <li><a href="../Pesquisa Instituição/pesquisainstituição.html">Busque por Instituição</a></li>
                         </ul>
                     </div>
                 </li>
 
                 <li><a href="#">Notícias</a></li>
-                <li><a href="#">Doação</a></li>
+                <li><a href="../Página Doação/doacao.html">Doação</a></li>
             </ul>
+            <a href="../login-page/login.html"><img src="img/login.png" id="login"></a>
         </nav>
 
     </header>
@@ -66,7 +65,7 @@
                     Nome completo: <br><input type="text" name="nome" id="nome" required> <br><br>
                     Data de nascimento: <br><input type="date" name="data" id="data" required> <br><br>
                 </div>
-                <div class="infol">
+                <div class="info">
                     Estado: <br>
                     <select id="estado" required>
                      <option selected disabled value="">Selecione uma opção</option>
@@ -110,43 +109,41 @@
 
             </fieldset>
         </form>
-
     </main>
-    <Footer>
+
+    <footer>
         <div class="container-footer">
             <div class="row-footer">
                 <div class="footer-col">
                     <ul>
-                        <li> <a href="#">Fale Conosco</a></li>
-                        <li> <a href="#">Conheça o time</a></li>
-                        <li> <a href="#">Eventos</a></li>
-                        <li> <a href="#">Blog</a></li>
+                        <li><a href="../Página Fale Conosco/faleconosco.html">Fale Conosco</a></li>
+                        <li><a href="#">Conheça o time</a></li>
+                        <li><a href="#">Eventos</a></li>
+                        <li><a href="#">Blog</a></li>
                     </ul>
                 </div>
-
-                <div class="footer-col ">
+  
+                <div class="footer-col">
                     <ul>
-                        <li> <a href="#">Política de Privacidade</a></li>
-                        <li> <a href="#">Imprensa</a></li>
-                        <li> <a href="#">Cookies</a></li>
-                        <li> <a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Imprensa</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
                     </ul>
                 </div>
-
+  
                 <div class="footer-col">
                     <h4>Informativo</h4>
                     <div class="form-sub">
                         <form>
-                            <input type="email" placeholder="Digite o seu email" required>
-                            <button class="inscrever">Inscrever</button>
+                            <input type="email" placeholder="Digite o seu email" required />
+                            <button class="Inscrever">Inscrever</button>
                         </form>
                     </div>
                 </div>
-
             </div>
-
         </div>
-    </Footer>
+    </footer>
 </body>
 
 </html>
