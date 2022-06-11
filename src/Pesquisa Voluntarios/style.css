@@ -7,6 +7,7 @@
 
 header{
     height:120px;
+    
 }
 
 img {
@@ -64,9 +65,29 @@ nav ul li:hover .sub-menu-1 ul li:hover{
 }
 
 
+@media screen and (max-width: 1220px) {
+   #vol{
+    display: block;
+    width: 50% !important;
+   }
+   main{
+    height: 1250px !important ;
+   }
+
+  }
+
+  @media screen and (max-width: 600px) {
+    #vol{
+     display: block;
+     width: 100% !important;
+    }
+   }
+
+
 main {
-    height: 850px;
+    height: 800px;
     background-color: #006D77;
+    overflow: scroll;
 
 }
 legend{
@@ -88,10 +109,10 @@ button{
     margin-left: 50px;
 }
 #vol{
-    width: 25%;
+    width: 30%;
     float: left;
     margin-top: 15px;
-    color:azure;
+    color: white;
 }
 
 
