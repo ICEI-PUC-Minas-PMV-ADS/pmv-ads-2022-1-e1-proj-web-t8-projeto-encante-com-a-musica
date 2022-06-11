@@ -104,3 +104,19 @@ Na Tela de Login, o usuário poderá escolher uma das opções, logar como Vol
 <img src="img/login.png">
 
 **Endereço do vídeo:**
+
+
+### Etapa 4
+
+## Responsável: Karen Noguti
+
+**Endereço do vídeo:** https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica/blob/main/presentation/Etapa%204/Etapa%204%20-%20Karen.mp4
+
+## Responsável: Jeferson Queiroz
+
+**Endereço do vídeo:** https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica/blob/main/presentation/Etapa%204/Etapa%204%20Jeferson.mp4 
+
+## Responsável: Cláudia Carapiá 
+
+**Endereço do vídeo:** https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica/blob/main/presentation/Etapa%204/Etapa%204%20-%20Cl%C3%A1udia.mkv 
+
