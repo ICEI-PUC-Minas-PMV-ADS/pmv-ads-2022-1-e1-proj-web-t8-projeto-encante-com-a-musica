@@ -7,96 +7,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doação</title>
     <link rel="stylesheet" href="style.css">
+    <script src="doacao.js"></script>
 </head>
-    <header>
-        <nav>
-          <img src="img\logo.png" id="imglogo">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a>
-                    <div class="sub-menu-1">
-                        <ul>
-                            <li><a href="#">História do projeto</a></li>
-                            <li><a href="#">Informação sobre tratamento paliativo</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li><a href="#">Voluntários</a>
-                    <div class="sub-menu-1">
-                        <ul>
-                            <li><a href="#">Cadastrar</a></li>
-                            <li><a href="#">Busque por voluntários</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <a href="#">Instituição</a>
-                    <div class="sub-menu-1">
-                        <ul>
-                            <li><a href="cadastroinstituicao.html">Cadastrar</a></li>
-                            <li><a href="#">Busque por Instituição</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li><a href="#">Notícias</a></li>
-                <li><a href="#">Doação</a></li>
-            </ul>
-        </nav>
-    </header>
+
+<header>
+    <nav>
+        <img src="img\logo.png" id="imglogo">
+        <ul>
+            <li><a href="../Pagina_inicial/index.html">Home</a></li>
+            <li><a href="#">Sobre</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">História do projeto</a></li>
+                        <li><a href="../Sobre/sobre.html"">Informação sobre tratamento paliativo</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Voluntários</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="../Cadastro Voluntários/Cadastro_de_vol.html">Cadastrar</a></li>
+                        <li><a href="../Pesquisa Voluntarios/Pesquisa_Voluntários.html">Busque por voluntários</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">Instituição</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="../Cadastro Instituição/cadastroinstituicao.html">Cadastrar</a></li>
+                        <li><a href="../Pesquisa Instituição/pesquisainstituição.html">Busque por Instituição</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Notícias</a></li>
+            <li><a href="../Página Doação/doacao.html">Doação</a></li>
+        </ul>
+        <a href="../login-page/login.html"><img src="img/login.png" id="login"></a>
+    </nav>
+</header>
+
 <body>
     <main>
-             <p id="texto1"> O projeto encante com música leva conforto e alegria para pacientes em tratamento e seus familiares.  Sua doação é muito importante para que nosso projeto possa alcançar mais pessoas.</p>
-       <img src="img\img3.jpg" width="500" height="300" id="imgdoacao">
-     <div id="bloco2">
-        <div id="pix">
-            <img src="img\pix2.png"class="imgbloco2">
-            <p> Você pode fazer sua doação por meio do Pix utilizando a chave: <br><em> encante@musica.org</em></p>
+        <p id="texto1"> O projeto encante com música leva conforto e alegria para pacientes em tratamento e seus familiares.  Sua doação é muito importante para que nosso projeto possa alcançar mais pessoas.</p>
+        <img src="img\img3.jpg" width="500" height="300" id="imgdoacao">
+        <div id="bloco2">
+            <div id="pix">
+               <img src="img\pix2.png"class="imgbloco2">
+               <p> Você pode fazer sua doação por meio do Pix utilizando a chave: <br><em> encante@musica.org</em></p>
+            </div>
+
+            <div id="conta">
+               <img src="img\img2.png" class="imgbloco2">
+               <p> Você também pode realizar sua doação via depósito bancário para: <br> Banco Itaú <br> Agência: 4362
+                Conta corrente: 95731-0<br> Razão Social: Projeto Encante com música <br> CNPJ: 90.953.453/0001-25</p>
+            </div>
         </div>
 
-        <div id="conta">
-            <img src="img\img2.png" class="imgbloco2">
-            <p> Você também pode realizar sua doação via depósito bancário para: <br> Banco Itaú <br> Agência: 4362
-                Conta corrente: 95731-0<br> Razão Social: Projeto Encante com música <br> CNPJ: 90.953.453/0001-25</p>
-        </div>
-      </div>
+        <h4>Depoimentos:</h4>
+        <div id="lista"></div>
+
     </main>
 
-    <Footer>
+    <footer>
         <div class="container-footer">
             <div class="row-footer">
                 <div class="footer-col">
                     <ul>
-                        <li> <a href="#">Fale Conosco</a></li>
-                        <li> <a href="#">Conheça o time</a></li>
-                        <li> <a href="#">Eventos</a></li>
-                        <li> <a href="#">Blog</a></li>
+                        <li><a href="../Página Fale Conosco/faleconosco.html">Fale Conosco</a></li>
+                        <li><a href="#">Conheça o time</a></li>
+                        <li><a href="#">Eventos</a></li>
+                        <li><a href="#">Blog</a></li>
                     </ul>
                 </div>
-
-                <div class="footer-col ">
+   
+                <div class="footer-col">
                     <ul>
-                        <li> <a href="#">Política de Privacidade</a></li>
-                        <li> <a href="#">Imprensa</a></li>
-                        <li> <a href="#">Cookies</a></li>
-                        <li> <a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Imprensa</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
                     </ul>
                 </div>
-
+   
                 <div class="footer-col">
                     <h4>Informativo</h4>
                     <div class="form-sub">
                         <form>
-                            <input type="email" placeholder="Digite o seu email" required>
-                            <button>Inscrever</button>
+                            <input type="email" placeholder="Digite o seu email" required />
+                            <button class="Inscrever">Inscrever</button>
                         </form>
                     </div>
                 </div>
-
             </div>
-
         </div>
-    </Footer>
+    </footer>
+
+    <script>
+        var Depoimentos = '';
+        var cont = 0;
+
+        for(i=0; i<5; i++) {
+            i += Math.floor(Math.random() * 4 + 0);
+            Depoimentos += `<p class="depoim">${dep.date[i].name} <br> <img src="${dep.date[i].image}"> <br> ${dep.date[i].text}</p>`;
+            cont++;
+            i += 0;
+            if(cont == 3){
+               i += 3;
+            }
+        }
+        document.getElementById('lista').innerHTML = Depoimentos;
+
+    </script>
 
 </body>
-
 </html>
