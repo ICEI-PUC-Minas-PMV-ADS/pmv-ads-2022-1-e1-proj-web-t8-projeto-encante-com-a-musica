@@ -7,10 +7,9 @@
 
 header{
     height:120px;
-    
 }
 
-img {
+header img {
     width: 120px;
     height: 120px;
     float: left;
@@ -24,7 +23,7 @@ nav{
 
 nav ul{
     display: inline-flex;
-    list-style: none;
+    list-style: none;    
 }
 
 nav ul li{
@@ -64,6 +63,13 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     background-color: #2cc2e7cd;
 }
 
+#login {
+    width: 70px;
+    height: 70px;
+    float: right;
+    margin: 0;
+    margin-top: 16px
+}
 
 @media screen and (max-width: 1220px) {
    #vol{
@@ -72,6 +78,7 @@ nav ul li:hover .sub-menu-1 ul li:hover{
    }
    main{
     height: 1250px !important ;
+    width: 100%;
    }
 
   }
@@ -81,11 +88,83 @@ nav ul li:hover .sub-menu-1 ul li:hover{
      display: block;
      width: 100% !important;
     }
-   }
+    header {
+        box-sizing: border-box;
+        background-color: #61D095;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        box-sizing: 0;
+            
+        }
+        
+    header img { 
+        position: relative;
+        background-color: #61D095;
+    
+        }
+        
+    nav ul li{
+        position: relative;
+        left: 0;
+        width: 40%;
+        border: 0;
+        padding: 7px;
+        margin: 0;
+        height: 7px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-flow: row;
+        font-size: small;
+        }
+        
+    .sub-menu-1{
+        font-size: xx-small;
+        position: relative;
+        bottom: -100PX;
+        border: 5PX;
+        }
+    
+    #login {
+        background-color:white;
+        width: 40px;
+        height:30px;
+        margin: 0px;
+        margin-top: 10px;
+        }
+        footer {
+       
+            position: absolute;
+            flex-wrap: wrap;
+            font-size: x-small;
+            }
+            
+        .form-sub input{
+            margin-top: 3px;
+            border-radius: 5px;
+            height: 25px;
+            width: 100px;
+            font-size: x-small;
+            }
+            
+        .Inscrever {
+            background-color: white;
+            font-size: 10px;
+            border: 0;
+            border-radius: 5px;
+            width: 50px;
+            height: 25px;
+            color: darkblue;
+            margin-bottom: 5px;
+            }
+        }  
+   
 
 
 main {
-    height: 800px;
+    height: 520px;
     background-color: #006D77;
     overflow: scroll;
 
@@ -120,7 +199,7 @@ footer{
     background-color: #61D095;
     color:  darkblue;
     padding: 20px 0;
-
+    
 }
 .container-footer{
     max-width: 1400 px;
