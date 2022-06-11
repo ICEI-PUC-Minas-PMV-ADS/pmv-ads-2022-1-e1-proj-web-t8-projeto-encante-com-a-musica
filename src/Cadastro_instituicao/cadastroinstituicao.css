@@ -28,7 +28,7 @@ nav ul{
 
 nav ul li{
 width: 100px;
-margin: 20px;
+margin: 10px;
 padding: 20px;
 }
 
@@ -67,12 +67,13 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     height: 70px;
     float: right;
     margin: 0;
-    margin-top: 16px;
+    margin-top: 5px;
 }
 main{
     background-color: #006D77;
     color: azure;
     font-family: sans-serif;
+    height: 1200px;
 }
 
 #cadastro {
@@ -215,15 +216,25 @@ footer{
         border: 5PX;
     }
 
+    #login {
+        background-color:#006D77;
+        width: 40px;
+        height:30px;
+        margin: 15px;
+        margin-top: 10px;     
+        }
+    
 }
 
 
 @media (max-width: 600px) {
     main {
-    height: 900px;
-    display: block;
     justify-content: center;
     padding-top: 30px;
+    }
+
+    #cadastro{
+        padding-top: 20px;
     }
     .titulo {
         padding: 8px;
@@ -312,6 +323,12 @@ footer{
         position: relative;
         bottom: -100PX;
         border: 5PX;
+    }
+
+    #login{
+        margin: 0;
+        width:60px;
+        height: 60px;
     }
 
 }
