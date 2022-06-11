@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    height:120px;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-left: 30px;
+}
+nav{
+    background-color: #61D095;
+    text-align: right;
+    height: 120px;
+}
+
+nav ul{
+    display: inline-flex;
+    list-style: none;    
+}
+
+nav ul li{
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.sub-menu-1{
+    display: none;
+}
+nav ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color:#61D095;
+    margin-top: 15px;
+    margin-left: -38px;
+}
+
+nav ul li:hover .sub-menu-1 ul{
+    display: block;
+}
+
+nav ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+nav ul li:hover .sub-menu-1 ul li:hover{
+    background-color: #2cc2e7cd;
+}
+
+#login {
+    width: 70px;
+    height: 70px;
+    float: right;
+    margin: 0;
+    margin-top: 16px;
+}
+
+main {
+    height: 520px;
+    background-color: #006D77;
+
+}
+
+footer{
+    background-color: #61D095;
+    color:  darkblue;
+    padding: 20px 0;
+    
+}
+.container-footer{
+    max-width: 1400 px;
+    padding: 0 2%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 30%;
+    padding: 0 25px;
+}
+
+.footer-col ul {
+    list-style: none;
+    line-height: 1.6;
+}
+.footer-col a {
+    color:  darkblue;
+    text-decoration: none;
+}
+
+.footer-col h4{
+    color: darkblue;
+    text-decoration: none;
+}
+
+.form-sub input{
+    margin-top: 3px;
+    border-radius: 5px;
+    height: 25px;
+    width: 220px;
+}
+
+.Inscrever {
+    background-color: white;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+    color: darkblue;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+
+header {
+    box-sizing: border-box;
+    background-color: #61D095;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: 0;
+        
+    }
+    
+header img { 
+    position: relative;
+    background-color: #61D095;
+
+    }
+    
+nav ul li{
+    position: relative;
+    font-size: small;
+    left: 0;
+    width: 100%;
+    border: 0;
+    padding: 7px;
+    margin: 0;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow: row;
+    }
+    
+.sub-menu-1{
+    font-size: xx-small;
+    position: relative;
+    bottom: -100PX;
+    border: 5PX;
+    }
+
+#login {
+    background-color:white;
+    width: 40px;
+    height:30px;
+    margin: 15px;
+    margin-top: 10px;
+    
+    }
+
+main {
+    height: auto;
+    display: block;
+    margin: 5px;
+    justify-content: center;
+    margin-top: 100px;  
+     }
+
+
+footer {
+    position: absolute;
+    flex-wrap: wrap;
+    font-size: x-small;
+    }
+    
+.form-sub input{
+    margin-top: 3px;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    font-size: x-small;
+    }
+    
+.Inscrever {
+    background-color: white;
+    font-size: 10px;
+    border: 0;
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+    color: darkblue;
+    margin-bottom: 5px;
+    }
+}    
+
+
+@media (max-width: 1030px) {
+
+header {
+    box-sizing: border-box;
+    background-color: #61D095;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+header img { 
+    position: relative;
+    background-color: #61D095;
+        
+}
+
+nav ul li{
+    position: relative;
+    left: 0;
+    width: 100%;
+    border: 0;
+    padding: 7px;
+    margin: 0;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow: row;
+    font-size: small;
+}
+
+main {
+    height: 900px;
+    justify-content: center; 
+    }
+
+footer {
+    position: relative;
+    flex-wrap: wrap;
+    font-size: medium;
+    }
+        
+.form-sub input{
+    margin-top: 3px;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    font-size: medium;
+     }
+        
+.Inscrever {
+    background-color: white;
+    font-size: 10px;
+    border: 0;
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+    color: darkblue;
+    margin-bottom: 5px;
+        }
+    }
+
+

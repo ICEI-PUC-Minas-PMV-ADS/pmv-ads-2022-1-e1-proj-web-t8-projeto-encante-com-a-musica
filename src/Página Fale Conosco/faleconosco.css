@@ -12,6 +12,7 @@ body {
 
 header {
     height: 120px;
+    width: 100%;
 }
 
 header img {
@@ -68,6 +69,14 @@ nav ul li:hover .sub-menu-1 ul li {
 
 nav ul li:hover .sub-menu-1 ul li:hover {
     background-color: #2cc2e7cd;
+}
+
+#login {
+    width: 70px;
+    height: 70px;
+    float: right;
+    margin: 0;
+    margin-top: 16px;
 }
 
 main {
@@ -212,75 +221,76 @@ footer{
 @media (max-width: 600px) {
 
     header {
-    box-sizing: border-box;
-    background-color: #61D095;
-     margin: 0;
-    border: 0;
-    padding: 0;
-    box-sizing: 0;
+        box-sizing: border-box;
+        background-color: #61D095;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        box-sizing: 0;
+            
+        }
         
-    }
-    
     header img { 
-    position: relative;
-    background-color: #61D095;
-    align-items: center;
-    flex-wrap: wrap;
-       
-         
-    }
+        position: relative;
+        background-color: #61D095;
     
+        }
+        
     nav ul li{
-    position: relative;
-    left: 0;
-    width: 100%;
-    border: 0;
-    padding: 7px;
-    margin: 0;
-    height: 55px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-flow: row;
-    font-size: small;
-       
-    }
-    
+        position: relative;
+        font-size: small;
+        left: 0;
+        width: 100%;
+        border: 0;
+        padding: 7px;
+        margin: 0;
+        height: 55px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-flow: row;
+        }
+        
     .sub-menu-1{
-    font-size: xx-small;
-    position: relative;
-    bottom: -100PX;
-    border: 5PX;
-    }
+        font-size: xx-small;
+        position: relative;
+        bottom: -100PX;
+        border: 5PX;
+        }
     
-    }
-
-    @media (max-width: 600px) {
+    #login {
+        background-color: #006D77;
+        width: 40px;
+        height:30px;
+        margin: 15px;
+        margin-top: 10px;
+        
+        }
+    
     main {
-    height: 900px;
-    display: block;
-    margin: 5px;
-    justify-content: center;
-    margin-top: 100px;  
-     }
-
-    @media (max-width: 600px) {
-    footer {
-       
-    position: absolute;
-    flex-wrap: wrap;
-    font-size: x-small;
-    }
+        height: auto;
+        display: block;
+        margin: 5px;
+        justify-content: center;
+        margin-top: 100px;  
+         }
     
+    
+    footer {
+        position: absolute;
+        flex-wrap: wrap;
+        font-size: x-small;
+        }
+        
     .form-sub input{
         margin-top: 3px;
         border-radius: 5px;
         height: 25px;
         width: 100px;
         font-size: x-small;
-    }
-    
+        }
+        
     .Inscrever {
         background-color: white;
         font-size: 10px;
@@ -290,25 +300,73 @@ footer{
         height: 25px;
         color: darkblue;
         margin-bottom: 5px;
-      }
-      
-}
-
-}
-
-@media (max-width: 900px) {
-
+        }
+    }    
+    
+    
+    @media (max-width: 1030px) {
+    
+    header {
+        box-sizing: border-box;
+        background-color: #61D095;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+    
+    header img { 
+        position: relative;
+        background-color: #61D095;
+            
+    }
+    
+    nav ul li{
+        position: relative;
+        left: 0;
+        width: 100%;
+        border: 0;
+        padding: 7px;
+        margin: 0;
+        height: 55px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-flow: row;
+        font-size: small;
+    }
+    
     main {
         height: 900px;
-        margin: 10px;
-        justify-content: center;
-        margin-top:100px;  
-         }
-
-@media (max-width: 900px) {
+        justify-content: center; 
+        }
+    
     footer {
-    font-size: x-small;
+        position: relative;
+        flex-wrap: wrap;
+        font-size: medium;
+        }
+            
+    .form-sub input{
+        margin-top: 3px;
+        border-radius: 5px;
+        height: 25px;
+        width: 100px;
+        font-size: medium;
+         }
+            
+    .Inscrever {
+        background-color: white;
+        font-size: 10px;
+        border: 0;
+        border-radius: 5px;
+        width: 50px;
+        height: 25px;
+        color: darkblue;
+        margin-bottom: 5px;
             }
-}
-
-}
+        }
+    
+    
+    
