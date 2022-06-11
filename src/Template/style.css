@@ -68,7 +68,7 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     height: 70px;
     float: right;
     margin: 0;
-    margin-top: 16px
+    margin-top: 16px;
 }
 
 main {
@@ -129,7 +129,7 @@ footer{
     margin-bottom: 5px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
 
 header {
     box-sizing: border-box;
@@ -180,7 +180,7 @@ nav ul li{
     }
 
 main {
-    height: 900px;
+    height: auto;
     display: block;
     margin: 5px;
     justify-content: center;
