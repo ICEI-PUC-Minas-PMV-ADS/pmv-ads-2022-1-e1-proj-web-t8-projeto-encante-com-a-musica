@@ -120,3 +120,5 @@ Na Tela de Login, o usuário poderá escolher uma das opções, logar como Vol
 
 **Endereço do vídeo:** https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica/blob/main/presentation/Etapa%204/Etapa%204%20-%20Cl%C3%A1udia.mkv 
 
+## Responsável:Carolina Laurindo
+**Endereço do vídeo:** https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica/blob/main/presentation/Etapa%204/Etapa%204%20Carolina%20.mkv
