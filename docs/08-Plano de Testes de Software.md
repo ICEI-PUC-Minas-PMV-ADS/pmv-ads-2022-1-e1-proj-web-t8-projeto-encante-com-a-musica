@@ -64,7 +64,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Casos de Teste|CT-07 – Links da home page. |
 |-----|-----|
 |Requisitos Associados  |RF-01 - O site deve apresentar uma página com informações sobre o tratamento paliativo com música. |
-|Objetivo do Teste  |Verificar se todos os links que estão na página home page é que direcionam para outras páginas estão funcionando. |
+|Objetivo do Teste  |Verificar se todos os links que estão na página home page que direcionam para outras páginas estão funcionando. |
 |Passos|1) Acessar o Navegador<br> 2) Informar o endereço do Site <br> 3) Visualizar a página home page <br>4) Clicar nos links |
 |Critérios de Êxito|Todos os links ao serem clicados devem direcionar para a página correspondente;|
 
