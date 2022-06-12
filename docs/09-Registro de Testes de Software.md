@@ -48,14 +48,14 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 |Critérios de Êxito|Todos os links da página devem ser direcionados as outras páginas corretamente|
 |Registro de Execução|Êxito no teste.|
 
-|Casos de Teste|CT-08 – Visualizar voluntários cadastrados da página Busque por Voluntários  |
+|Casos de Teste|CT-08 – Visualizar voluntários cadastrados da página Busque por Voluntários - Antes da Integração  |
 |-----|-----|
 |Objetivo do Teste  |Verificar se o banco de dados contendo os dados dos voluntários será carregado corretamente |
 |Critérios de Êxito|Ao clicar no botão "Voluntários cadastrados" deverá aparecer na tela as informações dos voluntários cadastrados no banco de dados|
 |Registro de Execução|Êxito no teste.|
 
 
-|Casos de Teste| CT-09 – Visualizar grupos  cadastrados da página Busque por Voluntários |
+|Casos de Teste| CT-09 – Visualizar grupos  cadastrados da página Busque por Voluntários - Antes da Integração |
 |-----|-----|
 |Objetivo do Teste  |Verificar se o banco de dados contendo os dados dos grupos cadastrados será carregado corretamente |
 |Critérios de Êxito|Ao clicar no botão "Grupos cadastrados" deverá aparecer na tela as informações dos voluntários cadastrados no banco de dados|
