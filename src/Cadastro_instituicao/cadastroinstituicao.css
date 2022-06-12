@@ -119,7 +119,7 @@ input {
     margin-bottom: 30px;
 }
 
-.enviar:hover {
+.enviar, select {
     cursor: pointer;
 }
 
