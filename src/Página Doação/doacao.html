@@ -106,18 +106,23 @@
     <script>
         var Depoimentos = '';
         var cont = 0;
+        var antigo = 0;
 
         for(i=0; i<5; i++) {
-            i += Math.floor(Math.random() * 4 + 0);
+            i = Math.floor(Math.random() * 4 + 0);
+            if(antigo === i){
+                i = Math.floor(Math.random() * 4 + 0);
+            }
+            else{
+                antigo = i;
+            }
             Depoimentos += `<p class="depoim">${dep.date[i].name} <br> <img src="${dep.date[i].image}"> <br> ${dep.date[i].text}</p>`;
             cont++;
-            i += 0;
             if(cont == 3){
-               i += 6;
+               i = 6;
             }
         }
         document.getElementById('lista').innerHTML = Depoimentos;
-
     </script>
 
 </body>
