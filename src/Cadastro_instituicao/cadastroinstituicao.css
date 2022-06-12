@@ -119,6 +119,10 @@ input {
     margin-bottom: 30px;
 }
 
+.enviar:hover {
+    cursor: pointer;
+}
+
 footer{
     background-color: #61D095;
     color:  darkblue;
