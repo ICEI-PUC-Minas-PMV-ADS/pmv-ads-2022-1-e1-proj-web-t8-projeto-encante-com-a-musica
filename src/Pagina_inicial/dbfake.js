@@ -3,7 +3,7 @@ var db = {
       {
         titulo: 'Depoimentos',
         nome:'Luana Oliveira', 
-        img:"https://source.unsplash.com/random/450x200?woman=1",  
+        img:"https://source.unsplash.com/random/450x200?afrowoman=1",  
         idade:'32 anos',
         texto: '"Quer que todos que recebam o diagnóstico de uma doença incurável como a sua, possam ter o tratamento paliativo."'
       }, {
