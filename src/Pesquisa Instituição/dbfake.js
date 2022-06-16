@@ -11,7 +11,7 @@ var db_cadastro = {
 
         },{
             instituicao:'Hospital Vila Velha',
-            imagem:"https://source.unsplash.com/random/600x270?hospital=2",
+            imagem:"https://source.unsplash.com/random/600x270?care=2",
             cnpj: "90.953555/0001-00",
             email:'hospital@vilavelha.com.br',
             telefone:"(11) 4692-1245",
@@ -19,7 +19,7 @@ var db_cadastro = {
             estado:'São Paulo',
         },{
             instituicao:'Clinica São Pedro',
-            imagem:"https://source.unsplash.com/random/600x270?hospital=3",
+            imagem:"https://source.unsplash.com/random/600x270?healthcare=3",
             cnpj: "90.953666/0001-00",
             email:'clinica@saopedro.com.br',
             telefone:"(21) 2222-1245",
@@ -27,7 +27,7 @@ var db_cadastro = {
             estado:'Rio de Janeiro',
         },{
             instituicao:'Hospital Referência',
-            imagem:"https://source.unsplash.com/random/600x270?hospital=4",
+            imagem:"https://source.unsplash.com/random/600x270?clinic=4",
             cnpj: "90.953777/0001-00",
             email:'hospital@referencia.com.br',
             telefone:"(41) 4444-1245",
@@ -35,7 +35,7 @@ var db_cadastro = {
             estado:'Paraná',
         },{
             instituicao:'Centro de Reabilitação Vale',
-            imagem:"https://source.unsplash.com/random/600x270?hospital=5",
+            imagem:"https://source.unsplash.com/random/600x270?nurse=5",
             cnpj: "90.953888/0001-00",
             email:'centro@vale.com.br',
             telefone:"(31) 5555-1245",
@@ -43,7 +43,7 @@ var db_cadastro = {
             estado:'Espirito Santo',
         },{
             instituicao:'Hospital Ribas',
-            imagem:"https://source.unsplash.com/random/600x270?hospital=6",
+            imagem:"https://source.unsplash.com/random/600x270?clinic=6",
             cnpj: "90.952888/0001-00",
             email:'hospital@ribas.com.br',
             telefone:"(92) 6666-1245",
@@ -59,7 +59,7 @@ var db_cadastro = {
             estado:'Bahia',
         },{
             instituicao:'Hospital Tom Jobin',
-            imagem:"https://source.unsplash.com/random/600x270?hospital=8",
+            imagem:"https://source.unsplash.com/random/600x270?doctor=8",
             cnpj: "90.952888/0001-00",
             email:'hospital@tomjobin.com.br',
             telefone:"(63) 8888-1245",
