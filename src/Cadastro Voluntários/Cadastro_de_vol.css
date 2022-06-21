@@ -74,7 +74,7 @@ nav ul li:hover .sub-menu-1 ul li:hover{
 }
 
 main{
-   height: 850px;
+   height: 950px;
    background-color: #006D77;
    color: azure;
    font-family: sans-serif;
@@ -134,11 +134,9 @@ input {
 }
 
 footer{
-   clear: both;
    background-color: #61D095;
+   color:  darkblue;
    padding: 20px 0;
-   color: darkblue;
-   
 }
 
 .container-footer{
@@ -163,6 +161,11 @@ footer{
 }
 
 .footer-col a {
+   color:  darkblue;
+   text-decoration: none;
+}
+
+.footer-col h4{
    color: darkblue;
    text-decoration: none;
 }
@@ -191,4 +194,11 @@ footer{
 
 .Inscrever:hover{
    background: rgb(231, 220, 220);
+}
+
+#face, #insta, #youtube, #twitter {
+   width: 30px;
+   height: 30px;
+   margin-top: 10px;
+   padding: 2px;
 }

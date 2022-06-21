@@ -264,3 +264,10 @@ footer{
 .Inscrever:hover{
     background: rgb(231, 220, 220);
 }
+
+#face, #insta, #youtube, #twitter {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    padding: 2px;
+}
