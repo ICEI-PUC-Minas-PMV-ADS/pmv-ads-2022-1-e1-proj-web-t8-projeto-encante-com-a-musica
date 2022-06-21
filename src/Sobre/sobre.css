@@ -78,7 +78,7 @@ nav ul li:hover .sub-menu-1 ul li:hover {
 
 main {
     background-color: #006D77;
-    height: 950px;
+    height: 700px;
 }
 
 #sobre {
@@ -189,6 +189,8 @@ footer {
 }
 
 #face, #insta, #youtube, #twitter {
+    margin: 0;
+    margin-right: 5px;
     width: 30px;
     height: 30px;
     margin-top: 10px;
