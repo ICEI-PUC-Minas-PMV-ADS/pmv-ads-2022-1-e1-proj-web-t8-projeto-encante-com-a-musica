@@ -73,8 +73,8 @@ nav ul li:hover .sub-menu-1 ul li:hover{
 main{
     background-color: #006D77;
     color: azure;
-    font-family: sans-serif;
-    height: 950px;
+    font-family: cursive;
+    height: 1200px;
 }
 
 #cadastro {
@@ -238,25 +238,28 @@ footer{
 
     #login {
         background-color:#006D77;
-        width: 30px;
-        height:30px;   
+        width: 20px;
+        height:20px;   
         }
     
-}
-
-
-@media (max-width: 600px) {
     main {
-        width: 100%;
+        height: auto;
         display: block;
         justify-content: center;
     }
 
     #cadastro{
         padding-top: 20px;
+        font-size: 20px;
     }
     .titulo {
         padding: 8px;
+        font-size: 16px;
+        justify-content: justify;
+    }
+      
+    label {
+        font-size: 16px;
     }
     input{
         width: 50%;
@@ -266,10 +269,8 @@ footer{
     }
     .enviar {
         width: 20%;
-        margin-bottom: 10px;
     }
-    }
-@media (max-width: 600px) {
+
     footer {
         position: absolute;
         flex-wrap: wrap;
@@ -362,7 +363,7 @@ footer{
 
 @media (max-width: 900px) {
     main {
-    height: 900px;
+    height: 980px;
     display: block;
     justify-content: center;
     padding-top: 30px;

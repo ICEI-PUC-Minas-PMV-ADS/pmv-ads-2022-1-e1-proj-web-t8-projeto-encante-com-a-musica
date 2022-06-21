@@ -256,15 +256,18 @@ footer {
     }
     #sobre{
         padding-top: 50px;
+        font-size: 20px;
     }
     .info{
         width: 100%;
         padding-top: 40px;
+        font-size: 16px;
     }
 
     #saiba_mais {
         display: block;
         width: 100%;
+        font-size: 18px;
 
     }
 
@@ -273,6 +276,7 @@ footer {
         margin-left: 40px;
         width: 80%;
         align-content: center;
+        font-size: 16px;
     }
 }
 
@@ -370,11 +374,22 @@ footer {
         justify-content: center;
         padding-top: 20px;
     }
+    #sobre {
+        font-size: 20px;
+    }
+    .info{
+        font-size: 16px;
+    }
+    #saiba_mais{
+        font-size: 18px;
+    }
+
     .lista-artigos {
         display: block;
         margin-left: 40px;
         width: 80%;
         height: 15%;
+        font-size: 16px;
 
     }
 }
