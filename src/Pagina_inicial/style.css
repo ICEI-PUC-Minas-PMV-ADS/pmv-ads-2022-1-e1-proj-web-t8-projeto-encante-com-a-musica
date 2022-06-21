@@ -61,6 +61,7 @@ nav ul li:hover .sub-menu-1 ul li{
 
 nav ul li:hover .sub-menu-1 ul li:hover{
     background-color: #2cc2e7cd;
+    transform: translate(-3%, -3%);
 }
 
 #login {
@@ -185,6 +186,14 @@ footer{
     margin-bottom: 5px;
 }
 
+.Inscrever, select{
+    cursor: pointer;
+}
+ 
+.Inscrever:hover{
+    background: rgb(231, 220, 220);
+}
+
 @media (max-width: 600px) {
 
 header {
@@ -284,6 +293,14 @@ footer {
     color: darkblue;
     margin-bottom: 5px;
     }
+
+.Inscrever, select{
+    cursor: pointer;
+}
+     
+.Inscrever:hover{
+    background: rgb(231, 220, 220);
+}
 }    
     
     
@@ -350,6 +367,14 @@ footer {
     color: darkblue;
     margin-bottom: 5px;
     }
+
+.Inscrever, select{
+    cursor: pointer;
+}
+     
+.Inscrever:hover{
+    background: rgb(231, 220, 220);
+}
 }
     
     
