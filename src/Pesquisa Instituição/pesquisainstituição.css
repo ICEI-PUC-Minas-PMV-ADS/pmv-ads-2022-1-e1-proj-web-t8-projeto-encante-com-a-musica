@@ -219,6 +219,8 @@ footer{
 }
 
 #face, #insta, #youtube, #twitter {
+    margin: 0;
+    margin-right: 5px;
     width: 30px;
     height: 30px;
     margin-top: 10px;
