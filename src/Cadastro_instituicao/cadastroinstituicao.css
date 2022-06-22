@@ -1,12 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: cursive;
 }
 
-header{
-    height:120px;
+header {
+    height: 120px;
 }
 
 img {
@@ -15,54 +15,57 @@ img {
     float: left;
     margin-left: 30px;
 }
-nav{
+
+nav {
     background-color: #61D095;
     text-align: right;
     height: 120px;
 }
 
-nav ul{
+nav ul {
     display: inline-flex;
-    list-style: none;    
+    list-style: none;
 }
 
-nav ul li{
+nav ul li {
     width: 100%;
     margin: 20px;
     padding: 20px;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: darkblue;
 }
 
-.sub-menu-1{
+.sub-menu-1 {
     display: none;
 }
-nav ul li:hover .sub-menu-1{
+
+nav ul li:hover .sub-menu-1 {
     display: block;
     position: absolute;
-    background-color:#61D095;
+    background-color: #61D095;
     margin-top: 15px;
     margin-left: -38px;
 }
 
-nav ul li:hover .sub-menu-1 ul{
+nav ul li:hover .sub-menu-1 ul {
     display: block;
 }
 
-nav ul li:hover .sub-menu-1 ul li{
+nav ul li:hover .sub-menu-1 ul li {
     width: 150px;
     text-align: center;
     border-radius: 10px;
     transition: 0.7s;
 }
 
-nav ul li:hover .sub-menu-1 ul li:hover{
+nav ul li:hover .sub-menu-1 ul li:hover {
     background-color: #2cc2e7cd;
     transform: translate(-3%, -3%);
 }
+
 #login {
     width: 70px;
     height: 70px;
@@ -70,7 +73,8 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     margin: 0;
     margin-top: 16px;
 }
-main{
+
+main {
     background-color: #006D77;
     color: azure;
     font-family: cursive;
@@ -79,14 +83,15 @@ main{
 
 #cadastro {
     text-align: center;
-    padding-top: 20px; 
+    padding-top: 20px;
 }
 
 .formulario {
-    text-align:center;
-    
+    text-align: center;
+
 }
-.titulo{
+
+.titulo {
     margin-top: 20px;
     font-size: 20px;
 }
@@ -102,14 +107,14 @@ input {
     width: 220px;
 }
 
-.info select { 
+.info select {
     margin-top: 3px;
     border-radius: 5px;
     width: 220px;
-    height: 25px; 
+    height: 25px;
 }
 
-.enviar{
+.enviar {
     background-color: darkblue;
     border: 0;
     border-radius: 5px;
@@ -120,26 +125,36 @@ input {
     margin-bottom: 10px;
 }
 
-.enviar, select {
+.enviar:hover {
+    background: rgba(20, 35, 139);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0, 2);
+    text-shadow: none;
+}
+
+.enviar,
+select {
     cursor: pointer;
 }
 
-footer{
+footer {
     background-color: #61D095;
-    color:  darkblue;
+    color: darkblue;
     padding: 20px 0;
-    
+
 }
-.container-footer{
+
+.container-footer {
     max-width: 1400 px;
     padding: 0 2%;
     margin: auto;
 }
-.row-footer{
+
+.row-footer {
     display: flex;
     flex-wrap: wrap;
 }
-.footer-col{
+
+.footer-col {
     width: 30%;
     padding: 0 25px;
 }
@@ -148,17 +163,18 @@ footer{
     list-style: none;
     line-height: 1.6;
 }
-.footer-col a {
-    color:  darkblue;
-    text-decoration: none;
-}
 
-.footer-col h4{
+.footer-col a {
     color: darkblue;
     text-decoration: none;
 }
 
-.form-sub input{
+.footer-col h4 {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.form-sub input {
     margin-top: 3px;
     border-radius: 5px;
     height: 25px;
@@ -177,15 +193,19 @@ footer{
     margin-top: 10px;
 }
 
-.Inscrever, select{
+.Inscrever,
+select {
     cursor: pointer;
 }
- 
-.Inscrever:hover{
+
+.Inscrever:hover {
     background: rgb(231, 220, 220);
 }
 
-#face, #insta, #youtube, #twitter {
+#face,
+#insta,
+#youtube,
+#twitter {
     margin: 0;
     margin-right: 30px;
     width: 30px;
@@ -240,36 +260,40 @@ footer{
     }
 
     #login {
-        background-color:#006D77;
+        background-color: #006D77;
         width: 20px;
-        height:20px;   
-        }
-    
+        height: 20px;
+    }
+
     main {
         height: auto;
         display: block;
         justify-content: center;
     }
 
-    #cadastro{
+    #cadastro {
         padding-top: 20px;
         font-size: 20px;
     }
+
     .titulo {
         padding: 8px;
         font-size: 16px;
         justify-content: justify;
     }
-      
+
     label {
         font-size: 16px;
     }
-    input{
+
+    input {
         width: 50%;
     }
-    .info select{
+
+    .info select {
         width: 50%;
     }
+
     .enviar {
         width: 20%;
     }
@@ -299,11 +323,12 @@ footer{
         margin-bottom: 5px;
     }
 
-    .Inscrever, select{
+    .Inscrever,
+    select {
         cursor: pointer;
     }
-     
-    .Inscrever:hover{
+
+    .Inscrever:hover {
         background: rgb(231, 220, 220);
     }
 
@@ -355,9 +380,9 @@ footer{
         border: 5PX;
     }
 
-    #login{
+    #login {
         margin: 0;
-        width:60px;
+        width: 60px;
         height: 60px;
     }
 
@@ -366,25 +391,30 @@ footer{
 
 @media (max-width: 900px) {
     main {
-    height: 980px;
-    display: block;
-    justify-content: center;
-    padding-top: 30px;
+        height: 980px;
+        display: block;
+        justify-content: center;
+        padding-top: 30px;
     }
+
     .titulo {
         padding: 8px;
     }
-    input{
+
+    input {
         width: 50%;
     }
-    .info select{
+
+    .info select {
         width: 50%;
     }
+
     .enviar {
         width: 20%;
         margin-bottom: 10px;
     }
-    }
+}
+
 @media (max-width: 900px) {
     footer {
 
@@ -413,11 +443,12 @@ footer{
         margin-bottom: 5px;
     }
 
-    .Inscrever, select{
+    .Inscrever,
+    select {
         cursor: pointer;
     }
-     
-    .Inscrever:hover{
+
+    .Inscrever:hover {
         background: rgb(231, 220, 220);
     }
 }
