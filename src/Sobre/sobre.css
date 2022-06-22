@@ -78,7 +78,7 @@ nav ul li:hover .sub-menu-1 ul li:hover {
 
 main {
     background-color: #006D77;
-    height: 700px;
+    height: 970px;
 }
 
 #sobre {
@@ -90,17 +90,24 @@ main {
 }
 
 .info {
+    width: 50%;
     font-size: 18px;
     color: azure;
-    display: block;
+    display: inline-block;
     text-align: justify;
-    padding: 10px 30px 10px 30px;
+    padding: 30px 30px 10px 120px;
+}
 
+#imagem{
+    width: 300px;
+    height: 300px;
+    margin: 30px 80px 20px 60px;
+    float: right;
 }
 
 #saiba_mais {
     color: azure;
-    padding: 40px 0 30px 30px;
+    padding: 100px 0 30px 30px;
 }
 .lista-artigos {
     display: inline-block;
@@ -111,7 +118,7 @@ main {
     font-size: 18px;
     color: black;
     vertical-align: middle;
-    border: 1px solid #13e9ba;
+    border: 1px solid #ffddd2;
     border-radius: 10px;
     background-color: #ffddd2;
     box-sizing: border-box;
@@ -252,7 +259,7 @@ footer {
 @media (max-width:600px) {
     main {
         width: 100%;
-        height: 1400px;
+        height: 1500px;
         display: block;
         justify-content: center;
         padding-top: 40px;
@@ -263,14 +270,22 @@ footer {
     }
     .info{
         width: 100%;
-        padding-top: 40px;
+        height: 30%;
+        padding: 40px 10px 10px 10px;
         font-size: 16px;
+        display: inline-block;    
     }
+
+   #imagem {
+    margin: 15px 15px 15px 15px;
+    display: inline-block;
+   }
 
     #saiba_mais {
         display: block;
         width: 100%;
         font-size: 18px;
+        margin: 250px 10px 10px 10px;
 
     }
 
@@ -373,18 +388,29 @@ footer {
 }
 @media (max-width: 900px) {
     main {
-        display: block;
-        justify-content: center;
         padding-top: 20px;
+        height: 1100px;
     }
     #sobre {
         font-size: 20px;
     }
     .info{
         font-size: 16px;
+        text-align: justify;
+        display: inline-block;
+        padding: 10px 10px 10px 30px;
+        margin: 0px;
+    }
+
+    #imagem{
+        width: 200px;
+        height: 200px;
+        float: right;
+        margin: 20px;
     }
     #saiba_mais{
         font-size: 18px;
+        padding: 15px 15px 15px 30px;
     }
 
     .lista-artigos {

@@ -28,7 +28,8 @@
                     <div class="sub-menu-1">
                         <ul>
                             <li><a href="../Cadastro Voluntários/Cadastro_de_vol.html">Cadastrar</a></li>
-                            <li><a href="../Pesquisa Voluntarios/Pesquisa_Voluntários.html">Busque por voluntários</a></li>
+                            <li><a href="../Pesquisa Voluntarios/Pesquisa_Voluntários.html">Busque por voluntários</a>
+                            </li>
                         </ul>
                     </div>
                 </li>
@@ -37,7 +38,8 @@
                     <div class="sub-menu-1">
                         <ul>
                             <li><a href="../Cadastro_instituicao/cadastroinstituicao.html">Cadastrar</a></li>
-                            <li><a href="../Pesquisa Instituição/pesquisainstituição.html">Busque por Instituição</a></li>
+                            <li><a href="../Pesquisa Instituição/pesquisainstituição.html">Busque por Instituição</a>
+                            </li>
                         </ul>
                     </div>
                 </li>
@@ -52,23 +54,26 @@
 
     <main>
         <h1 id="sobre"> Informações sobre Tratamento Paliativo </h1>
-        <div class="info" >
-            <p class="texto">Segundo a OMS (2016), tratamento paliativo consiste em aliviar o sofrimento físico, psicossocial e espiritual
-            com atenção aos pacientes com doenças potencialmente fatais e a seus familiares, através de assistência
-            prestada por diversos profissionais de saúde e voluntários. Sendo que esta assistência pode ser prestada
-            tanto em casa, quanto em centros de saúde, hospitais e instituições. Desta maneira, além de melhorar a
-            qualidade de vida dos envolvidos, também beneficia o sistema de saúde, pois reduz internações hospitalares
-            desnecessárias. </p>
-        </div>    
+        <div class="info">
+            <p class="texto">Segundo a OMS (2016), tratamento paliativo consiste em aliviar o sofrimento físico,
+                psicossocial e espiritual com atenção aos pacientes com doenças potencialmente fatais e a seus familiares, através de assistência
+                prestada por diversos profissionais de saúde e voluntários. Sendo que esta assistência pode ser prestada
+                tanto em casa, quanto em centros de saúde, hospitais e instituições. Desta maneira, além de melhorar a
+                qualidade de vida dos envolvidos, também beneficia o sistema de saúde, pois reduz internações
+                hospitalares
+                desnecessárias. </p>
 
-    
+        </div>
+        
+        <img src="img/imagem.png" id="imagem">
+
         <h2 id="saiba_mais">Artigos científicos sobre tratamento paliativo:</h2>
-           
+
         <div id="lista-links">
 
         </div>
-           
-        
+
+
     </main>
 
     <Footer>
@@ -112,15 +117,15 @@
 
         </div>
     </Footer>
-<script>
-    var arts = '';
-    for(i=0; i < db.artigos.length; i++) {
-        arts += `<p class="lista-artigos"><strong>${ db.artigos[i].titulo}</strong> <br>
-        <br>${ db.artigos[i].autor}<br>
-        <br><a href="${db.artigos[i].link}">Saiba mais...</a></p>`;      
-    }
-    document.getElementById('lista-links').innerHTML = arts;
-</script>
+    <script>
+        var arts = '';
+        for (i = 0; i < db.artigos.length; i++) {
+            arts += `<p class="lista-artigos"><strong>${db.artigos[i].titulo}</strong> <br>
+        <br>${db.artigos[i].autor}<br>
+        <br><a href="${db.artigos[i].link}">Saiba mais...</a></p>`;
+        }
+        document.getElementById('lista-links').innerHTML = arts;
+    </script>
 </body>
 
 </html>
