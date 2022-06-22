@@ -285,7 +285,7 @@ footer {
     font-size: x-small;
     }
         
-.form-sub input{
+    .form-sub input{
     margin-top: 3px;
     border-radius: 5px;
     height: 25px;
@@ -293,7 +293,7 @@ footer {
     font-size: x-small;
     }
         
-.Inscrever {
+    .Inscrever {
     background-color: white;
     font-size: 10px;
     border: 0;
@@ -304,17 +304,17 @@ footer {
     margin-bottom: 5px;
     }
 
-.Inscrever, select{
+    .Inscrever, select{
     cursor: pointer;
-}
+    }
      
-.Inscrever:hover{
+    .Inscrever:hover{
     background: rgb(231, 220, 220);
-}
+    }
 }    
     
     
-@media (max-width: 900px) {
+@media (max-width: 1300px) {
     
 
     
@@ -324,12 +324,13 @@ header img {
     }
 
 main {
+     display: inline-block;
+    }
     
-        }
 .cadastro-paciente{
     display: inline-block;
     width: 350px;
-    height: 300px;
+    height: 320px;
     background-color:#ffddd2;
     vertical-align: top;
     margin-top: 20PX;
