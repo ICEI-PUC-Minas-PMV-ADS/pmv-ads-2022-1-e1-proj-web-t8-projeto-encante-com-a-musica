@@ -280,14 +280,23 @@ footer{
       margin: 5px;
       justify-content: center;
       margin-top: 100px;  
-       }
+      }
+
+  #conta{
+      margin-left: 10px;
+  }
+
+  
+  .depoim{
+      margin-right: 80px;
+}
   
   
   footer {
       position: absolute;
       flex-wrap: wrap;
       font-size: x-small;
-      }
+  }
       
   .form-sub input{
       margin-top: 3px;
@@ -295,7 +304,7 @@ footer{
       height: 25px;
       width: 100px;
       font-size: x-small;
-      }
+  }
       
   .Inscrever {
       background-color: white;
@@ -306,18 +315,19 @@ footer{
       height: 25px;
       color: darkblue;
       margin-bottom: 5px;
-      }
+  }
       
   .Inscrever, select{
-      cursor: pointer;
+    cursor: pointer;
   }
        
   .Inscrever:hover{
-      background: rgb(231, 220, 220);
+    background: rgb(231, 220, 220);
   }
 
-  }    
+}    
   
+
   @media (max-width: 1030px) {
   
   header {
@@ -356,13 +366,13 @@ footer{
     display: inline-block;
     height: auto;
     justify-content: center; 
-      }
+    }
   
   footer {
       position: relative;
       flex-wrap: wrap;
       font-size: medium;
-      }
+  }
           
   .form-sub input{
       margin-top: 3px;
@@ -370,7 +380,7 @@ footer{
       height: 25px;
       width: 100px;
       font-size: medium;
-       }
+  }
           
   .Inscrever {
       background-color: white;
@@ -381,7 +391,7 @@ footer{
       height: 25px;
       color: darkblue;
       margin-bottom: 5px;
-          }
+  }
   .Inscrever, select{
       cursor: pointer;
   }
