@@ -84,6 +84,7 @@ legend{
   font-size: 15px;
   color: white;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 input,select {
