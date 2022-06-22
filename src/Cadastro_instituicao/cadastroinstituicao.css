@@ -74,7 +74,7 @@ main{
     background-color: #006D77;
     color: azure;
     font-family: cursive;
-    height: 950px;
+    height: 850px;
 }
 
 #cadastro {
@@ -96,28 +96,28 @@ label {
 }
 
 input {
-    margin: 5px 0;
+    margin-top: 3px;
     border-radius: 5px;
-    width: 25%;
-    height: 30px;
+    height: 25px;
+    width: 220px;
 }
 
 .info select { 
-    margin: 5px 0;
+    margin-top: 3px;
     border-radius: 5px;
-    width: 25%;
-    height: 30px;    
+    width: 220px;
+    height: 25px; 
 }
 
 .enviar{
     background-color: darkblue;
     border: 0;
     border-radius: 5px;
-    width: 10%;
+    width: 80px;
     height: 40px;
     color: azure;
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .enviar, select {
