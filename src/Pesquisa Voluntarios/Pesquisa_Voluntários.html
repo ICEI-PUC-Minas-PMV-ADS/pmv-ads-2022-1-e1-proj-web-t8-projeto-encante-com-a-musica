@@ -134,20 +134,22 @@
     </Footer>
 </body>
 <script>
-    var grupos_nome = '';
-    grupos_nome += `<option> Selecione um grupo </option>`;
-    for (i = 0; i < db.grupos.length; i++) {
-        grupos_nome += `<option> ${db.grupos[i].nome}</option>`;
-    }
-    document.getElementById('g_cad').innerHTML = grupos_nome;
 
-    var n_estados = '';
-    n_estados += `<option >Selecione um estado</option>`;
-
+    var sel = '';
     for (i = 0; i < dados.estados.length; i++) {
-        n_estados += `<option> ${dados.estados[i].nome}</option>`
+        sel += `<option>${dados.estados[i].nome}</option>`;
     }
-    document.getElementById('estadoss').innerHTML = n_estados;
+
+    document.getElementById('estadoss').innerHTML = sel;
+
+    document.getElementById('estadoss').addEventListener('change', event => {
+        let select = '';
+        let estado = dados.estados.find(estado => estado.nome == event.target.value)
+        estado.cidades.forEach(cidade => {
+            select += `<option>${cidade.nome}</option>`;
+        })
+        document.getElementById('sel_cidade').innerHTML = select;
+    })
 
 
     function vol() {
