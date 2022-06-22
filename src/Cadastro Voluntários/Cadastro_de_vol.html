@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Voluntários</title>
     <link rel="stylesheet" href="Cadastro_de_vol.css">
+    <script type="text/javascript" src="Nomes.js"></script>
 </head>
 
 <body>
@@ -66,20 +67,14 @@
                     Data de nascimento: <br><input type="date" name="data" id="data" required> <br><br>
                 </div>
                 <div class="info">
-                    Estado: <br>
-                    <select id="estado" required>
-                     <option selected disabled value="">Selecione uma opção</option>
-                     <option>MG</option>
-                     <option>RJ</option>
-                     <option>SP</option>
+                    <label for="estado">Estado: </label> <br>
+                    <select id="estados" required>
+                        <option selected disabled value="">Selecione uma opção</option>
                     </select> <br><br>
                     
-                    Cidade: <br>
-                    <select id="cidade" required>
-                     <option selected disabled value="">Selecione uma opção</option>
-                     <option>Belo Horizonte</option>
-                     <option>Contagem</option>
-                     <option>Betim</option>
+                    <label for="cidade" >Cidade: </label> <br> 
+                    <select id="cidades" required>
+                        <option selected disabled value="">Selecione uma opção</option>
                     </select> <br><br>
                     
                     Categoria Instrumental: <br>
@@ -150,5 +145,23 @@
         </div>
     </footer>
 </body>
+
+<script>
+    var sel = '';
+    for (i = 0; i < dados.estados.length; i++) {
+        sel += `<option>${dados.estados[i].nome}</option>`;
+    }
+
+    document.getElementById('estados').innerHTML = sel;
+
+    document.getElementById('estados').addEventListener('change', event => {
+        let select = '';
+        let estado = dados.estados.find(estado => estado.nome == event.target.value)
+        estado.cidades.forEach(cidade => {
+            select += `<option>${cidade.nome}</option>`;
+        })
+        document.getElementById('cidades').innerHTML = select;
+    })
+</script>
 
 </html>
