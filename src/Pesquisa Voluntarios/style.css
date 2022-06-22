@@ -74,10 +74,8 @@ nav ul li:hover .sub-menu-1 ul li:hover{
 }
 
 main {
-    height: 520px;
+    height: auto;
     background-color: #006D77;
-    overflow: scroll;
-
 }
 legend{
     font-size: 20px;
@@ -94,20 +92,32 @@ input,select {
     width: 220px;
 }
 button{
-    color:#006D77;
-    font-size: 15px;
+    background-color: darkblue;
+    border: 0;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    color: azure;
+    font-size: 12px;
+    margin-bottom: 10px;
 }
 #grp{
+    display: inline-block;
+    width: calc(33% - auto);
+    height: auto;
     width: 220;
     color: white;
-    float: left;
     margin-left: 50px;
+    
 }
 #vol{
+    display: inline-block;
+    height: auto;
     width: 30%;
-    float: left;
     margin-top: 15px;
     color: white;
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 
