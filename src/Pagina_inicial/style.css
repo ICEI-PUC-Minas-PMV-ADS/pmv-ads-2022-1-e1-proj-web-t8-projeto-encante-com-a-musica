@@ -15,10 +15,15 @@ header nav img {
     float: left;
     margin-left: 30px;
 }
+
 nav{
     background-color: #61D095;
     text-align: right;
     height: 120px;
+}
+
+nav:hover{
+    background-color: white;
 }
 
 nav ul{
@@ -39,11 +44,15 @@ nav ul li a{
 
 .sub-menu-1{
     display: none;
+    border-radius: 10px;
+    justify-content: center;
+    width: auto;
+    height: auto;
 }
 nav ul li:hover .sub-menu-1{
     display: block;
     position: absolute;
-    background-color:#61D095;
+    background-color:white;
     margin-top: 15px;
     margin-left: -38px;
 }
@@ -60,7 +69,7 @@ nav ul li:hover .sub-menu-1 ul li{
 }
 
 nav ul li:hover .sub-menu-1 ul li:hover{
-    background-color: #2cc2e7cd;
+    background-color:  #61D095;
     transform: translate(-3%, -3%);
 }
 
