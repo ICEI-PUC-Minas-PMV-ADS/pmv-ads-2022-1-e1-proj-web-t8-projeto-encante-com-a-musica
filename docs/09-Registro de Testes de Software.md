@@ -36,6 +36,11 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 |Critérios de Êxito|O campo CNPJ só devem aceitar números. <br> O campo e-mail deve aceitar somente um e-mail válido. <br>O campo senha e confirmação de senha devem ter os caracteres substituídos por símbolos para garantir a segurança do conteúdo. |
 |Registro de Execução|Êxito no teste.|
 
+## Caso de Teste 05 - Print da tela
+
+<img src="img/testecadastro.png">
+<img src="img.testecadastro2.png">
+
 |Casos de Teste|CT-06 – Links da página de informações sobre o tratamento paliativo – Antes da integração |
 |-----|-----|
 |Objetivo do Teste  |Verificar se a página apresenta links que direcionam para artigos científicos e se estão direcionando corretamente.|
