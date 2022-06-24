@@ -121,11 +121,13 @@ main h4 {
     border-radius: 8px;
     box-sizing: border-box; 
     text-align: center;
-    font-size: 90%;
+    font-size: 80%;
     font-style: italic;   
     margin-left: 110px;
     margin-bottom: 50px;
+    border-radius: 60px;
 }
+
 
 .cadastro-paciente > img {
     width: 250px;
@@ -136,6 +138,7 @@ main h4 {
     margin-bottom: 8px;
     margin-left: 8px;
     margin-right: 8px;
+    border-radius: 250px;
 }
 
 footer{
