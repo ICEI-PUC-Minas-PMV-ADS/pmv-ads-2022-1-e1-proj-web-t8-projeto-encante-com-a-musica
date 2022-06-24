@@ -103,6 +103,7 @@ main {
     height: 300px;
     margin: 30px 250px 20px 60px;
     float: right;
+    border-radius: 100px;
 }
 
 #saiba_mais {
