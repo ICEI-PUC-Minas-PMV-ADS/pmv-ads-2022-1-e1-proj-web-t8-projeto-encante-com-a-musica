@@ -120,9 +120,9 @@ main {
     font-size: 18px;
     color: black;
     vertical-align: middle;
-    border: 1px solid #ffddd2;
+    border: 1px solid lightslategray;
     border-radius: 10px;
-    background-color: #ffddd2;
+    background-color: lightgrey;
     box-sizing: border-box;
     margin: 10px 10px 20px 30px;
 }
