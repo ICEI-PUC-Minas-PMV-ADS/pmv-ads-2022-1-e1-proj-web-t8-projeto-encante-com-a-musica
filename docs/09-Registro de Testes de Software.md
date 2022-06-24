@@ -60,6 +60,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 ## Caso de Teste 05 - Print da tela
 
+<img src="img/testepaginainicial.png">
+<img src="img/testepaginainicial2.png">
+
 |Casos de Teste|CT-06 – Visualizar voluntários cadastrados da página Busque por Voluntários |
 |-----|-----|
 |Objetivo do Teste  |Verificar se o banco de dados contendo os dados dos voluntários será carregado corretamente |
@@ -79,4 +82,4 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 ## Caso de Teste 07 - Print da tela
 
-<img src="img/telabuscagrupos.png">
+<img src="img/testebuscagrupos.png">
