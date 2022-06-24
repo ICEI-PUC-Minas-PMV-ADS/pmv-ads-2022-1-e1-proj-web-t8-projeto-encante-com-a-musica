@@ -39,7 +39,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 ## Caso de Teste 05 - Print da tela
 
 <img src="img/testecadastro.png">
-<img src="img.testecadastro2.png">
+<img src="img/testecadastro2.png">
 
 |Casos de Teste|CT-06 – Links da página de informações sobre o tratamento paliativo – Antes da integração |
 |-----|-----|
