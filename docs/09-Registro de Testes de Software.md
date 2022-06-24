@@ -79,4 +79,4 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 ## Caso de Teste 07 - Print da tela
 
-<img src="img/telabuscavolgrupos.png">
+<img src="img/telabuscagrupos.png">
