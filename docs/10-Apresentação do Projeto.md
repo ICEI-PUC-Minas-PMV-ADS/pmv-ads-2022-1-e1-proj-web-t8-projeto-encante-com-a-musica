@@ -6,7 +6,7 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 
 ## Título do Projeto
 
-Encante com Música
+# Encante com Música
 
 ## Identidade Visual (Marca, Design).
 
