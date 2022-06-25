@@ -78,6 +78,7 @@ nav ul li:hover .sub-menu-1 ul li:hover {
 
 main {
     background-color: #006D77;
+    
 }
 
 #sobre {
@@ -123,7 +124,7 @@ main {
     border-radius: 10px;
     background-color: lightgrey;
     box-sizing: border-box;
-    margin: 10px 10px 0px 30px;
+    margin: 10px 10px 30px 30px;
 }
 
 .lista-artigos:hover {
