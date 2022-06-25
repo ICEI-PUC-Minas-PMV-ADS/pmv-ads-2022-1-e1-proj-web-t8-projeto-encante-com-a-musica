@@ -78,6 +78,7 @@ nav ul li:hover .sub-menu-1 ul li:hover {
 
 main {
     background-color: #006D77;
+    height: 500px;
     
 }
 
@@ -98,10 +99,10 @@ main {
     padding: 80px 30px 10px 120px;
 }
 
-#imagem{
-    width: 300px;
-    height: 300px;
-    margin: 30px 250px 20px 60px;
+#ajuda{
+    width: 280px;
+    height: 280px;
+    margin: 20px 200px 10px 60px;
     float: right;
     border-radius: 100px;
 }
