@@ -78,7 +78,7 @@ nav ul li:hover .sub-menu-1 ul li:hover {
 
 main {
     background-color: #006D77;
-    height: 500px;
+    height: 800px;
     
 }
 
@@ -99,11 +99,29 @@ main {
     padding: 80px 30px 10px 120px;
 }
 
+.projeto{
+    width: 50%;
+    font-size: 18px;
+    color: azure;
+    display: inline-block;
+    text-align: justify;
+    padding: 80px 30px 50px 120px;
+    margin-top: 70px;
+}
+
 #ajuda{
     width: 280px;
     height: 280px;
     margin: 20px 200px 10px 60px;
     float: right;
+    border-radius: 100px;
+}
+
+#musica{
+    width: 280px;
+    height: 280px;
+    margin: 200px 20px 10px 60px;
+    float: left;
     border-radius: 100px;
 }
 
