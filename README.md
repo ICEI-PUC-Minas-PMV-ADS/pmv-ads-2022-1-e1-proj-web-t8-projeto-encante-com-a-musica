@@ -27,6 +27,9 @@ O objetivo geral deste projeto é, através da música, proporcionar momentos de
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
+Deverá acessar o site https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica/src/Pagina_inicial/ no navegador.
+
+
 # Documentação
 
 <ol>
