@@ -335,10 +335,9 @@ main {
     display: inline-block;
     width: 350px;
     height: 320px;
-    background-color:#ffddd2;
+    background-color: #006d77;
     vertical-align: top;
     margin-top: 20PX;
-    border: 3px solid #777;
     padding: 5px;
     border-radius: 8px;
     box-sizing: border-box; 
