@@ -85,7 +85,7 @@ main {
     text-align: center;
     color: azure;
     display: block;
-    padding-top: 20px;
+    padding-top: 30px;
 
 }
 
@@ -95,7 +95,7 @@ main {
     color: azure;
     display: inline-block;
     text-align: justify;
-    padding: 30px 30px 10px 120px;
+    padding: 80px 30px 10px 120px;
 }
 
 #imagem{
