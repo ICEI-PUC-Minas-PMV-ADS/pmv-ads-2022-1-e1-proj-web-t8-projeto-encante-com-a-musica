@@ -103,12 +103,13 @@ main {
     height: 300px;
     margin: 30px 250px 20px 60px;
     float: right;
+    border-radius: 100px;
 }
 
 #saiba_mais {
     color: azure;
     padding: 100px 0 30px 30px;
-    margin-top: 50px;
+    margin: 50px 10px 20px 30px;
 }
 .lista-artigos {
     display: inline-block;
@@ -119,9 +120,9 @@ main {
     font-size: 18px;
     color: black;
     vertical-align: middle;
-    border: 1px solid #ffddd2;
+    border: 1px solid lightslategray;
     border-radius: 10px;
-    background-color: #ffddd2;
+    background-color: lightgrey;
     box-sizing: border-box;
     margin: 10px 10px 20px 30px;
 }
@@ -407,7 +408,7 @@ footer {
         width: 200px;
         height: 200px;
         float: right;
-        margin: 20px;
+        margin: 40px;
     }
     #saiba_mais{
         font-size: 18px;
@@ -460,3 +461,18 @@ footer {
         }
     }
 
+    @media (max-width: 1100px) {
+        #imagem{
+            width: 300px;
+            height: 300px;
+            float: right;
+            margin: 40px;
+        }
+        #saiba_mais {
+            display: block;
+            width: 100%;
+            font-size: 18px;
+            margin: 0px 10px 10px 10px
+      
+    }
+}
