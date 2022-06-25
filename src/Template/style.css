@@ -23,7 +23,7 @@ nav{
 }
 
 nav:hover{
-    background-color: white;
+    background-color: #f5f5f5;
 }
 
 nav ul{
@@ -52,7 +52,7 @@ nav ul li a{
 nav ul li:hover .sub-menu-1{
     display: block;
     position: absolute;
-    background-color:white;
+    background-color:#f5f5f5;
     margin-top: 15px;
     margin-left: -38px;
 }
