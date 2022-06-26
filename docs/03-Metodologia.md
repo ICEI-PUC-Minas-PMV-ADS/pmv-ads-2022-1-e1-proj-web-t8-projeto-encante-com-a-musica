@@ -79,9 +79,3 @@ A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem
 
 
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
-
