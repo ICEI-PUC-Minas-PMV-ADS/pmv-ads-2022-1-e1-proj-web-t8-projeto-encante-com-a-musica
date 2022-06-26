@@ -41,6 +41,10 @@ nav ul li a{
    color: darkblue;
 }
 
+nav ul li a:hover{
+   color: #0056b3;
+}
+
 .sub-menu-1{
    display: none;
    border-radius: 10px;
