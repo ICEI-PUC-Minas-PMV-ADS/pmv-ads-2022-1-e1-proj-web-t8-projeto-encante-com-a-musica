@@ -20,6 +20,11 @@ nav{
     background-color: #61D095;
     text-align: right;
     height: 120px;
+    font-style: normal;
+}
+
+nav:hover{
+    background-color: #75e0a7;
 }
 
 nav ul{
@@ -41,11 +46,16 @@ nav ul li a{
 .sub-menu-1{
     display: none;
     z-index: 1;
+    display: none;
+    border-radius: 10px;
+    justify-content: center;
+    width: auto;
+    height: auto;
 }
 nav ul li:hover .sub-menu-1{
     display: block;
     position: absolute;
-    background-color:#61D095;
+    background-color: #75e0a7;
     margin-top: 15px;
     margin-left: -38px;
 }
