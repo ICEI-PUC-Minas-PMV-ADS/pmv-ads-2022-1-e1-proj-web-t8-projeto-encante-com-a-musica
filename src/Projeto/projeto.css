@@ -96,7 +96,6 @@ main {
     display: inline-block;
     text-align: justify;
     padding: 80px 30px 20px 120px;
-    margin-top: 70px;
     margin-left: 150px;
 }
 
@@ -121,30 +120,10 @@ main {
 #musica{
     width: 280px;
     height: 280px;
-    margin: 200px 20px 10px 60px;
     float: left;
+    margin-top: 130px;
     border-radius: 100px;
-}
-
-#saiba_mais {
-    color: azure;
-    padding: 100px 0 30px 30px;
-    margin: 50px 10px 20px 30px;
-}
-.lista-artigos {
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    text-align: justify;
-    font-size: 18px;
-    color: black;
-    vertical-align: middle;
-    border: 1px solid lightslategray;
-    border-radius: 10px;
-    background-color: lightgrey;
-    box-sizing: border-box;
-    margin: 10px 10px 30px 30px;
+    margin-left: 50px;
 }
 
 .lista-artigos:hover {
@@ -288,7 +267,7 @@ footer {
         justify-content: center;
         padding-top: 40px;
     }
-    #sobre{
+    #conheca{
         padding: 50px 0px 0px 15px;
         font-size: 20px;
     }
