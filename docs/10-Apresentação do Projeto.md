@@ -12,7 +12,7 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 
 O grupo fez um estudo de cores e escolheu a paleta de cores abaixo para utilizar no projeto:
 
-<img src="img/paleta.jpg">
+<img src="img/Paleta.jpg">
 
 # Logotipo
 
