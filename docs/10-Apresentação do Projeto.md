@@ -14,7 +14,7 @@ O grupo fez um estudo de cores e escolheu a paleta de cores abaixo para utilizar
 
 <img src="img/Paleta.jpg">
 
-# Logotipo
+## Logotipo
 
 <img src="img/logotipo.png">
 
