@@ -95,8 +95,8 @@ main {
     color: azure;
     display: inline-block;
     text-align: justify;
-    padding: 80px 30px 20px 120px;
-    margin-left: 150px;
+    padding: 60px 30px 20px 120px;
+    margin-left: 130px;
 }
 
 .projeto{
@@ -112,7 +112,7 @@ main {
 #ajuda{
     width: 280px;
     height: 280px;
-    margin: 20px 200px 50px 60px;
+    margin: 50px 200px 50px 60px;
     float: right;
     border-radius: 100px;
 }
