@@ -16,7 +16,3 @@ A lista a seguir traz as referências utilizadas nesse trabalho. são elas:
 
 
  
-
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
