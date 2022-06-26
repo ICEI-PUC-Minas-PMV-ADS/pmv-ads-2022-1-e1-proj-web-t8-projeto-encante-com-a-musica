@@ -10,10 +10,13 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 
 ## Identidade Visual (Marca, Design).
 
+O grupo fez um estudo de cores e escolheu a paleta de cores abaixo para utilizar no projeto:
 
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
+<img src="img/paleta.jpg">
 
+# Logotipo
 
+<img src="img/logotipo.png">
 
 ## Conjunto de Slides (Estrutura)
 
