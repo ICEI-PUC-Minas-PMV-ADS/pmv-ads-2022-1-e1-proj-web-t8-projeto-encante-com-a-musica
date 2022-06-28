@@ -6,8 +6,6 @@ Desenvolvimento de Aplicação Web Front-End
 
 1º SEMESTRE
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
-
 O objetivo geral deste projeto é, através da música, proporcionar momentos de alegria para aliviar as dores físicas e psicológicas de pacientes e familiares.
  Com esse propósito, desenvolveremos um sistema web com ferramentas simples, que permita a conexão entre voluntários com habilidades musicais, instituições, pacientes e seus familiares.
  
@@ -24,8 +22,6 @@ O objetivo geral deste projeto é, através da música, proporcionar momentos de
 * Will Ricardo dos Santos Machado
 
 ## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
 Deverá acessar o site https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica/src/Pagina_inicial/ no navegador.
 
