@@ -102,6 +102,7 @@ main {
 
 .info {
     width: 50%;
+    line-height: 1.6;
     font-size: 18px;
     color: azure;
     display: inline-block;
@@ -112,6 +113,7 @@ main {
 
 .projeto{
     width: 50%;
+    line-height: 1.6;
     font-size: 18px;
     color: azure;
     display: inline-block;
